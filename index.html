@@ -87,6 +87,10 @@
   .btn-amz { background: var(--brand); color: var(--brand-ink); }
   .btn-wa { background: transparent; color: var(--wa); border: 1.5px solid var(--wa); }
 
+  .hist { font-size: .74rem; font-weight: 700; color: var(--good); background: var(--good-soft); border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
+  .more { display: block; margin: 20px auto 0; background: var(--surface); color: var(--brand); border: 1.5px solid var(--brand);
+    border-radius: 999px; padding: 11px 26px; font-weight: 800; cursor: pointer; }
+  .more:hover { background: var(--brand-soft); }
   .empty, .error { text-align: center; padding: 48px 16px; color: var(--muted); }
   .error h2 { color: var(--text); margin: 0 0 6px; font-size: 1.15rem; }
   .error button { margin-top: 14px; background: var(--brand); color: var(--brand-ink); border: 0; padding: 10px 18px; border-radius: 10px; font-weight: 700; cursor: pointer; }
@@ -215,7 +219,8 @@ const CATS = [
 const TAG = "giovannast20-20";
 const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const $ = (s) => document.querySelector(s);
-let dados = null, atual = "destaques";
+let dados = null, atual = "destaques", mostrar = 24;
+const PASSO = 24;
 
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -239,12 +244,19 @@ function tabs() {
   ["#tabs", "#sideTabs"].forEach(sel => {
     const nav = $(sel); nav.innerHTML = html;
     nav.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
-      atual = b.dataset.id; history.replaceState(null, "", "#" + atual); render();
+      atual = b.dataset.id; mostrar = PASSO; history.replaceState(null, "", "#" + atual); render();
       if (sel === "#tabs") $('#tabs .tab[data-id="' + atual + '"]').scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
-      else window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }));
   });
   const c = CATS.find(x => x.id === atual); $("#catTitle").textContent = c ? c.rotulo : "";
+}
+
+function histLinha(it) {
+  const partes = [];
+  if (it.menor30) partes.push("🏆 Menor preço em 30 dias");
+  if (it.abaixoMedia > 0) partes.push(`📉 ${brl.format(it.abaixoMedia).replace(",00", "")} abaixo da média`);
+  return partes.map(t => `<div class="hist">${t}</div>`).join("");
 }
 
 function card(it, data) {
@@ -267,6 +279,7 @@ function card(it, data) {
       <h3 class="name" title="${esc(it.nome)}">${esc(it.nome)}</h3>
       <div class="price">${brl.format(it.preco)}</div>
       <div class="was">${mostraEra ? "era " + brl.format(it.era) : ""}</div>
+      ${histLinha(it)}
       <div class="actions">
         <a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">Ver na Amazon</a>
         <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener"><span>📲 <span class="full">Compartilhar no </span>WhatsApp</span></a>
@@ -287,8 +300,11 @@ function render() {
   if (s === "desconto") itens = [...itens].sort((a, b) => (b.eraSuspeito ? 0 : b.desconto || 0) - (a.eraSuspeito ? 0 : a.desconto || 0));
   if (s === "preco") itens = [...itens].sort((a, b) => a.preco - b.preco);
   const data = dataBR(dados.atualizadoEm) || "";
-  $("#grid").innerHTML = itens.map(it => card(it, data)).join("");
-  $("#state").innerHTML = itens.length ? "" :
+  const total = itens.length;
+  $("#grid").innerHTML = itens.slice(0, mostrar).map(it => card(it, data)).join("");
+  $("#state").innerHTML = total > mostrar
+    ? `<button class="more" id="maisBtn">Ver mais (${total - mostrar} ${total - mostrar === 1 ? "oferta" : "ofertas"})</button>`
+    : total ? "" :
     `<div class="empty">${q ? "Nenhum produto com esse nome nesta categoria." : "Nenhuma oferta nesta categoria agora. Volte mais tarde! 💛"}</div>`;
 }
 
@@ -329,10 +345,14 @@ if (GRUPO_URL) { const j = $("#join"); j.href = GRUPO_URL; j.hidden = false; $("
 // Busca e ordenação: campos do celular e do computador ficam sincronizados
 [["#q", "#q2", "input"], ["#sort", "#sort2", "change"]].forEach(([a, b, ev]) => {
   [a, b].forEach((sel, i) => $(sel).addEventListener(ev, () => {
-    $(i ? a : b).value = $(sel).value; dados && render();
+    $(i ? a : b).value = $(sel).value; mostrar = PASSO; dados && render();
   }));
 });
 addEventListener("resize", () => dados && render());
+$("#state").addEventListener("click", (e) => {
+  if (e.target.id !== "maisBtn") return;
+  mostrar += PASSO; render();
+});
 carregar();
 
 if ("serviceWorker" in navigator) {

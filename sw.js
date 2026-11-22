@@ -1,7 +1,7 @@
 // Gigica Ofertas — service worker
 // Guarda só a "casca" do site. Os arquivos de ofertas/histórico NUNCA ficam em cache
 // (preço velho é proibido): sempre vão direto para a rede.
-const VERSAO = "gigica-v1";
+const VERSAO = "gigica-v2";
 const CASCA = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
