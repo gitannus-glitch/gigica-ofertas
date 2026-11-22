@@ -97,6 +97,44 @@
 
   footer { margin-top: 32px; padding: 20px 0 8px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; text-align: center; }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+  /* ---------- Layout: celular x computador ---------- */
+  .layout { display: block; }
+  .side { display: none; }
+  .header-tools { display: none; }
+  @media (max-width: 959px) {
+    .price { font-size: 1.15rem; }
+    .btn { padding: 8px 6px; font-size: .8rem; }
+    .btn-wa .full { display: none; }
+    .tools { flex-wrap: nowrap; } .search { flex: 1 1 0; min-width: 0; } .tools select { flex: 0 0 auto; width: 132px; }
+    .body { padding: 8px 10px 10px; }
+  }
+  @media (min-width: 960px) {
+    .wrap { max-width: 1320px; padding: 0 28px; }
+    .tabs, main .tools { display: none; }
+    .header-tools { display: flex; gap: 10px; flex: 1; max-width: 620px; margin-left: 32px; }
+    .header-tools .search { flex: 1; }
+    .header-tools select { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+    .top { padding: 14px 0; }
+    .brand h1 { font-size: 1.45rem; }
+    .layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 28px; padding-top: 22px; }
+    .side { display: flex; flex-direction: column; gap: 4px; position: sticky; top: 92px; align-self: start; }
+    .side .lbl { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px 12px; font-weight: 700; }
+    .side .tab { text-align: left; border-radius: 10px; border-color: transparent; background: transparent; padding: 10px 12px; display: flex; justify-content: space-between; }
+    .side .tab:hover { background: var(--surface-2); }
+    .side .tab[aria-selected="true"] { background: var(--brand-soft); color: var(--brand); border-color: transparent; }
+    .side .cta { margin-top: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; font-size: .86rem; color: var(--muted); }
+    .side .cta strong { color: var(--text); display: block; font-size: .95rem; margin-bottom: 4px; }
+    .side .cta a { display: block; margin-top: 10px; background: var(--wa); color: #fff; text-decoration: none; font-weight: 800; text-align: center; padding: 10px; border-radius: 10px; }
+    .cat-title { font-size: 1.5rem; margin: 0 0 14px; letter-spacing: -.01em; }
+    .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+    .join { display: none; }
+    body { padding-bottom: 24px; }
+  }
+  @media (min-width: 1500px) { .grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+  .btn { white-space: nowrap; }
+  .cat-title { display: none; }
+  @media (min-width: 960px) { .cat-title { display: block; } }
 </style>
 <script>
   (function () {
@@ -116,18 +154,34 @@
         <h1>Gigica <span>Ofertas</span></h1>
         <div class="updated" id="updated">Carregando ofertas…</div>
       </div>
+      <div class="header-tools">
+        <label class="search"><span aria-hidden="true">🔎</span><span class="sr">Buscar</span>
+          <input id="q2" type="search" placeholder="Buscar por nome…" autocomplete="off"></label>
+        <select id="sort2" aria-label="Ordenar">
+          <option value="padrao">Curadoria</option>
+          <option value="desconto">Maior desconto</option>
+          <option value="preco">Menor preço</option>
+        </select>
+      </div>
       <button class="theme-btn" id="themeBtn" aria-label="Alternar tema claro/escuro">🌙</button>
     </div>
     <nav class="tabs" id="tabs" role="tablist" aria-label="Categorias"></nav>
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap layout">
+  <aside class="side" aria-label="Categorias">
+    <p class="lbl">Categorias</p>
+    <div id="sideTabs"></div>
+    <div class="cta" id="sideCta" hidden><strong>💬 Grupo de ofertas</strong>Receba as melhores ofertas direto no WhatsApp.<a id="sideJoin" href="#" target="_blank" rel="noopener">Entrar no grupo</a></div>
+  </aside>
+  <div class="content">
+  <h2 class="cat-title" id="catTitle"></h2>
   <div class="tools">
     <label class="search"><span aria-hidden="true">🔎</span><span class="sr">Buscar</span>
       <input id="q" type="search" placeholder="Buscar por nome…" autocomplete="off"></label>
     <select id="sort" aria-label="Ordenar">
-      <option value="padrao">Ordem da curadoria</option>
+      <option value="padrao">Curadoria</option>
       <option value="desconto">Maior desconto</option>
       <option value="preco">Menor preço</option>
     </select>
@@ -139,6 +193,7 @@
   <footer>
     Como Associada Amazon, eu ganho com compras qualificadas. Preços e disponibilidade são da data/hora indicada e podem mudar — confira na Amazon antes de comprar.
   </footer>
+  </div>
 </main>
 
 <a class="join" id="join" href="#" target="_blank" rel="noopener" hidden>💬 Entrar no grupo de ofertas</a>
@@ -176,16 +231,20 @@ function dataBR(iso) {
 }
 
 function tabs() {
-  const nav = $("#tabs");
-  nav.innerHTML = CATS.map(c => {
+  const html = CATS.map(c => {
     const cat = dados?.categorias?.find(x => x.id === c.id);
     const n = cat?.itens?.length ?? 0;
     return `<button class="tab" role="tab" data-id="${c.id}" aria-selected="${c.id === atual}">${c.rotulo}<span class="n">${n || ""}</span></button>`;
   }).join("");
-  nav.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
-    atual = b.dataset.id; history.replaceState(null, "", "#" + atual); render();
-    b.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
-  }));
+  ["#tabs", "#sideTabs"].forEach(sel => {
+    const nav = $(sel); nav.innerHTML = html;
+    nav.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+      atual = b.dataset.id; history.replaceState(null, "", "#" + atual); render();
+      if (sel === "#tabs") $('#tabs .tab[data-id="' + atual + '"]').scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+      else window.scrollTo({ top: 0, behavior: "smooth" });
+    }));
+  });
+  const c = CATS.find(x => x.id === atual); $("#catTitle").textContent = c ? c.rotulo : "";
 }
 
 function card(it, data) {
@@ -210,7 +269,7 @@ function card(it, data) {
       <div class="was">${mostraEra ? "era " + brl.format(it.era) : ""}</div>
       <div class="actions">
         <a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">Ver na Amazon</a>
-        <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener">Compartilhar no WhatsApp</a>
+        <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener"><span>📲 <span class="full">Compartilhar no </span>WhatsApp</span></a>
       </div>
     </div>
   </article>`;
@@ -222,9 +281,9 @@ function render() {
     ? `<div class="notice" role="alert">🔞 Venda proibida para menores de 18 anos. Beba com moderação. Se beber, não dirija.</div>` : "";
   const cat = dados.categorias.find(c => c.id === atual);
   let itens = (cat?.itens || []).filter(it => typeof it.preco === "number" && it.preco > 0);
-  const q = $("#q").value.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+  const q = (innerWidth >= 960 ? $("#q2") : $("#q")).value.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
   if (q) itens = itens.filter(it => String(it.nome).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(q));
-  const s = $("#sort").value;
+  const s = (innerWidth >= 960 ? $("#sort2") : $("#sort")).value;
   if (s === "desconto") itens = [...itens].sort((a, b) => (b.eraSuspeito ? 0 : b.desconto || 0) - (a.eraSuspeito ? 0 : a.desconto || 0));
   if (s === "preco") itens = [...itens].sort((a, b) => a.preco - b.preco);
   const data = dataBR(dados.atualizadoEm) || "";
@@ -266,9 +325,14 @@ tb.addEventListener("click", () => {
 });
 iconeTema();
 
-if (GRUPO_URL) { const j = $("#join"); j.href = GRUPO_URL; j.hidden = false; }
-$("#q").addEventListener("input", () => dados && render());
-$("#sort").addEventListener("change", () => dados && render());
+if (GRUPO_URL) { const j = $("#join"); j.href = GRUPO_URL; j.hidden = false; $("#sideJoin").href = GRUPO_URL; $("#sideCta").hidden = false; }
+// Busca e ordenação: campos do celular e do computador ficam sincronizados
+[["#q", "#q2", "input"], ["#sort", "#sort2", "change"]].forEach(([a, b, ev]) => {
+  [a, b].forEach((sel, i) => $(sel).addEventListener(ev, () => {
+    $(i ? a : b).value = $(sel).value; dados && render();
+  }));
+});
+addEventListener("resize", () => dados && render());
 carregar();
 
 if ("serviceWorker" in navigator) {
