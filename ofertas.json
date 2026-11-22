@@ -6788,6 +6788,1076 @@
      "eraSuspeito": false
     }
    ]
+  },
+  {
+   "id": "livros",
+   "nome": "Livros",
+   "itens": [
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "854311098X",
+     "nome": "Yoko: Uma biografia",
+     "preco": 18.05,
+     "era": 69.9,
+     "desconto": 74,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41yEreWVowL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/854311098X?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Mídias Mistas"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6584956237",
+     "nome": "A Arte da Guerra - Sun Tzu",
+     "preco": 15.81,
+     "era": 59.9,
+     "desconto": 73,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51HWUtNtGBL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6584956237?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 3,
+      "cat": "Motivacional"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6584956393",
+     "nome": "Confissões de Santo Agostinho",
+     "preco": 27.72,
+     "era": 89.9,
+     "desconto": 69,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51D-7KVg+rL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6584956393?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Religioso"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8579308518",
+     "nome": "Manual de persuasão do FBI",
+     "preco": 16.32,
+     "era": 49.9,
+     "desconto": 67,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41VP4G6V32L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8579308518?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Transformação Pessoal"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6560950700",
+     "nome": "365 Hábitos Simples e Poderosos",
+     "preco": 15.99,
+     "era": 49.9,
+     "desconto": 67,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41XSKrjYj2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6560950700?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Livros de Referência"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8556510205",
+     "nome": "O problema dos três corpos: O livro que inspirou a série da Netflix: 1",
+     "preco": 29.6,
+     "era": 89.9,
+     "desconto": 67,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51ryWW7kBDL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8556510205?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Invasão Alienígena"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8543302978",
+     "nome": "Bíblia de Estudo Desafios de Todo Homem NVT, Letra Regular, Capa Luxo Couro Sintético…",
+     "preco": 97.36,
+     "era": 299.9,
+     "desconto": 67,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41KBhw-tkyL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8543302978?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 42,
+      "cat": "Bíblia e Outros Textos Sagrados"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "850607908X",
+     "nome": "Todas as Sextas",
+     "preco": 69.3,
+     "era": 198.0,
+     "desconto": 65,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51I6o1V4gYS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/850607908X?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 8,
+      "cat": "Gastronomia e Culinária"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6558371871",
+     "nome": "Pense rápido, fale melhor: Como se comunicar bem em momentos de pressão",
+     "preco": 22.96,
+     "era": 64.9,
+     "desconto": 64,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41fOJgkQeAL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6558371871?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Avanço de Carreira e Desenvolvimento Profissional"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B089J3TPWY",
+     "nome": "Obras essenciais de Fernando Pessoa",
+     "preco": 16.13,
+     "era": 44.9,
+     "desconto": 64,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41NVuyf9TmL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B089J3TPWY?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 9,
+      "cat": "Psicológicos"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08N9P9M5L",
+     "nome": "Coleção Anne de Green Gables com 8 livros mais Diário de aventuras",
+     "preco": 63.14,
+     "era": 179.9,
+     "desconto": 64,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51teie3cXCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08N9P9M5L?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Clássicos"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "655640845X",
+     "nome": "O inferno de Dante",
+     "preco": 42.55,
+     "era": 119.9,
+     "desconto": 64,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51E+QJ6vNNL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/655640845X?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 5,
+      "cat": "Adaptações"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6560952142",
+     "nome": "Biblioteca Desenvolvimento Pessoal: O Poder da Mente",
+     "preco": 32.56,
+     "era": 89.7,
+     "desconto": 63,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/415vBf-7UxL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6560952142?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 22,
+      "cat": "Liderança"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8538059181",
+     "nome": "Por quê?",
+     "preco": 14.41,
+     "era": 39.9,
+     "desconto": 63,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41GQbV0B4ZL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8538059181?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 10,
+      "cat": "Valores"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6526114962",
+     "nome": "MasterChef Junior - O livro de receitas para crianças",
+     "preco": 36.8,
+     "era": 99.9,
+     "desconto": 63,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51dXBUiGCTL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6526114962?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 12,
+      "cat": "Gastronomia e Culinária"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6561263022",
+     "nome": "Bluey Pequena Biblioteca da Bluey",
+     "preco": 18.75,
+     "era": 49.9,
+     "desconto": 62,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51o34WBK0jL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6561263022?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Primeiro Grau"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6525920698",
+     "nome": "One piece vol. 106",
+     "preco": 16.05,
+     "era": 41.9,
+     "desconto": 61,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/513ro-LUPwL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6525920698?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 45,
+      "cat": "Mangá"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8555391210",
+     "nome": "Eu e esse meu coração",
+     "preco": 26.7,
+     "era": 66.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/518iD6AyFvL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8555391210?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 7,
+      "cat": "Limpa e Saudável"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559571289",
+     "nome": "Imperfeitos",
+     "preco": 17.9,
+     "era": 44.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51Aep6qdvwL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559571289?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8501076252",
+     "nome": "Novembro, 9",
+     "preco": 25.9,
+     "era": 64.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51-A+gK197L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8501076252?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 17,
+      "cat": "Jovens Adultos e Universitários"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6555873752",
+     "nome": "Em outra vida, talvez?",
+     "preco": 25.9,
+     "era": 64.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41lcIvCdcdL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6555873752?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 15,
+      "cat": "Estados Unidos"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8595081530",
+     "nome": "O homem mais rico da Babilônia",
+     "preco": 15.9,
+     "era": 39.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41Xc4wyyMIL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8595081530?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Negócios"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8545202210",
+     "nome": "O poder da autorresponsabilidade: Livro de bolso: A ferramenta comprovada que gera alta…",
+     "preco": 10.0,
+     "era": 25.0,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41I+NxUa9bL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8545202210?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 20,
+      "cat": "Carreiras"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559573656",
+     "nome": "As práticas para a prosperidade de o homem mais rico da Babilônia de George S. Clason",
+     "preco": 9.9,
+     "era": 24.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51xUHC5dBTL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559573656?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8595083274",
+     "nome": "Do mil ao milhão: sem cortar o cafezinho – O best-seller de Thiago Nigro, autor de \"O…",
+     "preco": 19.9,
+     "era": 49.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41TsvI70n9L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8595083274?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Comércio on-line"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559574601",
+     "nome": "A cirurgiã - Um thriller psicológico eletrizante, repleto de reviravoltas.",
+     "preco": 19.9,
+     "era": 49.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41WbBsjYhFL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559574601?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 8,
+      "cat": "Mistério"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8501922056",
+     "nome": "A contadora",
+     "preco": 23.9,
+     "era": 59.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41SuTWbzEVL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8501922056?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Detetives Mulheres"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559579220",
+     "nome": "Um casal perfeito – Novo thriller da autora do Best-seller, A Cirurgiã",
+     "preco": 23.9,
+     "era": 59.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41ehP0fNyQL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559579220?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 25,
+      "cat": "Suspense"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8538043919",
+     "nome": "É Meu!",
+     "preco": 13.77,
+     "era": 34.9,
+     "desconto": 60,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41eNZk2MBCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8538043919?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 4,
+      "cat": "Valores"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6550972353",
+     "nome": "A revolução dos bichos - HQ",
+     "preco": 11.79,
+     "era": 29.9,
+     "desconto": 60,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/413prEtOq4L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6550972353?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 4,
+      "cat": "Literárias"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8527902958",
+     "nome": "Todas As Técnicas Culinárias: Le Cordon Bleu",
+     "preco": 107.9,
+     "era": 269.9,
+     "desconto": 60,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51j-9RuKc2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8527902958?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Artes Culinarias e Técnicas"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6558812754",
+     "nome": "Dona Benta: comer bem (Edição de bolso)",
+     "preco": 55.83,
+     "era": 139.9,
+     "desconto": 60,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/51NgRXbmrZL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6558812754?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 46,
+      "cat": "Gastronomia e Culinária"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8594318952",
+     "nome": "Livro do Desassossego",
+     "preco": 13.93,
+     "era": 34.9,
+     "desconto": 60,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41pnvBMmALL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8594318952?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 6,
+      "cat": "Psicológicos"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6553931321",
+     "nome": "Depois daquele verão",
+     "preco": 24.55,
+     "era": 59.9,
+     "desconto": 59,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41ZT6Ny7zLL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6553931321?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 8,
+      "cat": "Literatura Mundial"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0G658YLY7",
+     "nome": "Box Dale Carnegie - Desenvolvimento Pessoal, Comunicação e Relacionamento - 3 Livros…",
+     "preco": 40.71,
+     "era": 99.9,
+     "desconto": 59,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41UWXSkOmBL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0G658YLY7?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 36,
+      "cat": "Transformação Pessoal"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B09PW8LBZD",
+     "nome": "Box Clássicos de William Shakespeare - com 7 marcadores de páginas",
+     "preco": 48.38,
+     "era": 119.0,
+     "desconto": 59,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41MooJRYu0L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09PW8LBZD?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 30,
+      "cat": "Literatura Clássica"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8538058983",
+     "nome": "Eu consigo!: Para crianças determinadas",
+     "preco": 14.23,
+     "era": 34.9,
+     "desconto": 59,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51X1zQQb8DL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8538058983?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0133MP1TQ",
+     "nome": "Bíblia Sagrada ARA para Mulher, Letra Grande, Tamanho Médio, Capa Couro Sintético Rosa:…",
+     "preco": 37.45,
+     "era": 92.9,
+     "desconto": 59,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41HK-EZllYL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0133MP1TQ?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 5,
+      "cat": "Bíblias"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8543108683",
+     "nome": "Como fazer amigos e influenciar pessoas",
+     "preco": 26.84,
+     "era": 64.9,
+     "desconto": 58,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41RTbO7BvbL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8543108683?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Vida Empresarial"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6553934347",
+     "nome": "Dinheiro é emocional - Ed. Atualizada: Saúde emocional para ter paz financeira",
+     "preco": 20.74,
+     "era": 49.9,
+     "desconto": 58,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31iCJaIy3HL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6553934347?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Dinheiro e Política Monetária"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6580921609",
+     "nome": "Biblioteca Estoica: Grandes Mestres Volume I",
+     "preco": 37.0,
+     "era": 89.9,
+     "desconto": 58,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51oPQD4RMeL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6580921609?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Grécia"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6555521589",
+     "nome": "A Odisseia",
+     "preco": 14.36,
+     "era": 34.9,
+     "desconto": 58,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51AmSkrflWL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6555521589?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6550970288",
+     "nome": "Noites Brancas",
+     "preco": 8.53,
+     "era": 19.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51abtTuOi8L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6550970288?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Russa e soviética"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6556097454",
+     "nome": "Asas reluzentes: 1",
+     "preco": 34.15,
+     "era": 79.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41vuuhPjTeL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6556097454?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 11,
+      "cat": "Jovens Adultos e Universitários"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6555871784",
+     "nome": "Tudo é rio",
+     "preco": 29.9,
+     "era": 69.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41Od9BeoEhL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6555871784?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 6,
+      "cat": "Literatura de Gênero"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B096LQS4M4",
+     "nome": "H.G. Wells - Coleção II",
+     "preco": 19.0,
+     "era": 44.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51NFXQFQ0OS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B096LQS4M4?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 46,
+      "cat": "Ficção Científica"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6550974283",
+     "nome": "Memórias do subsolo",
+     "preco": 14.98,
+     "era": 34.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51L6fX-vdSL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6550974283?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 3,
+      "cat": "Literatura Clássica"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6555520809",
+     "nome": "Crime e castigo",
+     "preco": 12.65,
+     "era": 29.9,
+     "desconto": 57,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41QuEPYxcVL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6555520809?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 4,
+      "cat": "Mistério"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559883418",
+     "nome": "Bíblia NVT Filament, Com Recursos Interativos, Letra Grande, Slim, Capa Luxo Couro…",
+     "preco": 76.08,
+     "era": 179.9,
+     "desconto": 57,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/41U-eEUe8rL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559883418?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Estudo da Bíblia"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8576849941",
+     "nome": "O milagre da manhã: O segredo para transformar sua vida (antes das 8 horas)",
+     "preco": 23.89,
+     "era": 54.9,
+     "desconto": 56,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/419En-QMndL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8576849941?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 17,
+      "cat": "Felicidade"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6559815196",
+     "nome": "Kit A maldição do mar + MARCADOR",
+     "preco": 44.95,
+     "era": 99.9,
+     "desconto": 55,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51PXUqDbWBL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559815196?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 9,
+      "cat": "Mistério e Suspense"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8501306231",
+     "nome": "Kit Nunca Jamais",
+     "preco": 49.56,
+     "era": 109.9,
+     "desconto": 54,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41Prqqoh+nL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8501306231?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 51,
+      "cat": "Jovens Adultos e Universitários"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "850111555X",
+     "nome": "O príncipe cruel (Vol. 1 O Povo do Ar)",
+     "preco": 29.85,
+     "era": 64.9,
+     "desconto": 54,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/51BSHmTVwsS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/850111555X?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 5,
+      "cat": "Épica"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "855651121X",
+     "nome": "Devoradores de estrelas: O livro que deu origem ao filme",
+     "preco": 45.3,
+     "era": 99.9,
+     "desconto": 54,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51F50ycTBPS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/855651121X?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Aventura"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6550972205",
+     "nome": "O conde de Monte Cristo - HQ",
+     "preco": 11.28,
+     "era": 24.9,
+     "desconto": 54,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51z9g8UUcPL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6550972205?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 17,
+      "cat": "Literárias"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8581582052",
+     "nome": "Bíblia Sagrada King James Fiel 1611,Ultrafina, Letra Padrão Couro Sintético Preta/Marrom",
+     "preco": 48.62,
+     "era": 108.0,
+     "desconto": 54,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/31E3oTIa8-L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8581582052?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 4,
+      "cat": "Discipulado"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8501117684",
+     "nome": "Todas as suas (im)perfeições",
+     "preco": 29.9,
+     "era": 64.9,
+     "desconto": 53,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/51is1KDs5zL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8501117684?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 9,
+      "cat": "Jovens Adultos e Universitários"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6550973643",
+     "nome": "52 Reflexões: Como desenvolver a autoconfiança",
+     "preco": 9.2,
+     "era": 19.9,
+     "desconto": 53,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41O7NKZQKDL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6550973643?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 53,
+      "cat": "Autoestima"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6555111100",
+     "nome": "A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade",
+     "preco": 27.86,
+     "era": 59.9,
+     "desconto": 53,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41mjUVd-PjL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6555111100?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Felicidade"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6558380544",
+     "nome": "A Biblioteca da Meia-Noite: 1",
+     "preco": 29.9,
+     "era": 64.9,
+     "desconto": 53,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/51kAYMwbQIL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6558380544?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Ficção Científica"
+     }
+    }
+   ]
   }
  ]
 }

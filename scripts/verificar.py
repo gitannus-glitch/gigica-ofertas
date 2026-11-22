@@ -4,7 +4,7 @@ import json, os, sys
 
 TAG = "tag=giovannast20-20"
 CATS = ["destaques", "mais-vendidos", "eletronicos", "eletrodomesticos", "beleza",
-        "perfumes", "suplementos", "casa-mercado", "bebidas"]
+        "perfumes", "suplementos", "casa-mercado", "livros", "bebidas"]
 # padrões que indicariam credencial vazando (montados em partes para não casar com este arquivo)
 PROIBIDO = ["amzn" + "1.application-oa2-client.", "amzn" + "1.oa2-cs.v1."]
 

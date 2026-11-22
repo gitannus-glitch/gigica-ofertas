@@ -44,7 +44,11 @@ CATS = [
     ("bebidas", "Bebidas", 20, ["whisky", "buchanans", "johnnie walker", "jack daniels", "chivas", "gin", "vodka grey goose",
         "vodka absolut", "tequila", "rum", "aperol", "licor", "vinho tinto", "vinho branco", "espumante", "champagne",
         "cerveja", "cerveja heineken"]),
+    ("livros", "Livros", 20, ["livros mais vendidos", "romance", "colleen hoover", "autoajuda", "desenvolvimento pessoal",
+        "finanças pessoais livro", "box de livros", "fantasia livro", "suspense livro", "ficção científica livro",
+        "biografia", "livro infantil", "mangá", "hq", "livro de receitas", "clássicos da literatura", "bíblia"]),
 ]
+RANK_SALES = ["browseNodeInfo.browseNodes.salesRank"]
 # Mais vendidos: tipos de produto (sem bebidas alcoólicas, para a aba não precisar do aviso 18+)
 MV_KW = ["air fryer", "smart tv", "fone de ouvido bluetooth", "iphone", "celular samsung", "kindle", "echo dot",
          "robô aspirador", "cafeteira", "liquidificador", "notebook", "smartwatch", "perfume feminino", "perfume masculino",
@@ -171,11 +175,11 @@ def main(repo):
     usados, cats_out, log = set(), {}, {}
     chaves_glob = set()
 
-    def busca(kw, minp):
+    def busca(kw, minp, recursos_extra=()):
         todos = []
         for pg in range(1, PAGINAS + 1):
             try:
-                its = busca_pg(kw, minp, pg)
+                its = busca_pg(kw, minp, pg, None, recursos_extra)
             except ApiErro as e:
                 # erro geral (credencial/conta/limite) derruba a execução; erro de uma busca só pula a palavra
                 if any(x in str(e) for x in ("HTTP 401", "HTTP 403", "token", "429 persistente", "rede")):
@@ -213,10 +217,22 @@ def main(repo):
 
     for cid, cnome, minp, kws in CATS:
         cand = []
+        livros = cid == "livros"
         for kw in kws:
-            for it in busca(kw, minp):
+            for it in busca(kw, minp, RANK_SALES if livros else ()):
                 p = ler(it)
-                if not p or not vendedor_ok(p) or not em_estoque(p) or DESCARTE.search(p["titulo"]) or p["desconto"] < minp:
+                if not p or not em_estoque(p) or p["desconto"] < minp:
+                    continue
+                if livros:
+                    # livro não tem "marca": exige vendido pela Amazon e descarta usados
+                    if "amazon" not in p["vendedor"].lower() or re.search(r"\b(usado|seminovo)\b", p["titulo"], re.I):
+                        continue
+                    nos = [n for n in (g(it, "browseNodeInfo", "browseNodes") or []) if g(n, "salesRank")]
+                    if nos:
+                        m = min(nos, key=lambda n: g(n, "salesRank"))
+                        if int(g(m, "salesRank")) <= 100 and g(m, "displayName"):
+                            p["_rank"] = (int(g(m, "salesRank")), g(m, "displayName"), 0)
+                elif not vendedor_ok(p) or DESCARTE.search(p["titulo"]):
                     continue
                 p["_kw"] = kw
                 cand.append(p)
@@ -228,7 +244,7 @@ def main(repo):
             cont = {}
             for p in cand:
                 if p["asin"] in vistos or p["asin"] in usados: continue
-                ch = (p["marca"].lower(), p["preco"])
+                ch = (p["marca"].lower() or p["asin"], p["preco"])
                 if ch in chaves or ch in chaves_glob: continue
                 if cont.get(p["_kw"], 0) >= limite: continue
                 cont[p["_kw"]] = cont.get(p["_kw"], 0) + 1
