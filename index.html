@@ -87,6 +87,9 @@
   .btn-amz { background: var(--brand); color: var(--brand-ink); }
   .btn-wa { background: transparent; color: var(--wa); border: 1.5px solid var(--wa); }
 
+  .rank { font-size: .76rem; font-weight: 800; color: #8a5a00; background: #fff1c7; border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
+  [data-theme="dark"] .rank { color: #ffd772; background: #3b3013; }
+  .intro { color: var(--muted); font-size: .86rem; margin: -4px 0 14px; }
   .hist { font-size: .74rem; font-weight: 700; color: var(--good); background: var(--good-soft); border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
   .more { display: block; margin: 20px auto 0; background: var(--surface); color: var(--brand); border: 1.5px solid var(--brand);
     border-radius: 999px; padding: 11px 26px; font-weight: 800; cursor: pointer; }
@@ -208,6 +211,7 @@ const GRUPO_URL = "";
 
 const CATS = [
   { id: "destaques", rotulo: "🔥 Destaques do dia" },
+  { id: "mais-vendidos", rotulo: "🏆 Mais vendidos" },
   { id: "eletronicos", rotulo: "📺 Eletrônicos" },
   { id: "eletrodomesticos", rotulo: "🏠 Eletrodomésticos" },
   { id: "beleza", rotulo: "✨ Beleza" },
@@ -276,6 +280,7 @@ function card(it, data) {
   return `<article class="card">
     <div class="pic">${img}<div class="badges">${badges}</div></div>
     <div class="body">
+      ${it.ranking ? `<div class="rank">🏆 Nº ${it.ranking.pos} em ${esc(it.ranking.cat)}</div>` : ""}
       <h3 class="name" title="${esc(it.nome)}">${esc(it.nome)}</h3>
       <div class="price">${brl.format(it.preco)}</div>
       <div class="was">${mostraEra ? "era " + brl.format(it.era) : ""}</div>
@@ -291,7 +296,9 @@ function card(it, data) {
 function render() {
   tabs();
   $("#notice").innerHTML = atual === "bebidas"
-    ? `<div class="notice" role="alert">🔞 Venda proibida para menores de 18 anos. Beba com moderação. Se beber, não dirija.</div>` : "";
+    ? `<div class="notice" role="alert">🔞 Venda proibida para menores de 18 anos. Beba com moderação. Se beber, não dirija.</div>`
+    : atual === "mais-vendidos"
+    ? `<p class="intro">Ranking de vendas da Amazon em cada categoria, na data/hora da atualização. Nem todos estão em promoção.</p>` : "";
   const cat = dados.categorias.find(c => c.id === atual);
   let itens = (cat?.itens || []).filter(it => typeof it.preco === "number" && it.preco > 0);
   const q = (innerWidth >= 960 ? $("#q2") : $("#q")).value.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");

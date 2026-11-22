@@ -1,0 +1,63 @@
+name: Atualizar ofertas
+
+on:
+  schedule:
+    # De hora em hora, das 7h17 às 23h17 (horário de São Paulo = UTC-3)
+    - cron: "17 0-2,10-23 * * *"
+  workflow_dispatch: {}   # botão "Run workflow" para rodar na hora
+  push:
+    branches: [main]      # mudança no site → só republica, sem chamar a API
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gigica-ofertas
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar ofertas na API da Amazon
+        if: github.event_name != 'push'
+        env:
+          AMZ_CID: ${{ secrets.AMZ_CID }}
+          AMZ_CSEC: ${{ secrets.AMZ_CSEC }}
+        run: |
+          python3 -I scripts/amz.py . | tee resumo.txt
+          rm -f resumo.txt
+
+      - name: Conferir dados
+        run: python3 -I scripts/verificar.py
+
+      - name: Salvar dados no repositório
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "gigica-ofertas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ofertas.json historico.json
+          if git diff --cached --quiet; then echo "sem mudanças"; exit 0; fi
+          git commit -m "Ofertas $(TZ=America/Sao_Paulo date +'%d/%m %H:%M')"
+          git pull --rebase -X theirs origin main
+          git push origin HEAD:main
+
+      - name: Montar o site
+        run: |
+          mkdir _site
+          cp index.html sw.js manifest.json icon-192.png icon-512.png ofertas.json historico.json .nojekyll _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
