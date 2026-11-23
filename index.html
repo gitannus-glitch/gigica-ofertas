@@ -104,6 +104,10 @@
   .cupom .tx { flex: 1; min-width: 0; }
   .cupom strong { display: block; font-size: .98rem; }
   .cupom small { color: var(--muted); font-size: .76rem; }
+  .codigo { display: inline-block; margin: 6px 0 4px; font: 800 .9rem ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em;
+    color: var(--brand); background: var(--brand-soft); border: 1.5px dashed var(--brand); border-radius: 8px; padding: 5px 9px; cursor: pointer;
+    -webkit-user-select: all; user-select: all; }
+  .codigo span { font: 600 .72rem system-ui, sans-serif; letter-spacing: 0; color: var(--muted); }
   .cupom .acoes { display: flex; flex-direction: column; gap: 6px; flex: none; }
   .cupom .btn { padding: 8px 12px; font-size: .8rem; }
   .faixa { margin: 0 0 16px; }
@@ -323,9 +327,10 @@ function cupomHTML(c) {
   const link = c.link.includes("tag=") ? c.link : c.link + (c.link.includes("?") ? "&" : "?") + "tag=" + TAG;
   const info = [c.soApp ? "📱 Só no app da Amazon" : "", c.prime ? "⭐ Exclusivo Prime" : "",
     c.expira ? "até " + c.expira.split("-").reverse().slice(0, 2).join("/") : ""].filter(Boolean).join(" · ");
-  const wa = "https://wa.me/?text=" + encodeURIComponent(`🎟️ ${c.titulo} na Amazon${c.soApp ? " (só no app)" : ""}\n${link}`);
-  return `<div class="cupom"><span class="ic">🎟️</span><div class="tx"><strong>${esc(c.titulo)}</strong><small>${esc(info)}</small></div>
-    <div class="acoes"><a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">Ver cupom</a>
+  const wa = "https://wa.me/?text=" + encodeURIComponent(`🎟️ ${c.titulo} na Amazon${c.soApp ? " (só no app)" : ""}${c.codigo ? "\nUse o cupom: " + c.codigo : ""}\n${link}`);
+  const cod = c.codigo ? `<button class="codigo" data-codigo="${esc(c.codigo)}" title="Copiar código">${esc(c.codigo)} <span>· copiar</span></button>` : "";
+  return `<div class="cupom"><span class="ic">🎟️</span><div class="tx"><strong>${esc(c.titulo)}</strong>${cod}<small>${esc(info)}</small></div>
+    <div class="acoes"><a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">${c.codigo ? "Ir à Amazon" : "Ver cupom"}</a>
     <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener">📲</a></div></div>`;
 }
 
@@ -404,6 +409,14 @@ if (GRUPO_URL) { const j = $("#join"); j.href = GRUPO_URL; j.hidden = false; $("
   }));
 });
 addEventListener("resize", () => dados && render());
+// Copiar código de cupom (com plano B: seleciona o texto se a cópia for bloqueada)
+document.addEventListener("click", (e) => {
+  const b = e.target.closest(".codigo"); if (!b) return;
+  const cod = b.dataset.codigo, sp = b.querySelector("span");
+  const ok = () => { sp.textContent = "· copiado! ✅"; setTimeout(() => sp.textContent = "· copiar", 2000); };
+  const fallback = () => { const r = document.createRange(); r.selectNodeContents(b.firstChild); const s = getSelection(); s.removeAllRanges(); s.addRange(r); sp.textContent = "· selecionado"; };
+  try { navigator.clipboard.writeText(cod).then(ok, fallback); } catch (err) { fallback(); }
+});
 addEventListener("hashchange", () => {
   const h = location.hash.slice(1);
   if (dados && CATS.some(c => c.id === h) && h !== atual) { atual = h; mostrar = PASSO; render(); window.scrollTo(0, 0); }
