@@ -2,7 +2,7 @@
 """Confere os dados antes de publicar. Sai com erro se algo estiver errado."""
 import json, os, sys
 
-TAG = "tag=giovannast20-20"
+TAG = "tag=gigicaofertas-20"
 CATS = ["destaques", "mais-vendidos", "eletronicos", "eletrodomesticos", "beleza",
         "perfumes", "suplementos", "casa-mercado", "livros", "bebidas"]
 # padrões que indicariam credencial vazando (montados em partes para não casar com este arquivo)

@@ -11,7 +11,8 @@ Nunca imprime credenciais.
 import json, os, sys, time, math, re, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timedelta, timezone
 
-TAG = "giovannast20-20"
+TAG = "giovannast20-20"            # ID principal (usado nas chamadas da API)
+LINK_TAG = "gigicaofertas-20"     # ID de rastreamento do site (vai nos links)
 MKT = "www.amazon.com.br"
 BASE = "https://creatorsapi.amazon/catalog/v1/"
 SP = timezone(timedelta(hours=-3))  # São Paulo (sem horário de verão)
@@ -311,7 +312,7 @@ def main(repo):
                 abaixo = int(round(media - p["preco"]))
         return {"menor30": menor30, "abaixoMedia": abaixo,"asin": p["asin"], "nome": nome_curto(p["titulo"]), "preco": p["preco"], "era": p["era"],
                 "desconto": p["desconto"], "selo": p["selo"], "imagem": p["imagem"],
-                "link": f"https://www.amazon.com.br/dp/{p['asin']}?tag={TAG}",
+                "link": f"https://www.amazon.com.br/dp/{p['asin']}?tag={LINK_TAG}",
                 "baixou": bool(ult and p["preco"] < ult), "eraSuspeito": susp,
                 **({"ranking": {"pos": p["_rank"][0], "cat": p["_rank"][1]}} if "_rank" in p else {})}
 
