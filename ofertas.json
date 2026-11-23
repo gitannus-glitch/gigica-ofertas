@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-23T18:59",
+ "atualizadoEm": "2026-11-23T20:00",
  "categorias": [
   {
    "id": "destaques",
@@ -44,20 +44,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31zJbH0LbKL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DGJ8QQRY?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B09ZHD2YXP",
-     "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
-     "preco": 2132.0,
-     "era": 3999.0,
-     "desconto": 46,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -162,14 +148,28 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0DD1KD5JP",
-     "nome": "Philips Walita Fritadeira Airfryer Forno 12 Litros, Preta, 110V",
-     "preco": 473.58,
-     "era": 999.9,
-     "desconto": 52,
+     "asin": "B09BJZ1PLS",
+     "nome": "Cafeteira Espresso Nespresso CitiZ Preta 110V",
+     "preco": 630.5,
+     "era": 1239.0,
+     "desconto": 49,
      "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41xo3iKAzAL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DD1KD5JP?tag=gigicaofertas-20",
+     "imagem": "https://m.media-amazon.com/images/I/41XG7i2aHjL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09BJZ1PLS?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0DP37ZLWW",
+     "nome": "SUGGAR FORNO DE EMBUTIR 68L 220V FE6802PT",
+     "preco": 1272.0,
+     "era": 2999.0,
+     "desconto": 57,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41aXJmtre+L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DP37ZLWW?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -249,24 +249,6 @@
      "ranking": {
       "pos": 1,
       "cat": "Celulares e Smartphones"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B09CC3QFDX",
-     "nome": "Cafeteira Elétrica Electrolux inox filtro permanente removivel capacidade 1,5L 38 xicaras…",
-     "preco": 227.9,
-     "era": 369.9,
-     "desconto": 38,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41guNQ6--lL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09CC3QFDX?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 1,
-      "cat": "Cafeteiras de Filtro"
      }
     },
     {
@@ -648,6 +630,24 @@
      }
     },
     {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08S1HB8G9",
+     "nome": "3 Corações TRES Cafeteira Espresso e Multibebida Passione Preta - 127V",
+     "preco": 398.0,
+     "era": 499.9,
+     "desconto": 20,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41TqYxYMhpS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08S1HB8G9?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Máquinas de Café Expresso com Vaporizador"
+     }
+    },
+    {
      "menor30": true,
      "abaixoMedia": 10,
      "asin": "B07QKN5NF1",
@@ -658,7 +658,7 @@
      "selo": "Termina em ",
      "imagem": "https://m.media-amazon.com/images/I/41NC0ZM4EuL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07QKN5NF1?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false,
      "ranking": {
       "pos": 2,
@@ -792,8 +792,26 @@
      }
     },
     {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07D5LZZCC",
+     "nome": "Personal VIP - Papel Higiênico Folha Dupla, Branco 24 unidades (Embalagem pode variar)",
+     "preco": 27.9,
+     "era": 46.01,
+     "desconto": 39,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41aRvYjm3DL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07D5LZZCC?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Papel Higiênico"
+     }
+    },
+    {
      "menor30": true,
-     "abaixoMedia": 43,
+     "abaixoMedia": 40,
      "asin": "B0BZJDLT6Z",
      "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
      "preco": 455.8,
@@ -802,7 +820,7 @@
      "selo": "Termina em ",
      "imagem": "https://m.media-amazon.com/images/I/417X7LiwN4L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BZJDLT6Z?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false,
      "ranking": {
       "pos": 3,
@@ -861,24 +879,6 @@
      "ranking": {
       "pos": 3,
       "cat": "Smart Speakers"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FDX5W5T9",
-     "nome": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI",
-     "preco": 1538.5,
-     "era": 3499.0,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31ZoU0l69iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FDX5W5T9?tag=gigicaofertas-20",
-     "baixou": true,
-     "eraSuspeito": true,
-     "ranking": {
-      "pos": 3,
-      "cat": "Smartwatches"
      }
     },
     {
@@ -974,6 +974,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B08R93TVRG",
+     "nome": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+     "preco": 530.41,
+     "era": null,
+     "desconto": 0,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/410UriYRE2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08R93TVRG?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 6,
+      "cat": "Air Fryers"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0GVT7QXF7",
      "nome": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera Tripla de até 50MP OIS, Selfie de…",
      "preco": 1999.0,
@@ -1046,24 +1064,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0BYK2VCP7",
-     "nome": "Fritadeira Elétrica com Forno Electrolux EAF90, 5 em 1, 12L, 220V",
-     "preco": 526.21,
-     "era": 1299.0,
-     "desconto": 59,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31PDhLCBK1L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BYK2VCP7?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": true,
-     "ranking": {
-      "pos": 7,
-      "cat": "Fritadeiras"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0H91SW8FW",
      "nome": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
      "preco": 39.9,
@@ -1081,25 +1081,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": null,
-     "asin": "B0C6R7MPBB",
-     "nome": "Personal Papel Higiênico Vip Folha Tripla, 24 Rolos De 20M",
-     "preco": 39.99,
-     "era": null,
-     "desconto": 0,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41oPwJ10-qL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0C6R7MPBB?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 8,
-      "cat": "Papel Higiênico"
-     }
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 91,
+     "abaixoMedia": 83,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
      "preco": 1199.0,
@@ -1290,11 +1272,11 @@
      "eraSuspeito": true
     },
     {
-     "menor30": true,
+     "menor30": false,
      "abaixoMedia": null,
      "asin": "B0DK1ZVY9J",
      "nome": "WAP Câmera de Segurança Lens 300 360°, Áudio Bidirecional, 5W, 5V",
-     "preco": 178.07,
+     "preco": 178.09,
      "era": 429.9,
      "desconto": 58,
      "selo": null,
@@ -1329,20 +1311,6 @@
      "imagem": "https://m.media-amazon.com/images/I/21OmJkjIhGL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DHLBLFXQ?tag=gigicaofertas-20",
      "baixou": false,
-     "eraSuspeito": true
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FDX5W5T9",
-     "nome": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI",
-     "preco": 1538.5,
-     "era": 3499.0,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31ZoU0l69iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FDX5W5T9?tag=gigicaofertas-20",
-     "baixou": true,
      "eraSuspeito": true
     },
     {
@@ -1404,20 +1372,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B088BTGZ43",
-     "nome": "Netac SSD portátil de 500 GB, USB 3.2 geração 2 (10 Gbps, tipo-C), unidade de estado…",
-     "preco": 448.03,
-     "era": 932.14,
-     "desconto": 51,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41gN6rpS87L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B088BTGZ43?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": true
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B081415GCS",
      "nome": "Headset Gamer Sem Fio Logitech G733 7.1 Dolby Surround com Tecnologia Blue VO!CE, RGB…",
      "preco": 748.41,
@@ -1431,16 +1385,16 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 30,
+     "abaixoMedia": 26,
      "asin": "B0DZQF2ZX4",
      "nome": "Death Stranding 2: On the beach - PlayStation 5",
      "preco": 199.9,
      "era": 399.9,
      "desconto": 50,
-     "selo": null,
+     "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/516GJdGUFqL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DZQF2ZX4?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -1710,7 +1664,7 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "asin": "B0GKQTCXL8",
      "nome": "Celular Samsung Galaxy S26 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de…",
@@ -1782,20 +1736,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0DHYKLQN4",
-     "nome": "Geonav Carregador Universal SuperPower GaN Duo, 35W, 2 X USB-C Power Delivery, CH35PDBK…",
-     "preco": 88.71,
-     "era": 149.09,
-     "desconto": 40,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31bOCWyY4UL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DHYKLQN4?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0F43B6ZPX",
      "nome": "Fones Bluetooth 5.3 Open-Ear com Clipe e 40H de Reprodução",
      "preco": 59.98,
@@ -1824,20 +1764,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0GVT7Z3BX",
-     "nome": "Celular Samsung Galaxy A57 5G, 256GB, 8GB, 50MP Tela 6.7\" - Azul Claro",
-     "preco": 2443.0,
-     "era": 3999.0,
-     "desconto": 38,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41LocWuuMaL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0GVT7Z3BX?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "8543102146",
      "nome": "Essencialismo: A disciplinada busca por menos",
      "preco": 40.04,
@@ -1860,6 +1786,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41MMo6e2flL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BQBSW9SG?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FPYV6K68",
+     "nome": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+     "preco": 999.0,
+     "era": 1599.0,
+     "desconto": 37,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41HQPismu3L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FPYV6K68?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -1930,20 +1870,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41aZqC53PSL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07Y5MWJPK?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F4Y2VR8S",
-     "nome": "SANDISK SSD Plus Unidade de estado sólido interna de 500 GB - SATA III 6 Gb/s, 7 mm…",
-     "preco": 586.69,
-     "era": 928.57,
-     "desconto": 36,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/315Qih7KpoL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F4Y2VR8S?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2084,6 +2010,62 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41uoc9xDYJL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08F4444HM?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0GYFRGPZY",
+     "nome": "Notebook Dell 15, Intel Core i5-1334U 13ª Geração, 8 GB RAM DDR5, 512 GB SSD NVMe, Tela…",
+     "preco": 3499.0,
+     "era": 5299.0,
+     "desconto": 33,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41KcQGFp2TL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0GYFRGPZY?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FQFH5PJS",
+     "nome": "Apple Watch SE 3 GPS, Caixa em alumínio luz das estrelas de 40 mm com Bracelete…",
+     "preco": 2184.0,
+     "era": 3299.0,
+     "desconto": 33,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31AILj45oaL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FQFH5PJS?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FQG1KWM5",
+     "nome": "Apple Watch Series 11 GPS, Caixa em alumínio rosa‑dourado de 42 mm com Bracelete…",
+     "preco": 3639.0,
+     "era": 5499.0,
+     "desconto": 33,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31f3c3u5eoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FQG1KWM5?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FQGQ3QGM",
+     "nome": "Apple Watch Ultra 3 GPS + Cellular, Caixa em titânio preto de 49 mm com Bracelete Ocean…",
+     "preco": 6985.7,
+     "era": 10499.0,
+     "desconto": 33,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41NBsFdp8tL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FQGQ3QGM?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -2346,20 +2328,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0DD1KD5JP",
-     "nome": "Philips Walita Fritadeira Airfryer Forno 12 Litros, Preta, 110V",
-     "preco": 473.58,
-     "era": 999.9,
-     "desconto": 52,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41xo3iKAzAL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DD1KD5JP?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": true,
      "abaixoMedia": null,
      "asin": "B004PS7O9I",
@@ -2552,7 +2520,7 @@
      "selo": "Termina em ",
      "imagem": "https://m.media-amazon.com/images/I/41NC0ZM4EuL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07QKN5NF1?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -2770,10 +2738,10 @@
      "abaixoMedia": null,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
-     "preco": 2132.0,
+     "preco": 2140.98,
      "era": 3999.0,
      "desconto": 46,
-     "selo": "Oferta Black Friday",
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
      "baixou": false,
@@ -2860,6 +2828,20 @@
      "selo": "Oferta Exclusiva Prime",
      "imagem": "https://m.media-amazon.com/images/I/21peGp22SRL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BZSTPW7X?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0D98VXWXB",
+     "nome": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 220V",
+     "preco": 309.9,
+     "era": 549.9,
+     "desconto": 43,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/312c8RhLSZL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D98VXWXB?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2992,6 +2974,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/418PGBZgX2L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0746RDSF9?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0D1GJJRFW",
+     "nome": "Escova Secadora Cadence Uau 4 em 1 - Bivolt ESC800",
+     "preco": 99.9,
+     "era": 239.9,
+     "desconto": 58,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31WNqLXfWlL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D1GJJRFW?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3166,6 +3162,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B07WFQWMCT",
+     "nome": "Protetor Solar Corporal em Loção Neutrogena Sun Fresh, FPS 90, 200ml",
+     "preco": 77.0,
+     "era": 153.99,
+     "desconto": 49,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31iRufFX6BL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07WFQWMCT?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0C2YZ9TR8",
      "nome": "Vult Máscara Incolor 3 em 1 2,5g",
      "preco": 15.1,
@@ -3250,20 +3260,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B08NVML21R",
-     "nome": "Protetor Solar Facial Neutrogena Sun Fresh, FPS 70, 40g",
-     "preco": 38.45,
-     "era": 72.99,
-     "desconto": 47,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31SlvljbhjL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08NVML21R?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B08YZJZF3Q",
      "nome": "Hidratante Corporal Neutrogena Body Care Intensive Hidrata&Repara, 200ml",
      "preco": 16.54,
@@ -3342,7 +3338,7 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/21LJAkAFKRL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0D8N33NBS?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -3418,20 +3414,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0DXMZB5GB",
-     "nome": "Britânia Escova Secadora Linha Viih Tube Nanocerâmica BES36 Bivolt Tecnologia…",
-     "preco": 121.9,
-     "era": 220.51,
-     "desconto": 44,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31sqdeRrpfL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DXMZB5GB?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B077BY4FMF",
      "nome": "Máscara de Cílios Maybelline NY The Colossal Volum' Express, 8ml",
      "preco": 39.13,
@@ -3454,6 +3436,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/318SYpV2xSL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B079VWB8JN?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0F79LTJSZ",
+     "nome": "Sallve Creme Retexturizador Noturno 30g",
+     "preco": 63.4,
+     "era": 109.9,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31evuXko55L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0F79LTJSZ?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3510,20 +3506,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31GL4AsBiRL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B00GSUCEJ6?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0GT5YS3F7",
-     "nome": "Firmador Sallve Pró-Colágeno, 30g",
-     "preco": 66.55,
-     "era": 109.9,
-     "desconto": 39,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31VmWHR5wCL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0GT5YS3F7?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4208,6 +4190,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B09VYBHY73",
+     "nome": "DIVA DES COL ESPLENDIDA 100ml",
+     "preco": 99.01,
+     "era": 150.0,
+     "desconto": 33,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31iWYyDrOML._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09VYBHY73?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0F8L3YMMR",
      "nome": "Body Splash Ciclo Jardin Jasmim Sambac Desodorante Corporal 200ml",
      "preco": 38.05,
@@ -4230,20 +4226,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31sfXk8mY9L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0GVGKNP38?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F8KWT4WB",
-     "nome": "Granado Eau de Toilette, Vintage, Aurora, 100ml",
-     "preco": 153.75,
-     "era": 205.0,
-     "desconto": 25,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41BHhm26pOL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F8KWT4WB?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4314,6 +4296,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/317b0+huGCL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CTHXYDYD?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0F8KWT4WB",
+     "nome": "Granado Eau de Toilette, Vintage, Aurora, 100ml",
+     "preco": 153.75,
+     "era": 205.0,
+     "desconto": 25,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41BHhm26pOL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0F8KWT4WB?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -4648,20 +4644,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FNSGQ3YW",
-     "nome": "Puravida Colágeno Protein 23g de Proteínas Kopenhagen Língua de Gato Chocolate 450g",
-     "preco": 152.0,
-     "era": 244.97,
-     "desconto": 37,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41ig-sjzE2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FNSGQ3YW?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0B71S1XJN",
      "nome": "Katiguá, Colágeno Tipo II, Sem sabor, 90 Cápsulas rígidas • 90 doses",
      "preco": 44.67,
@@ -4712,6 +4694,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41n7GCcJ9vL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CQDCF1FC?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0BN48ZG5J",
+     "nome": "Pré-Treino Max Titanium Égide, Sabor Abacaxi e Manga, 300g",
+     "preco": 81.99,
+     "era": 130.0,
+     "desconto": 36,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41-rA12Ze6L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BN48ZG5J?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4782,6 +4778,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/41wCO79We4L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09WX23WPV?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0D9ZTJHRY",
+     "nome": "Collagen II C+ - Colágeno Tipo 2, Vitamina C, E e Vitaminas do Complexo B, Longa Duração:…",
+     "preco": 47.81,
+     "era": 72.9,
+     "desconto": 34,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41E2GBkTXzL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D9ZTJHRY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4940,20 +4950,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F33SSLZD",
-     "nome": "Suplemento Alimentar Nutren A-Z Multivitamínico 30 Cápsulas",
-     "preco": 25.99,
-     "era": 40.69,
-     "desconto": 36,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41kCnq18F9L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F33SSLZD?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": true,
      "abaixoMedia": null,
      "asin": "B0CC9YRF8T",
@@ -4964,20 +4960,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/412zdr+xx-L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CC9YRF8T?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0D9ZTJHRY",
-     "nome": "Collagen II C+ - Colágeno Tipo 2, Vitamina C, E e Vitaminas do Complexo B, Longa Duração:…",
-     "preco": 47.81,
-     "era": 72.9,
-     "desconto": 34,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41E2GBkTXzL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D9ZTJHRY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5048,6 +5030,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/51w3HEEEmhL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07XGM1BM7?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0BG38WW83",
+     "nome": "Naked Wafer Leite em Pó",
+     "preco": 64.26,
+     "era": 95.88,
+     "desconto": 32,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41wbp9yphHL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BG38WW83?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5180,20 +5176,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41eixaAxnTL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B095ZN8T88?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F2V6QFLZ",
-     "nome": "Zulu Perfumes Limpador Perfumado 500ml Orquídea Negra",
-     "preco": 5.9,
-     "era": 19.0,
-     "desconto": 68,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31k7CqaKzDL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F2V6QFLZ?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5396,6 +5378,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0FCPFZQRL",
+     "nome": "Finish Powerball Quantum, Detergente para Lava Louças em Tabletes, 60 Tabletes",
+     "preco": 89.9,
+     "era": 186.34,
+     "desconto": 51,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41JXGzk1Y6L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FCPFZQRL?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B078D7MH2P",
      "nome": "Finish Powerball Detergente para Lava Louças em Tabletes e Secante, 13 Tabletes",
      "preco": 28.88,
@@ -5586,6 +5582,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41z8SWeSRwL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B091W9FN9N?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0DR33GY41",
+     "nome": "Veja Perfumados Moderno e Poderoso 1L",
+     "preco": 11.83,
+     "era": 22.42,
+     "desconto": 47,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41Zr4HEkmoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DR33GY41?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5802,20 +5812,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07DZ7JP87",
-     "nome": "Harpic Power Plus Desinfetante e Desodorizador Sanitário em Gel Lavanda 500ml",
-     "preco": 13.14,
-     "era": 23.49,
-     "desconto": 44,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41fb97+NqEL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07DZ7JP87?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B09HRCG7YC",
      "nome": "Desodorante Roll-On sem Alumínio, Natural, Vegetal e Vegano, Coco e Magnésio, com Perfume…",
      "preco": 16.52,
@@ -5942,6 +5938,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B08FD3B2KQ",
+     "nome": "Downy Sensitive Hipoalergênico Amaciante Concentrado 1,35L",
+     "preco": 23.99,
+     "era": 40.72,
+     "desconto": 41,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31k6Uz168cL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0DQ1YWD4K",
      "nome": "Enxaguante Bucal Cool Mint Listerine, Menta, 1L",
      "preco": 24.59,
@@ -5992,20 +6002,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41TNvkU8gaL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07Y3B33KG?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B09D5P7P49",
-     "nome": "Mili Papel Toalha Folha Dupla, 3 Rolos de 200 Folhas",
-     "preco": 22.49,
-     "era": 37.51,
-     "desconto": 40,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41Ix9bUMjSL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09D5P7P49?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -6368,6 +6364,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B004V54ZVK",
+     "nome": "Vodka Absolut - 1 Litro",
+     "preco": 84.61,
+     "era": 136.9,
+     "desconto": 38,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31UYeZ+swCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B004V54ZVK?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0H5D9YQ1W",
      "nome": "Kit Coquetel Alcoólico Don Cream Dulce De Leche 750ml C/2und",
      "preco": 109.8,
@@ -6478,20 +6488,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B07GF2Q1VZ",
-     "nome": "Whisky Dewars 12 anos 750ml",
-     "preco": 89.9,
-     "era": 139.9,
-     "desconto": 35,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41h49JcTfWL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07GF2Q1VZ?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": true,
      "abaixoMedia": null,
      "asin": "B0763W2SN6",
@@ -6544,6 +6540,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31icFtXbfYL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B009UWD34O?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0DP3CL297",
+     "nome": "Vodka HYPE, Premium, 1l",
+     "preco": 29.89,
+     "era": 44.9,
+     "desconto": 33,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31n63bPyGxL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DP3CL297?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6702,20 +6712,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": true,
-     "abaixoMedia": null,
-     "asin": "B004EAL5UG",
-     "nome": "Licor 43 700 Ml",
-     "preco": 132.49,
-     "era": 189.9,
-     "desconto": 30,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/415RzAq+QiL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004EAL5UG?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": false,
      "abaixoMedia": null,
      "asin": "B00MTFIL0U",
@@ -6726,6 +6722,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/41NLYjmlnwL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B00MTFIL0U?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "asin": "B004EAL5UG",
+     "nome": "Licor 43 700 Ml",
+     "preco": 132.49,
+     "era": 189.9,
+     "desconto": 30,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/415RzAq+QiL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B004EAL5UG?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6768,7 +6778,7 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31s5i1jIqyL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07YD7FVKX?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -6838,20 +6848,6 @@
      "selo": "Termina em ",
      "imagem": "https://m.media-amazon.com/images/I/31jRleXXiqL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0H343PT2X?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F3XRNDMK",
-     "nome": "Cerveja Corona, Lata 269ml, Pack com 8 unidades",
-     "preco": 30.32,
-     "era": 39.9,
-     "desconto": 24,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31ETw4fyieL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F3XRNDMK?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -7015,7 +7011,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 27,
+      "pos": 31,
       "cat": "Bíblia e Outros Textos Sagrados"
      }
     },
@@ -7033,7 +7029,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 7,
+      "pos": 8,
       "cat": "Gastronomia e Culinária"
      }
     },
@@ -7141,7 +7137,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 10,
+      "pos": 11,
       "cat": "Valores"
      }
     },
@@ -7204,7 +7200,7 @@
      "abaixoMedia": null,
      "asin": "6525920698",
      "nome": "One piece vol. 106",
-     "preco": 16.1,
+     "preco": 16.11,
      "era": 41.9,
      "desconto": 61,
      "selo": null,
@@ -7281,7 +7277,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 14,
+      "pos": 13,
       "cat": "Estados Unidos"
      }
     },
@@ -7457,7 +7453,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 28,
+      "pos": 23,
       "cat": "Gastronomia e Culinária"
      }
     },
@@ -7493,7 +7489,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 7,
+      "pos": 10,
       "cat": "Literatura Mundial"
      }
     },
@@ -7511,7 +7507,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 27,
+      "pos": 25,
       "cat": "Literatura Clássica"
      }
     },
@@ -7723,8 +7719,8 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 17,
-      "cat": "Carreiras"
+      "pos": 16,
+      "cat": "Felicidade"
      }
     },
     {
@@ -7741,7 +7737,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 4,
+      "pos": 5,
       "cat": "Comentários"
      }
     },
@@ -7813,7 +7809,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 51,
+      "pos": 48,
       "cat": "Jovens Adultos e Universitários"
      }
     },
@@ -7867,7 +7863,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 14,
+      "pos": 11,
       "cat": "Literárias"
      }
     },
@@ -7921,7 +7917,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 13,
+      "pos": 12,
       "cat": "Humorístico"
      }
     }
