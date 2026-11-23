@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-22T20:51",
+ "atualizadoEm": "2026-11-22T22:24",
  "categorias": [
   {
    "id": "destaques",
@@ -134,20 +134,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FQFJP7MP",
-     "nome": "Apple Watch SE 3 GPS + Cellular, Caixa em alumínio meia‑noite de 44 mm com Bracelete…",
-     "preco": 2498.0,
-     "era": 4299.0,
-     "desconto": 41,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31+zdVdH8iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FQFJP7MP?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0DD1KD5JP",
      "nome": "Philips Walita Fritadeira Airfryer Forno 12 Litros, Preta, 110V",
      "preco": 473.58,
@@ -172,6 +158,20 @@
      "link": "https://www.amazon.com.br/dp/B09BJZ1PLS?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08J89FSXX",
+     "nome": "Arno Cafeteira Espresso Nescafé Dolce Gusto Genio S Plus DGS2, Preta",
+     "preco": 449.9,
+     "era": 929.99,
+     "desconto": 51,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41GNGpIpMQL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08J89FSXX?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
     }
    ]
   },
@@ -179,24 +179,6 @@
    "id": "mais-vendidos",
    "nome": "Mais vendidos",
    "itens": [
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0D98VK8PP",
-     "nome": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V",
-     "preco": 299.0,
-     "era": 549.9,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/312c8RhLSZL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 1,
-      "cat": "Air Fryers"
-     }
-    },
     {
      "menor30": false,
      "abaixoMedia": null,
@@ -794,6 +776,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B07D5LTDT4",
+     "nome": "Personal Papel Higiênico Vip Folha Dupla, 16 Unidades Branco (Embalagem Pode Variar)",
+     "preco": 26.49,
+     "era": 28.79,
+     "desconto": 7,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41hwGRpXHGL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07D5LTDT4?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Papel Higiênico"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0BZJDLT6Z",
      "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
      "preco": 496.0,
@@ -1010,6 +1010,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0BYK2VCP7",
+     "nome": "Electrolux Air Fryer Forno 5 x 1 12L 1700W Digital Espeto Giratório 2 Bandejas…",
+     "preco": 526.21,
+     "era": 1299.0,
+     "desconto": 59,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31PDhLCBK1L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BYK2VCP7?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": true,
+     "ranking": {
+      "pos": 5,
+      "cat": "Fritadeiras"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0CYW2N6TX",
      "nome": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 512GB SSD, KeepOS/Linux, Tela 15,6\"…",
      "preco": 2979.0,
@@ -1028,19 +1046,19 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0GV62TPDH",
-     "nome": "Amazon Kindle Paperwhite Signature Edition 32 GB (modelo mais recente), mais fino, novo…",
-     "preco": 1349.0,
-     "era": null,
-     "desconto": 0,
+     "asin": "B0FDX5NC1G",
+     "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
+     "preco": 1299.0,
+     "era": 2399.0,
+     "desconto": 45,
      "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31V6O1988HL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0GV62TPDH?tag=giovannast20-20",
+     "imagem": "https://m.media-amazon.com/images/I/31tSZXCHPdL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FDX5NC1G?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
       "pos": 7,
-      "cat": "e-Readers"
+      "cat": "Smartwatches"
      }
     },
     {
@@ -1136,24 +1154,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FHGDL31P",
-     "nome": "Papel Higiênico Neve Toque das Ondas Folha Tripla 12 rolos 20M",
-     "preco": 32.49,
-     "era": null,
-     "desconto": 0,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41fjV7QR7XL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FHGDL31P?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 11,
-      "cat": "Lenços Umedecidos"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B09NQYX99X",
      "nome": "Whey Protein Concentrado Chocolate Parmalat Fit 450g",
      "preco": 77.43,
@@ -1193,6 +1193,20 @@
    "id": "eletronicos",
    "nome": "Eletrônicos",
    "itens": [
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FDX5W5T9",
+     "nome": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI",
+     "preco": 1099.0,
+     "era": 3499.0,
+     "desconto": 68,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31ZoU0l69iL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FDX5W5T9?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": true
+    },
     {
      "menor30": false,
      "abaixoMedia": null,
@@ -1602,20 +1616,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0CP6BZHK3",
-     "nome": "Apple iPhone 15 (256 GB) — Azul",
-     "preco": 3887.78,
-     "era": 6799.0,
-     "desconto": 42,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31TfLUEdUPL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CP6BZHK3?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0GKR2PFSY",
      "nome": "Celular Samsung Galaxy S26+ 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande…",
      "preco": 5262.11,
@@ -1644,14 +1644,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FQFJP7MP",
-     "nome": "Apple Watch SE 3 GPS + Cellular, Caixa em alumínio meia‑noite de 44 mm com Bracelete…",
-     "preco": 2498.0,
-     "era": 4299.0,
-     "desconto": 41,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31+zdVdH8iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FQFJP7MP?tag=giovannast20-20",
+     "asin": "B0DZQF2ZX4",
+     "nome": "Death Stranding 2: On the beach - PlayStation 5",
+     "preco": 229.9,
+     "era": 399.9,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/516GJdGUFqL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DZQF2ZX4?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -1714,20 +1714,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FXB8RSD7",
-     "nome": "Project Motor Racing - PlayStation 5",
-     "preco": 144.9,
-     "era": 244.9,
-     "desconto": 40,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/51lOP8tt0gL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FXB8RSD7?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0CY1PJ2CN",
      "nome": "GameSir Kaleid Wired Controller para Xbox com alavancas de efeito Hall e acionadores…",
      "preco": 274.54,
@@ -1778,6 +1764,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31g7CA4kluL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DQY6G1TZ?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0DSXZWWDM",
+     "nome": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de…",
+     "preco": 4332.0,
+     "era": 6999.0,
+     "desconto": 38,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31qaU6ha3ML._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DSXZWWDM?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -1882,6 +1882,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0DB22ZZ1B",
+     "nome": "iDPRT Impressora Portátil Sem Fio para Viagens, Impressora Térmica Sem Tinta de 300 Dpi…",
+     "preco": 313.12,
+     "era": 495.91,
+     "desconto": 36,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41UQC+ggXcL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DB22ZZ1B?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0GT6LW2VN",
      "nome": "JBL, Caixa de Som, PartyBox Encore Essential 2 Mic, Show de Luzes, Bluetooth, Portátil…",
      "preco": 1731.45,
@@ -1932,6 +1946,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41oFQF9kCTL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0F6B7569S?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CP6BZHK3",
+     "nome": "Apple iPhone 15 (256 GB) — Azul",
+     "preco": 4443.33,
+     "era": 6799.0,
+     "desconto": 34,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31TfLUEdUPL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CP6BZHK3?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2002,34 +2030,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41KcQGFp2TL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0GYFRGPZY?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FQFH5PJS",
-     "nome": "Apple Watch SE 3 GPS, Caixa em alumínio luz das estrelas de 40 mm com Bracelete…",
-     "preco": 2184.0,
-     "era": 3299.0,
-     "desconto": 33,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31AILj45oaL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FQFH5PJS?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FQG1KWM5",
-     "nome": "Apple Watch Series 11 GPS, Caixa em alumínio rosa‑dourado de 42 mm com Bracelete…",
-     "preco": 3639.0,
-     "era": 5499.0,
-     "desconto": 33,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31f3c3u5eoL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FQG1KWM5?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -2154,20 +2154,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0DP37ZLWW",
-     "nome": "SUGGAR FORNO DE EMBUTIR 68L 220V FE6802PT",
-     "preco": 1272.0,
-     "era": 2999.0,
-     "desconto": 57,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41aXJmtre+L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DP37ZLWW?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0C4CF2F67",
      "nome": "Batedeira Planetária Oster Bowl Inox III - 127V",
      "preco": 378.83,
@@ -2246,6 +2232,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41ViH76bE1L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DCW6N6WK?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B077C2XZ91",
+     "nome": "L'Oréal Paris Dermo Expertise, Água Micelar Purificante 5 em 1, 400ml",
+     "preco": 32.39,
+     "era": 69.39,
+     "desconto": 53,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31PG4IGMWoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B077C2XZ91?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2336,6 +2336,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0DCLKNY2Q",
+     "nome": "Fogão Elétrico Portátil Cooktop Elgin Single Cook 1 Boca - 110V",
+     "preco": 48.88,
+     "era": 99.9,
+     "desconto": 51,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31LxpxsqQyL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DCLKNY2Q?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07V68WPCD",
      "nome": "Philco Multiprocessador, Pmp1600v, 1400W, Vermelho, 220v, 2,1 Litros",
      "preco": 266.91,
@@ -2358,20 +2372,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31UDFa0sncL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B076HXTSTL?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0C3NPFTP7",
-     "nome": "Philco Grill e Sanduicheira PGR17PI Chapas Removíveis 900W 127V",
-     "preco": 159.9,
-     "era": 328.33,
-     "desconto": 51,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41R8UmaHDzL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0C3NPFTP7?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2756,14 +2756,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0851FYF7X",
-     "nome": "BLACK+DECKER Cafeteira Elétrica com Jarra em Inox CM15 ‎600W 110V",
-     "preco": 127.0,
-     "era": 219.0,
-     "desconto": 42,
+     "asin": "B084XRBHB8",
+     "nome": "MONDIAL Sanduicheira Master Grill, Preto/Inox, 750W, 220V - S-20",
+     "preco": 85.0,
+     "era": 149.9,
+     "desconto": 43,
      "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41kbyNzUW3L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0851FYF7X?tag=giovannast20-20",
+     "imagem": "https://m.media-amazon.com/images/I/31aIFgkXq+L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B084XRBHB8?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2778,6 +2778,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31Mvuuu38xL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0B3NGZ16W?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0876THM1X",
+     "nome": "Philco Panela de Arroz PH10P Visor Glass Inox 220V 2,4 litros",
+     "preco": 169.0,
+     "era": 292.55,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41lXdO6ZYpL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0876THM1X?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2820,20 +2834,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/419miq4cBSL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0C46PGNB9?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0BHTS7HBD",
-     "nome": "Cooktop Elétrico Philco PCT55VC Vitrocerâmico 8400W",
-     "preco": 1129.9,
-     "era": 1910.0,
-     "desconto": 40,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31dH10j-vYL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BHTS7HBD?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2944,20 +2944,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B09XFLHJ1S",
-     "nome": "Danos Vorazes Máscara de Tratamento 450g , Lola Cosmetics",
-     "preco": 28.5,
-     "era": 64.9,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/413TwpBfBDL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09XFLHJ1S?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B07Y2BK4GJ",
      "nome": "Protetor Solar Facial Minesol Oil Control, Sem Cor, FPS 70, 40g",
      "preco": 55.44,
@@ -2974,13 +2960,13 @@
      "abaixoMedia": null,
      "asin": "B0B46TH84S",
      "nome": "L'Oréal Paris Revitalift Sérum Facial Noturno com Retinol Puro, Corrige Rugas Profundas…",
-     "preco": 80.21,
+     "preco": 80.19,
      "era": 179.39,
      "desconto": 55,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41GXeyq5VrL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0B46TH84S?tag=giovannast20-20",
-     "baixou": false,
+     "baixou": true,
      "eraSuspeito": false
     },
     {
@@ -3014,20 +3000,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0H2YTB5T1",
-     "nome": "Sérum Antioxidante Payot Essencial, Nano Vitamina C, 30ml",
-     "preco": 47.41,
-     "era": 101.04,
-     "desconto": 53,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31gn+AkClHL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0H2YTB5T1?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B074LTNQBP",
      "nome": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
      "preco": 30.17,
@@ -3036,6 +3008,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41NioiYkd7L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B074LTNQBP?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B09HW92VTZ",
+     "nome": "Eudora Siàge Hair-Plastia Máscara Capilar 250g",
+     "preco": 39.9,
+     "era": 85.99,
+     "desconto": 53,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/3159MbW335L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09HW92VTZ?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3280,6 +3266,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0GT5YS3F7",
+     "nome": "Firmador Sallve Pró-Colágeno, 30g",
+     "preco": 58.56,
+     "era": 109.9,
+     "desconto": 46,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31VmWHR5wCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0GT5YS3F7?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0BNP4DBQY",
      "nome": "Dailus Mascara-Cilios-Volume Russo",
      "preco": 21.43,
@@ -3308,20 +3308,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0F79LTJSZ",
-     "nome": "Sallve Creme Retexturizador Noturno 30g",
-     "preco": 61.29,
-     "era": 109.9,
-     "desconto": 44,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31evuXko55L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F79LTJSZ?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0BFC17NFP",
      "nome": "Bruma Fixadora Hidrafix – Catharine Hill – 150ml",
      "preco": 36.78,
@@ -3336,14 +3322,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0F63L9DLK",
-     "nome": "Philco Secador de Cabelos 4 em 1 Dobrável Motor BLDC PSC3500 220V",
-     "preco": 441.6,
-     "era": 796.98,
+     "asin": "B0DXMZB5GB",
+     "nome": "Britânia Escova Secadora Linha Viih Tube Nanocerâmica BES36 Bivolt Tecnologia…",
+     "preco": 121.9,
+     "era": 220.51,
      "desconto": 44,
      "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41QbCj8AuEL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F63L9DLK?tag=giovannast20-20",
+     "imagem": "https://m.media-amazon.com/images/I/31sqdeRrpfL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DXMZB5GB?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3724,6 +3710,20 @@
      "link": "https://www.amazon.com.br/dp/B00WGBB5YG?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CZ4CP8TZ",
+     "nome": "Vichy Dercos DS, Shampoo Anticaspa para Cabelos Secos, com Selênio DS, 300g",
+     "preco": 94.39,
+     "era": 129.9,
+     "desconto": 27,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31SrRdCRdkL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CZ4CP8TZ?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
     }
    ]
   },
@@ -3731,20 +3731,6 @@
    "id": "perfumes",
    "nome": "Perfumes",
    "itens": [
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0DY8ZB96T",
-     "nome": "Body Splash Carmed Amor de Verão, 200ml",
-     "preco": 20.0,
-     "era": 90.86,
-     "desconto": 77,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31p5I78bXXL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DY8ZB96T?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
     {
      "menor30": false,
      "abaixoMedia": null,
@@ -3798,20 +3784,6 @@
      "selo": "Termina em ",
      "imagem": "https://m.media-amazon.com/images/I/31qkVE9ijgL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0FFBKSSGP?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0CQ2C8WPH",
-     "nome": "Lacoste Essential EDT 125 Ml",
-     "preco": 239.0,
-     "era": 499.0,
-     "desconto": 52,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31HsOsfEqBL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CQ2C8WPH?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3972,6 +3944,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B071SGZ7CK",
+     "nome": "Armani Beauty, Stronger With You Eau de Toilette, 100ml, Giorgio Armani Perfume…",
+     "preco": 401.99,
+     "era": 699.0,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41hRQmAYsjL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B00I7PK3GQ",
      "nome": "Perfume Feminino Lancôme La Vie Est Belle Eau de Parfum, 100ml",
      "preco": 632.99,
@@ -4098,20 +4084,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07MR3H8NY",
-     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 50 ml",
-     "preco": 469.99,
-     "era": 779.0,
-     "desconto": 39,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/31-ibW9CVoL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07MR3H8NY?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0CL4NKT83",
      "nome": "AZZARO CHROME UNITED EAU DE TOILETTE 100ML",
      "preco": 269.99,
@@ -4182,6 +4154,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0F8L3YMMR",
+     "nome": "Body Splash Ciclo Jardin Jasmim Sambac Desodorante Corporal 200ml",
+     "preco": 38.05,
+     "era": 55.99,
+     "desconto": 32,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41YZWNsdziL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0F8L3YMMR?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07DTNP5GT",
      "nome": "Giby e Gaby Deo Colônia Amarelo 200ml",
      "preco": 16.42,
@@ -4190,20 +4176,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/314HRLM5jWL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07DTNP5GT?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B071SGZ7CK",
-     "nome": "Armani Beauty, Stronger With You Eau de Toilette, 100ml, Giorgio Armani Perfume…",
-     "preco": 401.99,
-     "era": 699.0,
-     "desconto": 42,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41hRQmAYsjL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4238,6 +4210,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B07MR3H8NY",
+     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 50 ml",
+     "preco": 469.99,
+     "era": 779.0,
+     "desconto": 39,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31-ibW9CVoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07MR3H8NY?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B01F2LB4NS",
      "nome": "Perfume Feminino Cacharel Anaïs Anaïs, Eau de Toilette, 100ml",
      "preco": 158.99,
@@ -4260,20 +4246,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31HuPVE5fGL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B06X9DFBNK?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0F8L3YMMR",
-     "nome": "Body Splash Ciclo Jardin Jasmim Sambac Desodorante Corporal 200ml",
-     "preco": 38.05,
-     "era": 55.99,
-     "desconto": 32,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41YZWNsdziL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F8L3YMMR?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4370,6 +4342,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0BCXF4CDM",
+     "nome": "Suplemento Pré-Treino Max Titanium Hórus, Sabor Amora, 150g",
+     "preco": 42.18,
+     "era": 96.34,
+     "desconto": 56,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41GMjz+sC7L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BCXF4CDM?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07RW516L2",
      "nome": "Glutamina 200g Sem sabor WVegan Vegano",
      "preco": 35.13,
@@ -4406,20 +4392,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31WXv+V2c1L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07P9WNSMW?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0DX2K882L",
-     "nome": "DUX HUMAN HEALTH Fish Oil Ômega‑3 180 Cápsulas",
-     "preco": 99.0,
-     "era": 206.21,
-     "desconto": 51,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31CLRy4O49L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DX2K882L?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4538,20 +4510,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B09HHSNGWJ",
-     "nome": "Isofort Beauty Whey Protein (Isolado, Hidrolisado e Concentrado) + Colágeno Verisol 450G…",
-     "preco": 136.8,
-     "era": 242.32,
-     "desconto": 43,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41JkORq4J2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09HHSNGWJ?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0F2GMT6T3",
      "nome": "Integralmedica Whey Protein Crisp Bar Ovomaltine 12 Unidades",
      "preco": 83.92,
@@ -4574,6 +4532,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/51vTYZOZf8L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CQDBRB87?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FZBRT2XV",
+     "nome": "Ômega 3 EPA DHA, Dark Lab, 240 Cápsulas",
+     "preco": 99.9,
+     "era": 169.9,
+     "desconto": 41,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31+Ua2pVwvL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FZBRT2XV?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4672,20 +4644,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41sukJc9jPS._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08QN55GY6?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0CQDCF1FC",
-     "nome": "Pré-Treino Sixt Army Nigth 300g - Soldiers Nutrition (300g, Limonada Suiça)",
-     "preco": 50.3,
-     "era": 78.9,
-     "desconto": 36,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41n7GCcJ9vL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CQDCF1FC?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4888,20 +4846,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FZBRT2XV",
-     "nome": "Ômega 3 EPA DHA, Dark Lab, 240 Cápsulas",
-     "preco": 99.9,
-     "era": 169.9,
-     "desconto": 41,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31+Ua2pVwvL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FZBRT2XV?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0B71VFP4J",
      "nome": "Katiguá, Ômega 3 Tripla Fonte, DHA + EPA + ALA, 1000mg, 60 Cápsulas Soft Gel • 15 doses",
      "preco": 16.26,
@@ -4910,6 +4854,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31S03nAH8oL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0B71VFP4J?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0HHPT6WHD",
+     "nome": "Bigens Ômega 3 TG, 360mg EPA",
+     "preco": 30.31,
+     "era": 49.9,
+     "desconto": 39,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41Y88lpxo+L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0HHPT6WHD?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5092,6 +5050,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/412zdr+xx-L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CC9YRF8T?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0BR8DCLNM",
+     "nome": "Nutrify - Colágeno Collagen Pro - 450g - Chá Mate com Pêssego",
+     "preco": 125.73,
+     "era": 178.4,
+     "desconto": 29,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41VdpoAhGWL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BR8DCLNM?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5370,20 +5342,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07LFFGZ93",
-     "nome": "Dove Sabonete em Barra Original 90g 6 Unidades",
-     "preco": 17.9,
-     "era": 37.11,
-     "desconto": 51,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41m-UaNA1jL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07LFFGZ93?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B07DZ7JP8L",
      "nome": "Limpador Perfumado Veja Buquê do Cerrado 2L",
      "preco": 11.57,
@@ -5420,6 +5378,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/417eiV08zDL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08W6NG8FV?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07DHRPTPB",
+     "nome": "Shampoo de Glicerina Johnson's Baby, 400ml",
+     "preco": 17.59,
+     "era": 34.99,
+     "desconto": 49,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31ih8p5jAHL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07DHRPTPB?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5477,6 +5449,20 @@
      "imagem": "https://m.media-amazon.com/images/I/41aJNPfTA7L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07F1X1K8W?tag=giovannast20-20",
      "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B086F9M5T8",
+     "nome": "3 Corações Café Torrado e Moído Gourmet Sul de Minas, 250g",
+     "preco": 17.9,
+     "era": 34.9,
+     "desconto": 48,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/319qKY2k0TL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B086F9M5T8?tag=giovannast20-20",
+     "baixou": true,
      "eraSuspeito": false
     },
     {
@@ -5566,20 +5552,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07C2X5QX3",
-     "nome": "Shampoo Phytoervas Antiqueda 250ml",
-     "preco": 15.58,
-     "era": 29.3,
-     "desconto": 46,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/319VkmtfrcL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07C2X5QX3?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B07GMDZX9M",
      "nome": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
      "preco": 12.99,
@@ -5644,6 +5616,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41xsWPULo4L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07Z55NZ7G?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CVHCNT9F",
+     "nome": "Nupill - Sabonete Líquido Facial Nupill 200Ml Sensivel Nano Niacinamida",
+     "preco": 16.62,
+     "era": 30.52,
+     "desconto": 45,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31fe13kTDkL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CVHCNT9F?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5728,6 +5714,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31OmLAZonrL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09HRCG7YC?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07GC7TF7W",
+     "nome": "Mili Toalhas Umedecidas Baby, Uso Bebê, Com Aloe Vera e Calêndula, Dermatologicamente…",
+     "preco": 5.29,
+     "era": 9.42,
+     "desconto": 43,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41pkLJqDH4L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07GC7TF7W?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5982,34 +5982,6 @@
      "link": "https://www.amazon.com.br/dp/B0979VS2JH?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B086F9M5T8",
-     "nome": "3 Corações Café Torrado e Moído Gourmet Sul de Minas, 250g",
-     "preco": 21.37,
-     "era": 34.9,
-     "desconto": 38,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/319qKY2k0TL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B086F9M5T8?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0BXFM8PXN",
-     "nome": "3 Corações Cápsulas de Café Cerrado Mineiro, Compatíveis com Nespresso, contém 10 cápsulas",
-     "preco": 14.1,
-     "era": 22.9,
-     "desconto": 38,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41yzEGys8AL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BXFM8PXN?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
     }
    ]
   },
@@ -6034,20 +6006,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B006I1M8ZU",
-     "nome": "Gin Tanqueray London Dry, 750ml",
-     "preco": 73.97,
-     "era": 142.9,
-     "desconto": 48,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31mKO5ZVn0L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B006I1M8ZU?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B08VHRNJ3M",
      "nome": "Whisky Ballantine's American Barrel Blended Escocês - 750 ml",
      "preco": 61.39,
@@ -6056,6 +6014,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31BFGvu+6hL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08VHRNJ3M?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B006I1M8ZU",
+     "nome": "Gin Tanqueray London Dry, 750ml",
+     "preco": 73.97,
+     "era": 142.9,
+     "desconto": 48,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31mKO5ZVn0L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B006I1M8ZU?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6160,6 +6132,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B07C8NJV9P",
+     "nome": "Gin Tanqueray Sevilla 700ml",
+     "preco": 69.99,
+     "era": 124.9,
+     "desconto": 43,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41ertY0HFaL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07C8NJV9P?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0H6MVT6LJ",
      "nome": "Cerveja Michelob Ultra, Lata 269ml, Pack com 8 unidades",
      "preco": 33.52,
@@ -6244,20 +6230,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07WTHV6Y4",
-     "nome": "GORDON'S Gin Gordon'S 750Ml",
-     "preco": 45.99,
-     "era": 78.9,
-     "desconto": 41,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31MqbmFZIwL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07WTHV6Y4?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0D4SQN33Y",
      "nome": "Vinho Tinto Chileno Sol de Chile Varietal Cabernet Sauvignon 750ml",
      "preco": 29.0,
@@ -6266,6 +6238,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/21e2QYdXXpL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0D4SQN33Y?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B072XJC51L",
+     "nome": "Freixenet Cava Ice Rose 750 Ml",
+     "preco": 70.1,
+     "era": 119.9,
+     "desconto": 41,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31IqE6brmRL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B072XJC51L?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6594,20 +6580,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B004CYZ7ZI",
-     "nome": "Licor de whisky com canela Fireball – 750ml",
-     "preco": 67.73,
-     "era": 99.98,
-     "desconto": 32,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31IIJ-CGV2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004CYZ7ZI?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B008X6TB08",
      "nome": "Whisky Johnnie Walker Double Black, 1L",
      "preco": 179.9,
@@ -6664,6 +6636,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B004CYZ7ZI",
+     "nome": "Licor de whisky com canela Fireball – 750ml",
+     "preco": 67.73,
+     "era": 99.98,
+     "desconto": 32,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31IIJ-CGV2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B004CYZ7ZI?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07XTQ98BG",
      "nome": "V IMP BENJAMIN NIETO CHARDONNAY 750ML",
      "preco": 29.9,
@@ -6678,20 +6664,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07R1GV92N",
-     "nome": "Smirnoff Vodka Nº 21 998ml",
-     "preco": 29.9,
-     "era": 43.9,
-     "desconto": 31,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/31kAcpmzjOL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07R1GV92N?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B002BSJLE0",
      "nome": "Old Parr Whisky 12 Anos 1L",
      "preco": 108.8,
@@ -6700,6 +6672,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41Qm8F4y46L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B002BSJLE0?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07R1GV92N",
+     "nome": "Smirnoff Vodka Nº 21 998ml",
+     "preco": 29.9,
+     "era": 43.9,
+     "desconto": 31,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31kAcpmzjOL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07R1GV92N?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6728,6 +6714,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41p+fr4OcrL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07Y2BTQQT?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B00MTFIL0U",
+     "nome": "Whisky Buchanan's Deluxe 12 Anos 1L",
+     "preco": 139.87,
+     "era": 199.9,
+     "desconto": 30,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41NLYjmlnwL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B00MTFIL0U?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6776,20 +6776,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B008V6PVBS",
-     "nome": "Licor Amarula Cream, 17% de Teor Alcoólico, Garrafa 750ml, Amarula Original",
-     "preco": 101.9,
-     "era": 141.84,
-     "desconto": 28,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31x5zA7qrnL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B008V6PVBS?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B09MM44N2T",
      "nome": "ESPUMANTE MOSCATO FREIXENET ASTI D.O.C.G. 750ML",
      "preco": 113.54,
@@ -6798,20 +6784,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31oy0gJ0b7L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09MM44N2T?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0DLX69BMC",
-     "nome": "Rum Bacardi Carta Oro 700ml",
-     "preco": 36.9,
-     "era": 50.9,
-     "desconto": 27,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31e8jtE2mpL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DLX69BMC?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6832,6 +6804,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0DLX69BMC",
+     "nome": "Rum Bacardi Carta Oro 700ml",
+     "preco": 36.9,
+     "era": 50.9,
+     "desconto": 27,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31e8jtE2mpL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DLX69BMC?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0G1TC54SR",
      "nome": "Cerveja Erdinger Alkoholfrei, 500ml",
      "preco": 15.79,
@@ -6840,20 +6826,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31Oo-7UwpOL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0G1TC54SR?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B07XTR3YQ6",
-     "nome": "Salton Espumante Prosecco Brut 750 Ml",
-     "preco": 30.28,
-     "era": 41.45,
-     "desconto": 26,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31GcnF0vrlL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07XTR3YQ6?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -6916,6 +6888,20 @@
       "pos": 1,
       "cat": "Religioso"
      }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "6525918588",
+     "nome": "Spawn vol. 01",
+     "preco": 15.87,
+     "era": 51.9,
+     "desconto": 69,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/61TqfuzDMeL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6525918588?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -6985,7 +6971,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 42,
+      "pos": 41,
       "cat": "Bíblia e Outros Textos Sagrados"
      }
     },
@@ -7269,7 +7255,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 20,
+      "pos": 21,
       "cat": "Carreiras"
      }
     },
@@ -7496,6 +7482,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/51X1zQQb8DL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/8538058983?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8545709692",
+     "nome": "My Hero Academia - Boku no Hero - Vol. 13",
+     "preco": 18.12,
+     "era": 44.9,
+     "desconto": 59,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/61wyknwNrdL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8545709692?tag=giovannast20-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -7732,6 +7732,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0DDYB26Q8",
+     "nome": "A Bíblia da Mulher NAA Nova Edição, Letra Regular, com espaço para anotação, com mapa…",
+     "preco": 110.31,
+     "era": 254.9,
+     "desconto": 56,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/41XVjZhTUuL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DDYB26Q8?tag=giovannast20-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 8,
+      "cat": "Comentários"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "6559815196",
      "nome": "Kit A maldição do mar + MARCADOR",
      "preco": 44.95,
@@ -7840,24 +7858,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "8581582052",
-     "nome": "Bíblia Sagrada King James Fiel 1611,Ultrafina, Letra Padrão Couro Sintético Preta/Marrom",
-     "preco": 48.62,
-     "era": 108.0,
-     "desconto": 54,
-     "selo": "Oferta Exclusiva Prime",
-     "imagem": "https://m.media-amazon.com/images/I/31E3oTIa8-L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/8581582052?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 4,
-      "cat": "Discipulado"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "8501117684",
      "nome": "Todas as suas (im)perfeições",
      "preco": 29.9,
@@ -7889,42 +7889,6 @@
      "ranking": {
       "pos": 57,
       "cat": "Autoestima"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "6555111100",
-     "nome": "A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade",
-     "preco": 27.86,
-     "era": 59.9,
-     "desconto": 53,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/41mjUVd-PjL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/6555111100?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 1,
-      "cat": "Felicidade"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "6558380544",
-     "nome": "A Biblioteca da Meia-Noite: 1",
-     "preco": 29.9,
-     "era": 64.9,
-     "desconto": 53,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/51kAYMwbQIL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/6558380544?tag=giovannast20-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 1,
-      "cat": "Ficção Científica"
      }
     }
    ]
