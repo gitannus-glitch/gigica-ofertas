@@ -97,6 +97,19 @@
   .rank { font-size: .76rem; font-weight: 800; color: #8a5a00; background: #fff1c7; border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
   [data-theme="dark"] .rank { color: #ffd772; background: #3b3013; }
   .intro { color: var(--muted); font-size: .86rem; margin: -4px 0 14px; }
+  .cupons { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .cupom { display: flex; gap: 12px; align-items: center; background: var(--surface); border: 1.5px dashed var(--brand);
+    border-radius: var(--radius); padding: 14px; }
+  .cupom .ic { font-size: 1.7rem; flex: none; }
+  .cupom .tx { flex: 1; min-width: 0; }
+  .cupom strong { display: block; font-size: .98rem; }
+  .cupom small { color: var(--muted); font-size: .76rem; }
+  .cupom .acoes { display: flex; flex-direction: column; gap: 6px; flex: none; }
+  .cupom .btn { padding: 8px 12px; font-size: .8rem; }
+  .faixa { margin: 0 0 16px; }
+  .faixa h2 { font-size: 1rem; margin: 0 0 8px; }
+  .faixa .cupons { display: flex; overflow-x: auto; scrollbar-width: none; }
+  .faixa .cupom { flex: 0 0 min(300px, 82%); }
   .hist { font-size: .74rem; font-weight: 700; color: var(--good); background: var(--good-soft); border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
   .more { display: block; margin: 20px auto 0; background: var(--surface); color: var(--brand); border: 1.5px solid var(--brand);
     border-radius: 999px; padding: 11px 26px; font-weight: 800; cursor: pointer; }
@@ -218,6 +231,7 @@ const GRUPO_URL = "";
 
 const CATS = [
   { id: "destaques", rotulo: "🔥 Destaques do dia" },
+  { id: "cupons", rotulo: "🎟️ Cupons" },
   { id: "mais-vendidos", rotulo: "🏆 Mais vendidos" },
   { id: "eletronicos", rotulo: "📺 Eletrônicos" },
   { id: "eletrodomesticos", rotulo: "🏠 Eletrodomésticos" },
@@ -231,7 +245,7 @@ const CATS = [
 const TAG = "gigicaofertas-20";
 const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const $ = (s) => document.querySelector(s);
-let dados = null, atual = "destaques", mostrar = 24;
+let dados = null, cupons = null, atual = "destaques", mostrar = 24;
 const PASSO = 24;
 
 function esc(s) {
@@ -250,7 +264,7 @@ function dataBR(iso) {
 function tabs() {
   const html = CATS.map(c => {
     const cat = dados?.categorias?.find(x => x.id === c.id);
-    const n = cat?.itens?.length ?? 0;
+    const n = c.id === "cupons" ? cuponsValidos().length : (cat?.itens?.length ?? 0);
     return `<button class="tab" role="tab" data-id="${c.id}" aria-selected="${c.id === atual}">${c.rotulo}<span class="n">${n || ""}</span></button>`;
   }).join("");
   ["#tabs", "#sideTabs"].forEach(sel => {
@@ -301,12 +315,37 @@ function card(it, data) {
   </article>`;
 }
 
+function cuponsValidos() {
+  const hoje = new Date().toISOString().slice(0, 10);
+  return (cupons?.cupons || []).filter(c => c.link && (!c.expira || c.expira >= hoje));
+}
+function cupomHTML(c) {
+  const link = c.link.includes("tag=") ? c.link : c.link + (c.link.includes("?") ? "&" : "?") + "tag=" + TAG;
+  const info = [c.soApp ? "📱 Só no app da Amazon" : "", c.prime ? "⭐ Exclusivo Prime" : "",
+    c.expira ? "até " + c.expira.split("-").reverse().slice(0, 2).join("/") : ""].filter(Boolean).join(" · ");
+  const wa = "https://wa.me/?text=" + encodeURIComponent(`🎟️ ${c.titulo} na Amazon${c.soApp ? " (só no app)" : ""}\n${link}`);
+  return `<div class="cupom"><span class="ic">🎟️</span><div class="tx"><strong>${esc(c.titulo)}</strong><small>${esc(info)}</small></div>
+    <div class="acoes"><a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">Ver cupom</a>
+    <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener">📲</a></div></div>`;
+}
+
 function render() {
   tabs();
   $("#notice").innerHTML = atual === "bebidas"
     ? `<div class="notice" role="alert">🔞 Venda proibida para menores de 18 anos. Beba com moderação. Se beber, não dirija.</div>`
     : atual === "mais-vendidos"
     ? `<p class="intro">Ranking de vendas da Amazon em cada categoria, na data/hora da atualização. Nem todos estão em promoção.</p>` : "";
+  const cv = cuponsValidos();
+  if (atual === "cupons") {
+    $("#grid").innerHTML = "";
+    $("#state").innerHTML = cv.length
+      ? `<p class="intro">${esc(cupons.campanha || "Cupons")} — cupons e promoções da Amazon. Confira as regras e a validade na página do cupom.</p><div class="cupons">${cv.map(cupomHTML).join("")}</div>`
+      : `<div class="empty">Nenhum cupom ativo agora. Volte mais tarde! 💛</div>`;
+    return;
+  }
+  if (atual === "destaques" && cv.length && !$("#q").value && !$("#q2").value) {
+    $("#notice").innerHTML = `<div class="faixa"><h2>🎟️ Cupons ${esc(cupons.campanha || "")}</h2><div class="cupons">${cv.map(cupomHTML).join("")}</div></div>`;
+  }
   const cat = dados.categorias.find(c => c.id === atual);
   let itens = (cat?.itens || []).filter(it => typeof it.preco === "number" && it.preco > 0);
   const q = (innerWidth >= 960 ? $("#q2") : $("#q")).value.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
@@ -337,6 +376,7 @@ async function carregar() {
     if (!r.ok) throw new Error(r.status);
     dados = await r.json();
     if (!Array.isArray(dados.categorias)) throw new Error("formato");
+    try { const rc = await fetch("cupons.json?t=" + Date.now(), { cache: "no-store" }); if (rc.ok) cupons = await rc.json(); } catch (e) {}
     const d = dataBR(dados.atualizadoEm);
     $("#updated").textContent = d ? `Atualizado em ${d}` : "Ofertas chegando em breve";
     const h = location.hash.slice(1);
@@ -364,6 +404,10 @@ if (GRUPO_URL) { const j = $("#join"); j.href = GRUPO_URL; j.hidden = false; $("
   }));
 });
 addEventListener("resize", () => dados && render());
+addEventListener("hashchange", () => {
+  const h = location.hash.slice(1);
+  if (dados && CATS.some(c => c.id === h) && h !== atual) { atual = h; mostrar = PASSO; render(); window.scrollTo(0, 0); }
+});
 $("#state").addEventListener("click", (e) => {
   if (e.target.id !== "maisBtn") return;
   mostrar += PASSO; render();
