@@ -3,6 +3,15 @@
  "adicionadoEm": "2026-11-23T11:40",
  "cupons": [
   {
+   "titulo": "Produtos a R$ 1 na primeira compra 😱",
+   "soApp": false,
+   "prime": false,
+   "obs": "Só para quem nunca comprou na Amazon · 1 item no carrinho",
+   "link": "https://www.amazon.com.br/1real?tag=gigicaofertas-20",
+   "expira": "2026-11-24",
+   "botao": "Ver produtos"
+  },
+  {
    "titulo": "15% off acima de R$ 299,90 (desconto máx. R$ 90)",
    "codigo": "PRIME15BLACK",
    "soApp": false,

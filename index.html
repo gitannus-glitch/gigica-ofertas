@@ -320,17 +320,17 @@ function card(it, data) {
 }
 
 function cuponsValidos() {
-  const hoje = new Date().toISOString().slice(0, 10);
+  const n = new Date(), hoje = `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, "0")}-${String(n.getDate()).padStart(2, "0")}`;
   return (cupons?.cupons || []).filter(c => c.link && (!c.expira || c.expira >= hoje));
 }
 function cupomHTML(c) {
   const link = c.link.includes("tag=") ? c.link : c.link + (c.link.includes("?") ? "&" : "?") + "tag=" + TAG;
-  const info = [c.soApp ? "📱 Só no app da Amazon" : "", c.prime ? "⭐ Exclusivo Prime" : "",
-    c.expira ? "até " + c.expira.split("-").reverse().slice(0, 2).join("/") : ""].filter(Boolean).join(" · ");
-  const wa = "https://wa.me/?text=" + encodeURIComponent(`🎟️ ${c.titulo} na Amazon${c.soApp ? " (só no app)" : ""}${c.codigo ? "\nUse o cupom: " + c.codigo : ""}\n${link}`);
+  const info = [c.obs || "", c.soApp ? "📱 Só no app da Amazon" : "", c.prime ? "⭐ Exclusivo Prime" : "",
+    c.expira ? "⏰ válido até " + c.expira.split("-").reverse().slice(0, 2).join("/") : ""].filter(Boolean).join(" · ");
+  const wa = "https://wa.me/?text=" + encodeURIComponent(`🎟️ ${c.titulo} na Amazon${c.soApp ? " (só no app)" : ""}${c.obs ? "\n" + c.obs : ""}${c.codigo ? "\nUse o cupom: " + c.codigo : ""}\n${link}`);
   const cod = c.codigo ? `<button class="codigo" data-codigo="${esc(c.codigo)}" title="Copiar código">${esc(c.codigo)} <span>· copiar</span></button>` : "";
   return `<div class="cupom"><span class="ic">🎟️</span><div class="tx"><strong>${esc(c.titulo)}</strong>${cod}<small>${esc(info)}</small></div>
-    <div class="acoes"><a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">${c.codigo ? "Ir à Amazon" : "Ver cupom"}</a>
+    <div class="acoes"><a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">${esc(c.botao || (c.codigo ? "Ir à Amazon" : "Ver cupom"))}</a>
     <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener">📲</a></div></div>`;
 }
 
