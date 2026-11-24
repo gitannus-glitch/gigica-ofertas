@@ -12,6 +12,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: gigica-ofertas
@@ -21,9 +22,6 @@ jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -59,5 +57,32 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+  # Publicação separada: o GitHub às vezes demora para "enxergar" o pacote do site
+  # logo após o envio. Rodar em outro job + tentar de novo resolve essa falha intermitente.
+  publicar:
+    needs: atualizar
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy3.outputs.page_url }}
+    steps:
+      - name: Esperar o pacote ficar disponível
+        run: sleep 15
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Esperar antes de tentar de novo
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Esperar antes da última tentativa
+        if: steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 90
+      - id: deploy3
+        if: steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
         uses: actions/deploy-pages@v4
