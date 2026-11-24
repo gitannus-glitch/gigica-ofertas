@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-23T20:57",
+ "atualizadoEm": "2026-11-23T22:21",
  "categorias": [
   {
    "id": "destaques",
@@ -58,7 +58,7 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -90,17 +90,17 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "asin": "B0DXR7GNWJ",
      "nome": "Apple iPhone 16e de 128 GB — Preto",
-     "preco": 3332.22,
+     "preco": 3269.0,
      "era": 5799.0,
-     "desconto": 42,
+     "desconto": 43,
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DXR7GNWJ?tag=gigicaofertas-20",
-     "baixou": false,
+     "baixou": true,
      "eraSuspeito": false
     },
     {
@@ -249,6 +249,24 @@
      "ranking": {
       "pos": 1,
       "cat": "Celulares e Smartphones"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B09CC3QFDX",
+     "nome": "Cafeteira Elétrica Electrolux inox filtro permanente removivel capacidade 1,5L 38 xicaras…",
+     "preco": 227.9,
+     "era": 369.9,
+     "desconto": 38,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41guNQ6--lL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09CC3QFDX?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Cafeteiras de Filtro"
      }
     },
     {
@@ -632,30 +650,12 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B08S1HB8G9",
-     "nome": "3 Corações TRES Cafeteira Espresso e Multibebida Passione Preta - 127V",
-     "preco": 398.0,
-     "era": 499.9,
-     "desconto": 20,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41TqYxYMhpS._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08S1HB8G9?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 2,
-      "cat": "Máquinas de Café Expresso com Vaporizador"
-     }
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 9,
      "asin": "B07QKN5NF1",
      "nome": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB",
-     "preco": 79.89,
+     "preco": 90.0,
      "era": 159.9,
-     "desconto": 50,
-     "selo": "Termina em ",
+     "desconto": 43,
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41NC0ZM4EuL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07QKN5NF1?tag=gigicaofertas-20",
      "baixou": false,
@@ -792,8 +792,26 @@
      }
     },
     {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07D5LZZCC",
+     "nome": "Personal VIP - Papel Higiênico Folha Dupla, Branco 24 unidades (Embalagem pode variar)",
+     "preco": 27.9,
+     "era": 46.01,
+     "desconto": 39,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41aRvYjm3DL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07D5LZZCC?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Papel Higiênico"
+     }
+    },
+    {
      "menor30": true,
-     "abaixoMedia": 38,
+     "abaixoMedia": 36,
      "asin": "B0BZJDLT6Z",
      "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
      "preco": 455.8,
@@ -847,7 +865,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 74,
+     "abaixoMedia": 67,
      "asin": "B0FPYZD4Y5",
      "nome": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Azul",
      "preco": 999.0,
@@ -879,24 +897,6 @@
      "ranking": {
       "pos": 3,
       "cat": "Smart Speakers"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FDX5W5T9",
-     "nome": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI",
-     "preco": 1538.5,
-     "era": 3499.0,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31ZoU0l69iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FDX5W5T9?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": true,
-     "ranking": {
-      "pos": 3,
-      "cat": "Smartwatches"
      }
     },
     {
@@ -936,21 +936,39 @@
      }
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "asin": "B0DXR7GNWJ",
      "nome": "Apple iPhone 16e de 128 GB — Preto",
-     "preco": 3332.22,
+     "preco": 3269.0,
      "era": 5799.0,
-     "desconto": 42,
+     "desconto": 43,
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DXR7GNWJ?tag=gigicaofertas-20",
-     "baixou": false,
+     "baixou": true,
      "eraSuspeito": false,
      "ranking": {
       "pos": 4,
       "cat": "Celulares e Smartphones"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CX8Y3CMG",
+     "nome": "Amazon Kindle Colorsoft Signature Edition 32 GB (modelo 2024) - Com tela colorida, luz…",
+     "preco": 1149.0,
+     "era": 1749.0,
+     "desconto": 34,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31ss5QPVzsL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CX8Y3CMG?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 4,
+      "cat": "e-Readers"
      }
     },
     {
@@ -969,24 +987,6 @@
      "ranking": {
       "pos": 5,
       "cat": "Laptops Tradicionais"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B08R93TVRG",
-     "nome": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
-     "preco": 530.41,
-     "era": null,
-     "desconto": 0,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/410UriYRE2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08R93TVRG?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 6,
-      "cat": "Air Fryers"
      }
     },
     {
@@ -1046,6 +1046,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0BYK2VCP7",
+     "nome": "Fritadeira Elétrica com Forno Electrolux EAF90, 5 em 1, 12L, 220V",
+     "preco": 526.21,
+     "era": 1299.0,
+     "desconto": 59,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31PDhLCBK1L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BYK2VCP7?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": true,
+     "ranking": {
+      "pos": 7,
+      "cat": "Fritadeiras"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0H91SW8FW",
      "nome": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
      "preco": 39.9,
@@ -1063,25 +1081,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": null,
-     "asin": "B0C6R7MPBB",
-     "nome": "Personal Papel Higiênico Vip Folha Tripla, 24 Rolos De 20M",
-     "preco": 39.99,
-     "era": null,
-     "desconto": 0,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41oPwJ10-qL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0C6R7MPBB?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 8,
-      "cat": "Papel Higiênico"
-     }
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 77,
+     "abaixoMedia": 71,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
      "preco": 1199.0,
@@ -1344,20 +1344,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0FDX5W5T9",
-     "nome": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI",
-     "preco": 1538.5,
-     "era": 3499.0,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31ZoU0l69iL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FDX5W5T9?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": true
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0DHL63KWK",
      "nome": "Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Buds 2, Intra Auricular, Sem Fio, Resistente…",
      "preco": 209.0,
@@ -1441,7 +1427,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 22,
+     "abaixoMedia": 20,
      "asin": "B0DZQF2ZX4",
      "nome": "Death Stranding 2: On the beach - PlayStation 5",
      "preco": 199.9,
@@ -1636,6 +1622,20 @@
      "eraSuspeito": false
     },
     {
+     "menor30": true,
+     "abaixoMedia": null,
+     "asin": "B0DXR7GNWJ",
+     "nome": "Apple iPhone 16e de 128 GB — Preto",
+     "preco": 3269.0,
+     "era": 5799.0,
+     "desconto": 43,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DXR7GNWJ?tag=gigicaofertas-20",
+     "baixou": true,
+     "eraSuspeito": false
+    },
+    {
      "menor30": false,
      "abaixoMedia": null,
      "asin": "B0CN8KTS68",
@@ -1646,34 +1646,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31aYlXppNUL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CN8KTS68?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0D1DN9GR2",
-     "nome": "Teclado Mecânico Gamer Sem Fio Logitech G515 com Design TKL,Tecnologia LIGHTSPEED, RGB…",
-     "preco": 541.41,
-     "era": 949.9,
-     "desconto": 43,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31ukiilE86L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D1DN9GR2?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0DXR7GNWJ",
-     "nome": "Apple iPhone 16e de 128 GB — Preto",
-     "preco": 3332.22,
-     "era": 5799.0,
-     "desconto": 42,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DXR7GNWJ?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -1731,6 +1703,20 @@
      "imagem": "https://m.media-amazon.com/images/I/31jjwNObQEL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0GKQTCXL8?tag=gigicaofertas-20",
      "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 100,
+     "asin": "B0H1282J24",
+     "nome": "Caixa de Som Portátil JBL PartyBox Encore Essential 2, Bluetooth",
+     "preco": 1139.0,
+     "era": 1899.0,
+     "desconto": 40,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41eo1Ej1G+L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0H1282J24?tag=gigicaofertas-20",
+     "baixou": true,
      "eraSuspeito": false
     },
     {
@@ -1918,6 +1904,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B07Y5MWJPK",
+     "nome": "Teclado Membrana Gamer Redragon Karura 2 RGB ABNT2 Preto - K502RGB",
+     "preco": 119.99,
+     "era": 189.0,
+     "desconto": 36,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41aZqC53PSL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07Y5MWJPK?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0CRSKGFXP",
      "nome": "SSD Rise Mode Gamer Line, 128GB, SATA III, Leitura: 530MB/s, Gravação: 520MB/s, Preto…",
      "preco": 182.34,
@@ -1988,20 +1988,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0H1282J24",
-     "nome": "Caixa de Som Portátil JBL PartyBox Encore Essential 2, Bluetooth",
-     "preco": 1239.0,
-     "era": 1899.0,
-     "desconto": 34,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41eo1Ej1G+L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0H1282J24?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0D9KL3T8S",
      "nome": "Home Theater Soundbar LG 440W RMS, 5.1 Canais, Bluetooth 5.3, Dolby Digital…",
      "preco": 1499.0,
@@ -2066,6 +2052,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41KcQGFp2TL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0GYFRGPZY?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0FQFH5PJS",
+     "nome": "Apple Watch SE 3 GPS, Caixa em alumínio luz das estrelas de 40 mm com Bracelete…",
+     "preco": 2184.0,
+     "era": 3299.0,
+     "desconto": 33,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31AILj45oaL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FQFH5PJS?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -2274,14 +2274,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0CFM5VNLS",
-     "nome": "Mixer Britânia 2 em 1 Lâminas Pro Maxx 350W BMX360 Preto 127V",
-     "preco": 99.9,
-     "era": 218.38,
-     "desconto": 54,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41lIxahlhJL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CFM5VNLS?tag=gigicaofertas-20",
+     "asin": "B08DFJRCJB",
+     "nome": "Liquidificador 1400 Full Oster Preto 3,2L - 220V",
+     "preco": 148.82,
+     "era": 319.9,
+     "desconto": 53,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/414vaVmjJmL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08DFJRCJB?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2296,6 +2296,34 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41ViH76bE1L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DCW6N6WK?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B077C2XZ91",
+     "nome": "L'Oréal Paris Dermo Expertise, Água Micelar Purificante 5 em 1, 400ml",
+     "preco": 32.39,
+     "era": 69.39,
+     "desconto": 53,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31PG4IGMWoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B077C2XZ91?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CFM5SW5Q",
+     "nome": "Mixer Britânia BMX360 2 em 1 350W",
+     "preco": 99.9,
+     "era": 213.3,
+     "desconto": 53,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41lIxahlhJL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CFM5SW5Q?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2398,16 +2426,30 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "asin": "B0C3NPFTP7",
      "nome": "Philco Grill e Sanduicheira PGR17PI Chapas Removíveis 900W 127V",
-     "preco": 159.9,
+     "preco": 159.0,
      "era": 328.33,
      "desconto": 51,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41R8UmaHDzL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0C3NPFTP7?tag=gigicaofertas-20",
+     "baixou": true,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0985RJT3K",
+     "nome": "Philco Ferro a Vapor Travel Ceramic Bivolt Base em Cerâmica",
+     "preco": 69.9,
+     "era": 144.9,
+     "desconto": 51,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41FEv1+Yt8L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0985RJT3K?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2456,20 +2498,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B004PS7O7K",
-     "nome": "Aspirador de Pó Vertical 2 em 1 Kärcher VCL 2 com filtro 127V",
-     "preco": 199.0,
-     "era": 399.0,
-     "desconto": 50,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/21gvrVvc3-L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004PS7O7K?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B08JPLVFF7",
      "nome": "Cafeteira Expresso Nescafé Dolce Gusto, Arno, Genio S Basic DGS1, 220v",
      "preco": 399.0,
@@ -2492,20 +2520,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41+qsg9jTYL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BXY561N5?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 9,
-     "asin": "B07QKN5NF1",
-     "nome": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB",
-     "preco": 79.89,
-     "era": 159.9,
-     "desconto": 50,
-     "selo": "Termina em ",
-     "imagem": "https://m.media-amazon.com/images/I/41NC0ZM4EuL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07QKN5NF1?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2730,7 +2744,7 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
-     "baixou": true,
+     "baixou": false,
      "eraSuspeito": false
     },
     {
@@ -2762,20 +2776,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B09GHLKBBZ",
-     "nome": "Ferro a Vapor Série 3000 Philips Walita, Rosa, 1400W, 110v - DST3010/32\", nl_NL: \"Ferro a…",
-     "preco": 145.0,
-     "era": 269.9,
-     "desconto": 46,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/412Y4mF2KnL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09GHLKBBZ?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": true,
      "abaixoMedia": null,
      "asin": "B07V7CWBQR",
@@ -2800,6 +2800,20 @@
      "selo": "Oferta Exclusiva Prime",
      "imagem": "https://m.media-amazon.com/images/I/41y2Pr1vSXL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DP3G9NKW?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B076BBQRRQ",
+     "nome": "Electrolux Aspirador Água e Pó Compacto AWD01 1400W Função Sopro 220V",
+     "preco": 189.9,
+     "era": 339.9,
+     "desconto": 44,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41G3RoaUjlL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B076BBQRRQ?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -2900,20 +2914,6 @@
      "link": "https://www.amazon.com.br/dp/B0C46PGNB9?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0BHTS7HBD",
-     "nome": "Cooktop Elétrico Philco PCT55VC Vitrocerâmico 8400W",
-     "preco": 1129.9,
-     "era": 1910.0,
-     "desconto": 40,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31dH10j-vYL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BHTS7HBD?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
     }
    ]
   },
@@ -2994,6 +2994,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B09XFLHJ1S",
+     "nome": "Danos Vorazes Máscara de Tratamento 450g , Lola Cosmetics",
+     "preco": 28.5,
+     "era": 64.9,
+     "desconto": 56,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/413TwpBfBDL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09XFLHJ1S?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07Y2BK4GJ",
      "nome": "Protetor Solar Facial Minesol Oil Control, Sem Cor, FPS 70, 40g",
      "preco": 55.44,
@@ -3030,20 +3044,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/316mxbAhkcL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B097LRYSXW?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B074LTNQBP",
-     "nome": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-     "preco": 30.17,
-     "era": 64.9,
-     "desconto": 53,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41NioiYkd7L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B074LTNQBP?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3148,20 +3148,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07WFQWMCT",
-     "nome": "Protetor Solar Corporal em Loção Neutrogena Sun Fresh, FPS 90, 200ml",
-     "preco": 77.0,
-     "era": 153.99,
-     "desconto": 49,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31iRufFX6BL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07WFQWMCT?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0C2YZ9TR8",
      "nome": "Vult Máscara Incolor 3 em 1 2,5g",
      "preco": 15.1,
@@ -3240,6 +3226,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31jb2JIgQhL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BJHPD2TF?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08NVML21R",
+     "nome": "Protetor Solar Facial Neutrogena Sun Fresh, FPS 70, 40g",
+     "preco": 38.45,
+     "era": 72.99,
+     "desconto": 47,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31SlvljbhjL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08NVML21R?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3428,20 +3428,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0F79LTJSZ",
-     "nome": "Sallve Creme Retexturizador Noturno 30g",
-     "preco": 63.4,
-     "era": 109.9,
-     "desconto": 42,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31evuXko55L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F79LTJSZ?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0H4RYGBPN",
      "nome": "Shampoo L’Oréal Professionnel Absolut Repair Serie Expert, 1L",
      "preco": 148.99,
@@ -3520,20 +3506,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/315qJPJ1-PL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0BF9HQQNF?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B08R92W45F",
-     "nome": "Prancha Ceramic Black PPR08, Philco, Bivolt",
-     "preco": 69.9,
-     "era": 114.66,
-     "desconto": 39,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31l-UnF+wtL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08R92W45F?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -3708,20 +3680,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B09GSSQMP4",
-     "nome": "L'Oréal Professionnel Serie Expert Absolut Repair, Shampoo Reestruturante para Cabelos…",
-     "preco": 78.39,
-     "era": 116.9,
-     "desconto": 32,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/31NWdbRb2dL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09GSSQMP4?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0FHMS17MQ",
      "nome": "Protetor Solar Com Cor La Roche-Posay Anthelios UV Air FPS 60 2.0 45ml",
      "preco": 74.8,
@@ -3750,6 +3708,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0BJGDHSG9",
+     "nome": "MONDIAL Prancha Alisadora By Juliette, Golden Rose, Bivolt - P-JU-01",
+     "preco": 156.62,
+     "era": 229.9,
+     "desconto": 31,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31+NCl2qoaL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BJGDHSG9?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0B86VPT1P",
      "nome": "La Roche-Posay, Protetor Solar Facial Anthelios XL-Protect, Cor Morena+, FPS60, Rápida…",
      "preco": 58.9,
@@ -3760,6 +3732,34 @@
      "link": "https://www.amazon.com.br/dp/B0B86VPT1P?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0G7HJFJVH",
+     "nome": "Creme Modelador Antifrizz Kérastase Gloss Absolu, 240ml",
+     "preco": 276.35,
+     "era": 399.9,
+     "desconto": 30,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/21PdqjjVOZL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0G7HJFJVH?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0CZ4CP8TZ",
+     "nome": "Vichy Dercos DS, Shampoo Anticaspa para Cabelos Secos, com Selênio DS, 300g",
+     "preco": 94.39,
+     "era": 129.9,
+     "desconto": 27,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31SrRdCRdkL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CZ4CP8TZ?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
     }
    ]
   },
@@ -3767,20 +3767,6 @@
    "id": "perfumes",
    "nome": "Perfumes",
    "itens": [
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FPDQD5YP",
-     "nome": "Calvin Klein Eternity for Men EDT 50ml + Body Lotion 100ml",
-     "preco": 235.0,
-     "era": 539.0,
-     "desconto": 56,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31CRe0IKtpL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FPDQD5YP?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
     {
      "menor30": false,
      "abaixoMedia": null,
@@ -3896,20 +3882,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B08F9ZQ52X",
-     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 100 ml",
-     "preco": 585.19,
-     "era": 1069.0,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31-NNMPdIiL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B08DHW4CT9",
      "nome": "Armani Beauty, My Way Eau de Parfum, 30ml, Giorgio Armani Perfume Feminino Refilável…",
      "preco": 317.99,
@@ -4016,6 +3988,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31SuR2w7efL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B008SBKTZ4?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08F9ZQ52X",
+     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 100 ml",
+     "preco": 615.99,
+     "era": 1069.0,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31-NNMPdIiL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4336,6 +4322,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B08XW56B28",
+     "nome": "LAVITAN COLAGENO TIPO II 2 BL X 15 CAPS",
+     "preco": 27.8,
+     "era": 69.9,
+     "desconto": 60,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41d-DPtt8TL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08XW56B28?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07MM6FRFM",
      "nome": "Multivitamínico Lavitan AZ Original Com 90 Comprimidos",
      "preco": 17.09,
@@ -4406,6 +4406,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0FXMTS27L",
+     "nome": "Dux - Whey Protein Isolado - 900g - Caramelo Salgado",
+     "preco": 298.0,
+     "era": 606.78,
+     "desconto": 50,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31FwikFpQEL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0FXMTS27L?tag=gigicaofertas-20",
+     "baixou": true,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B07P8V9PWH",
      "nome": "Lavitan ômega 3 1000 mg- 120 cápsulas",
      "preco": 44.95,
@@ -4456,20 +4470,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41A20OvnTHL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07MLXXJD5?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FXMTS27L",
-     "nome": "Dux - Whey Protein Isolado - 900g - Caramelo Salgado",
-     "preco": 319.9,
-     "era": 606.78,
-     "desconto": 47,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31FwikFpQEL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FXMTS27L?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4540,20 +4540,6 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/41sPR++8uvL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0D7Q9VCN7?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B09HHSNGWJ",
-     "nome": "Isofort Beauty Whey Protein (Isolado, Hidrolisado e Concentrado) + Colágeno Verisol 450G…",
-     "preco": 136.8,
-     "era": 242.32,
-     "desconto": 43,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41JkORq4J2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09HHSNGWJ?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4770,20 +4756,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0D9ZTJHRY",
-     "nome": "Collagen II C+ - Colágeno Tipo 2, Vitamina C, E e Vitaminas do Complexo B, Longa Duração:…",
-     "preco": 47.81,
-     "era": 72.9,
-     "desconto": 34,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41E2GBkTXzL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D9ZTJHRY?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0BZ5QY5X3",
      "nome": "Suplemento de Aminoácidos em Pó Vitafor, Sabor Maracujá, 240g",
      "preco": 113.78,
@@ -4960,6 +4932,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/412zdr+xx-L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CC9YRF8T?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0D9ZTJHRY",
+     "nome": "Collagen II C+ - Colágeno Tipo 2, Vitamina C, E e Vitaminas do Complexo B, Longa Duração:…",
+     "preco": 47.81,
+     "era": 72.9,
+     "desconto": 34,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41E2GBkTXzL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D9ZTJHRY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5191,6 +5177,20 @@
      "imagem": "https://m.media-amazon.com/images/I/41dpelPteCL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B077PPK6HG?tag=gigicaofertas-20",
      "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07DYYC9NR",
+     "nome": "Veja Limpador para Limpeza Pesada Cloro Ativo 2 em 1 - 1L",
+     "preco": 8.99,
+     "era": 25.24,
+     "desconto": 64,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31PniAspVuL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07DYYC9NR?tag=gigicaofertas-20",
+     "baixou": true,
      "eraSuspeito": false
     },
     {
@@ -5434,20 +5434,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B07LFFGZ93",
-     "nome": "Dove Sabonete em Barra Original 90g 6 Unidades",
-     "preco": 17.9,
-     "era": 37.11,
-     "desconto": 51,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41m-UaNA1jL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07LFFGZ93?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B07DZ7JP8L",
      "nome": "Limpador Perfumado Veja Buquê do Cerrado 2L",
      "preco": 11.57,
@@ -5630,6 +5616,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0876XP33G",
+     "nome": "Dover-Roll Super Forte Reciclado 100L Preto, Rolo com 10 Sacos para Lixo",
+     "preco": 16.14,
+     "era": 30.75,
+     "desconto": 47,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41Y+3gIeB9S._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0876XP33G?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0CQ1QVJ3L",
      "nome": "Colgate Luminous White Carvão Ativado Creme Dental Clareador, 4x70g",
      "preco": 19.9,
@@ -5742,20 +5742,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0CVHCNT9F",
-     "nome": "Nupill - Sabonete Líquido Facial Nupill 200Ml Sensivel Nano Niacinamida",
-     "preco": 16.62,
-     "era": 30.52,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31fe13kTDkL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CVHCNT9F?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B08NX5DKM1",
      "nome": "Kit NIVEA Desodorante Aerosol Men Black&White Invisible - 2 unidades",
      "preco": 18.89,
@@ -5806,20 +5792,6 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/41CL4UzjbFL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08MW5THFV?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B07DZ7JP87",
-     "nome": "Harpic Power Plus Desinfetante e Desodorizador Sanitário em Gel Lavanda 500ml",
-     "preco": 13.14,
-     "era": 23.49,
-     "desconto": 44,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41fb97+NqEL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07DZ7JP87?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -5952,20 +5924,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B08FD3B2KQ",
-     "nome": "Downy Sensitive Hipoalergênico Amaciante Concentrado 1,35L",
-     "preco": 23.99,
-     "era": 40.72,
-     "desconto": 41,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31k6Uz168cL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0DQ1YWD4K",
      "nome": "Enxaguante Bucal Cool Mint Listerine, Menta, 1L",
      "preco": 24.59,
@@ -6002,6 +5960,34 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41ocp6S8YGL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07DTN9W36?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B098CL79W1",
+     "nome": "Downy Amaciante Concentrado Perfume Collection Místico 3L",
+     "preco": 43.75,
+     "era": 74.0,
+     "desconto": 40,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41aOq1ltpDL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B098CL79W1?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07Y3B33KG",
+     "nome": "Finish Powerball Detergente para Lava Louças em tabletes Embalagem Econômica com 91…",
+     "preco": 126.9,
+     "era": 212.99,
+     "desconto": 40,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41TNvkU8gaL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07Y3B33KG?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -6050,6 +6036,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31BFGvu+6hL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08VHRNJ3M?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B006I1M8ZU",
+     "nome": "Gin Tanqueray London Dry, 750ml",
+     "preco": 73.97,
+     "era": 142.9,
+     "desconto": 48,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31mKO5ZVn0L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B006I1M8ZU?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6138,20 +6138,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B07XLMGFG5",
-     "nome": "Casa Perini Espumante Brut Rose 750 Ml",
-     "preco": 42.12,
-     "era": 76.9,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/21eFK9bcchL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07XLMGFG5?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": true,
      "abaixoMedia": null,
      "asin": "B004QEKTSO",
@@ -6162,20 +6148,6 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/31T3ato-nML._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B004QEKTSO?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B001TP3GCE",
-     "nome": "Gin Bombay Sapphire 750ml",
-     "preco": 71.68,
-     "era": 126.9,
-     "desconto": 43,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41329NGXz2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B001TP3GCE?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6196,6 +6168,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B001TP3GCE",
+     "nome": "Gin Bombay Sapphire 750ml",
+     "preco": 71.68,
+     "era": 126.9,
+     "desconto": 43,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41329NGXz2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B001TP3GCE?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0H6MVT6LJ",
      "nome": "Cerveja Michelob Ultra, Lata 269ml, Pack com 8 unidades",
      "preco": 33.52,
@@ -6204,6 +6190,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/31YdY9SVY-L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0H6MVT6LJ?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B0DVT7GM9C",
+     "nome": "Whisky Johnnie Walker Gold Label, 750ml",
+     "preco": 197.69,
+     "era": 343.9,
+     "desconto": 42,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/3135lQn9taL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DVT7GM9C?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6320,7 +6320,7 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "asin": "B07XRTY3NH",
      "nome": "Malibu, Rum Sabor Coco - 750 ml",
@@ -6330,6 +6330,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/31go+A3kj9L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07XRTY3NH?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B004V54ZVK",
+     "nome": "Vodka Absolut - 1 Litro",
+     "preco": 84.61,
+     "era": 136.9,
+     "desconto": 38,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31UYeZ+swCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B004V54ZVK?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6460,6 +6474,20 @@
      "eraSuspeito": false
     },
     {
+     "menor30": true,
+     "abaixoMedia": null,
+     "asin": "B0763W2SN6",
+     "nome": "Beefeater Gin Pink 700 Ml",
+     "preco": 79.9,
+     "era": 123.9,
+     "desconto": 35,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31Qcw8Y+sqL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0763W2SN6?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
      "menor30": false,
      "abaixoMedia": null,
      "asin": "B07XLMJHRN",
@@ -6504,20 +6532,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0DP3CL297",
-     "nome": "Vodka HYPE, Premium, 1l",
-     "preco": 29.89,
-     "era": 44.9,
-     "desconto": 33,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31n63bPyGxL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DP3CL297?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0GZX6YN53",
      "nome": "Licor Don Cream Dulce de Leche Don Luiz 750ml - Coquetel Alcoólico de Doce de Leite",
      "preco": 59.9,
@@ -6546,20 +6560,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B004CYZ7ZI",
-     "nome": "Licor de whisky com canela Fireball – 750ml",
-     "preco": 67.73,
-     "era": 99.98,
-     "desconto": 32,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31IIJ-CGV2L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004CYZ7ZI?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B008X6TB08",
      "nome": "Whisky Johnnie Walker Double Black, 1L",
      "preco": 179.9,
@@ -6582,6 +6582,20 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41ZiyV9P38L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07XYH874V?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B004CYZ7ZI",
+     "nome": "Licor de whisky com canela Fireball – 750ml",
+     "preco": 67.73,
+     "era": 99.98,
+     "desconto": 32,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31IIJ-CGV2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B004CYZ7ZI?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6698,16 +6712,16 @@
      "eraSuspeito": false
     },
     {
-     "menor30": true,
+     "menor30": false,
      "abaixoMedia": null,
-     "asin": "B004EAL5UG",
-     "nome": "Licor 43 700 Ml",
-     "preco": 132.49,
-     "era": 189.9,
-     "desconto": 30,
+     "asin": "B005IZZDAY",
+     "nome": "Vodka Smirnoff 1750ml",
+     "preco": 44.9,
+     "era": 63.9,
+     "desconto": 29,
      "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/415RzAq+QiL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004EAL5UG?tag=gigicaofertas-20",
+     "imagem": "https://m.media-amazon.com/images/I/31vrzk3W5NL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B005IZZDAY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6736,20 +6750,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31oy0gJ0b7L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09MM44N2T?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B07YD7FVKX",
-     "nome": "Champagne Francês Branco Grand Brut Perrier-Jouët Garrafa 750ml",
-     "preco": 510.89,
-     "era": 709.9,
-     "desconto": 28,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31s5i1jIqyL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07YD7FVKX?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6812,20 +6812,6 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B004EAFFKC",
-     "nome": "Vodka Grey Goose, Le Citron - 750 ml",
-     "preco": 129.9,
-     "era": 174.9,
-     "desconto": 25,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31X786gdrML._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B004EAFFKC?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
      "asin": "B0H343PT2X",
      "nome": "Aperitivo Ramazzotti Rosato 700ml",
      "preco": 39.9,
@@ -6840,14 +6826,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B01N0GHG4C",
-     "nome": "Amarula Licor Cream 375Ml",
-     "preco": 56.79,
-     "era": 75.19,
-     "desconto": 24,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31NNX2Hgy+L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B01N0GHG4C?tag=gigicaofertas-20",
+     "asin": "B07YD7FVKX",
+     "nome": "Champagne Francês Branco Grand Brut Perrier-Jouët Garrafa 750ml",
+     "preco": 529.9,
+     "era": 709.9,
+     "desconto": 25,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31s5i1jIqyL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07YD7FVKX?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -6925,7 +6911,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 22,
+      "pos": 25,
       "cat": "Fé"
      }
     },
@@ -6960,6 +6946,24 @@
      "link": "https://www.amazon.com.br/dp/6525918588?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "8576575868",
+     "nome": "O homem bicentenário",
+     "preco": 19.0,
+     "era": 59.9,
+     "desconto": 68,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/51LSHQwhD4L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/8576575868?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 6,
+      "cat": "Alta Tecnologia"
+     }
     },
     {
      "menor30": false,
@@ -7600,6 +7604,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B08Y38DJ72",
+     "nome": "Coleção Especial Sherlock Holmes",
+     "preco": 63.13,
+     "era": 149.9,
+     "desconto": 57,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51vGO7musiS._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08Y38DJ72?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Contos"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "6556097454",
      "nome": "Asas reluzentes: 1",
      "preco": 34.15,
@@ -7647,7 +7669,7 @@
      "baixou": false,
      "eraSuspeito": false,
      "ranking": {
-      "pos": 47,
+      "pos": 50,
       "cat": "Ficção Científica"
      }
     },
@@ -7739,24 +7761,6 @@
      "ranking": {
       "pos": 5,
       "cat": "Comentários"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "8595202222",
-     "nome": "Coleção Jane Austen - Caixa",
-     "preco": 35.5,
-     "era": 79.9,
-     "desconto": 55,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/51asR3dfdsL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/8595202222?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 63,
-      "cat": "Literatura Clássica"
      }
     },
     {
@@ -7901,24 +7905,6 @@
      "ranking": {
       "pos": 4,
       "cat": "Discipulado"
-     }
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "6558380544",
-     "nome": "A Biblioteca da Meia-Noite: 1",
-     "preco": 29.9,
-     "era": 64.9,
-     "desconto": 53,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/51kAYMwbQIL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/6558380544?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 1,
-      "cat": "Ficção Científica"
      }
     }
    ]
