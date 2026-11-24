@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-24T09:06",
+ "atualizadoEm": "2026-11-24T09:20",
  "categorias": [
   {
    "id": "destaques",
@@ -671,8 +671,8 @@
      "asin": "B0F84PXR9V",
      "nome": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool…",
      "preco": 2999.0,
-     "era": 3599.0,
-     "desconto": 16,
+     "era": 3659.0,
+     "desconto": 18,
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/41X94kods3L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0F84PXR9V?tag=gigicaofertas-20",
@@ -1082,6 +1082,24 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0C75GP7VP",
+     "nome": "Personal Papel Higiênico Vip Folha Tripla, 32 Rolos De 20M",
+     "preco": 65.2,
+     "era": null,
+     "desconto": 0,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41eNWHlnKdL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0C75GP7VP?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 10,
+      "cat": "Papel Higiênico"
+     }
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0DXFTDS8V",
      "nome": "Philco Aspirador Robô 3 em 1 Com MOP PAS23 Preto Bivolt Anticolisão",
      "preco": 352.15,
@@ -1316,6 +1334,20 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/21DTaVUtbUL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DHL63KWK?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": true
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B09B8XVSDP",
+     "nome": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth",
+     "preco": 289.0,
+     "era": 649.0,
+     "desconto": 55,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51OiVQzj4HL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09B8XVSDP?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": true
     },
@@ -2016,20 +2048,6 @@
      "selo": "Oferta Black Friday",
      "imagem": "https://m.media-amazon.com/images/I/31AILj45oaL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0FQFH5PJS?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0FQG1KWM5",
-     "nome": "Apple Watch Series 11 GPS, Caixa em alumínio rosa‑dourado de 42 mm com Bracelete…",
-     "preco": 3639.0,
-     "era": 5499.0,
-     "desconto": 33,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31f3c3u5eoL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FQG1KWM5?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -3022,6 +3040,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/31cISo0DDKL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07R2SVVNM?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B097LRYSXW",
+     "nome": "Philco Escova Secadora PES14 Soft 1300w Bivolt, Cinza Plástico",
+     "preco": 124.9,
+     "era": 276.34,
+     "desconto": 54,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/316mxbAhkcL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B097LRYSXW?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4084,6 +4116,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B0BTDCRCXF",
+     "nome": "Armani Beauty, Armani Code Eau de Toilette, 125ml, Giorgio Armani, Perfume Masculino…",
+     "preco": 542.99,
+     "era": 899.0,
+     "desconto": 39,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31TrwWd1jIL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BTDCRCXF?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0BPTQ4K2V",
      "nome": "Giovanna Baby Desodorante Corporal Body Splash Gold 260ml",
      "preco": 26.61,
@@ -4210,14 +4256,14 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "asin": "B0BTDCRCXF",
-     "nome": "Armani Beauty, Armani Code Eau de Toilette, 125ml, Giorgio Armani, Perfume Masculino…",
-     "preco": 542.99,
-     "era": 899.0,
+     "asin": "B07MR3H8NY",
+     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 50 ml",
+     "preco": 469.99,
+     "era": 779.0,
      "desconto": 39,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31TrwWd1jIL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BTDCRCXF?tag=gigicaofertas-20",
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31-ibW9CVoL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07MR3H8NY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4322,6 +4368,20 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/41qmo4SQLRL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07953PQRV?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07RW516L2",
+     "nome": "Glutamina 200g Sem sabor WVegan Vegano",
+     "preco": 35.13,
+     "era": 79.9,
+     "desconto": 56,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41YAM6oubGL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07RW516L2?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -4746,20 +4806,6 @@
      "eraSuspeito": false
     },
     {
-     "menor30": true,
-     "abaixoMedia": null,
-     "asin": "B0BXFFJGTR",
-     "nome": "L-Glutamina 4Well 1kg em Pó Sem Sabor",
-     "preco": 93.02,
-     "era": 139.0,
-     "desconto": 33,
-     "selo": "Oferta Exclusiva Prime",
-     "imagem": "https://m.media-amazon.com/images/I/41x93DqWZrL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0BXFFJGTR?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
      "menor30": false,
      "abaixoMedia": null,
      "asin": "B07LCRNJGV",
@@ -4984,6 +5030,20 @@
      "eraSuspeito": false
     },
     {
+     "menor30": true,
+     "abaixoMedia": null,
+     "asin": "B0BXFFJGTR",
+     "nome": "L-Glutamina 4Well 1kg em Pó Sem Sabor",
+     "preco": 93.02,
+     "era": 139.0,
+     "desconto": 33,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/41x93DqWZrL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BXFFJGTR?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
      "menor30": false,
      "abaixoMedia": null,
      "asin": "B07XGM1BM7",
@@ -5106,20 +5166,6 @@
      "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/51TR7zY9nxL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0D1YM47RZ?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B0CC9Y5KJC",
-     "nome": "Nutren A-Z 60 caps",
-     "preco": 45.49,
-     "era": 64.16,
-     "desconto": 29,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41d6zBje4XL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0CC9Y5KJC?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
@@ -5902,6 +5948,20 @@
     {
      "menor30": false,
      "abaixoMedia": null,
+     "asin": "B08FD3B2KQ",
+     "nome": "Downy Sensitive Hipoalergênico Amaciante Concentrado 1,35L",
+     "preco": 23.99,
+     "era": 40.72,
+     "desconto": 41,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31k6Uz168cL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
      "asin": "B0DQ1YWD4K",
      "nome": "Enxaguante Bucal Cool Mint Listerine, Menta, 1L",
      "preco": 24.59,
@@ -5938,20 +5998,6 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41ocp6S8YGL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07DTN9W36?tag=gigicaofertas-20",
-     "baixou": false,
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "asin": "B098CL79W1",
-     "nome": "Downy Amaciante Concentrado Perfume Collection Místico 3L",
-     "preco": 43.75,
-     "era": 74.0,
-     "desconto": 40,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41aOq1ltpDL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B098CL79W1?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     },
@@ -6812,6 +6858,34 @@
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/21EUisoj6oL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07XTR5C65?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B08NTMD5N6",
+     "nome": "Lagunitas Cerveja IPA, Pack 12 Long Neck 355ml",
+     "preco": 100.9,
+     "era": 137.38,
+     "desconto": 26,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/511iZ1PMvvL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08NTMD5N6?tag=gigicaofertas-20",
+     "baixou": false,
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "asin": "B07XQMDMMY",
+     "nome": "Whisky Chivas Regal XV 15 anos Escocês - 750ml",
+     "preco": 289.97,
+     "era": 387.9,
+     "desconto": 25,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41+J3+5wcfL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07XQMDMMY?tag=gigicaofertas-20",
      "baixou": false,
      "eraSuspeito": false
     }
