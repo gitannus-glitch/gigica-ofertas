@@ -149,6 +149,27 @@ def vendedor_ok(p):
 def em_estoque(p):
     return p["disp"] in ("", "IN_STOCK", "NOW", "AVAILABLE") or "STOCK" in p["disp"] and "OUT" not in p["disp"]
 
+DEST_CATS = ["eletronicos", "eletrodomesticos", "beleza", "perfumes", "suplementos", "casa-mercado", "livros"]
+DEST_POR_CAT = 8
+
+def nota(i):
+    """Desconto x peso do preço (suavizado) x bônus de selo de oferta."""
+    return i["desconto"] * math.log10(max(i["preco"], 10)) * (1.3 if i.get("selo") else 1)
+
+def montar_destaques(cats, nomes):
+    """As melhores ofertas de CADA categoria, intercaladas (uma de cada por vez) para variar a vitrine."""
+    listas = []
+    for cid in DEST_CATS:
+        cand = sorted([i for i in cats.get(cid, []) if not i.get("eraSuspeito") and i.get("desconto", 0) > 0],
+                      key=lambda i: -nota(i))[:DEST_POR_CAT]
+        listas.append([{**i, "categoria": nomes.get(cid, cid)} for i in cand])
+    saida, vistos = [], set()
+    for rodada in range(DEST_POR_CAT):
+        for lst in listas:
+            if rodada < len(lst) and lst[rodada]["asin"] not in vistos:
+                vistos.add(lst[rodada]["asin"]); saida.append(lst[rodada])
+    return saida
+
 def sem_acento(t):
     import unicodedata
     return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
@@ -334,7 +355,7 @@ def main(repo):
 
     # Destaques: maior desconto real x ticket, sem eraSuspeito
     todos = [i for cid, its in cat_json.items() if cid != "bebidas" for i in its if not i["eraSuspeito"] and i["desconto"] > 0]
-    todos.sort(key=lambda i: -(i["desconto"] * math.log10(max(i["preco"], 10)) * (1.3 if i["selo"] else 1)))
+    todos.sort(key=lambda i: -nota(i))
     dest, vist = [], set()
     for i in todos:
         ch = (i["nome"][:18].lower(), i["preco"])
@@ -343,7 +364,8 @@ def main(repo):
         if len(dest) == 12: break
 
     saida = {"atualizadoEm": agora.strftime("%Y-%m-%dT%H:%M"),
-             "categorias": [{"id": "destaques", "nome": "Destaques do dia", "itens": dest},
+             "categorias": [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(cat_json, {c[0]: c[1] for c in CATS})},
+                            {"id": "recomendados", "nome": "Recomendados", "itens": dest},
                             {"id": "mais-vendidos", "nome": "Mais vendidos", "itens": [para_json(p, "mais-vendidos") for p in mv]}] +
                            [{"id": cid, "nome": cn, "itens": cat_json[cid]} for cid, cn, _, _ in CATS]}
 
