@@ -356,7 +356,7 @@ function render() {
   if (atual === "destaques" && cv.length && !$("#q").value && !$("#q2").value) {
     $("#notice").innerHTML = `<div class="faixa"><h2>🎟️ Cupons ${esc(cupons.campanha || "")}</h2><div class="cupons">${cv.map(cupomHTML).join("")}</div></div>`;
   }
-  if (atual === "destaques") $("#notice").innerHTML += `<p class="intro">As melhores promoções de cada categoria, todas juntas. 🔥</p>`;
+  if (atual === "destaques") $("#notice").innerHTML += `<p class="intro">O melhor de cada categoria — a seleção muda a cada hora. 🔥</p>`;
   const cat = dados.categorias.find(c => c.id === atual);
   let itens = (cat?.itens || []).filter(it => typeof it.preco === "number" && it.preco > 0);
   const q = (innerWidth >= 960 ? $("#q2") : $("#q")).value.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");

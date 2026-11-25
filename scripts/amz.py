@@ -150,24 +150,34 @@ def em_estoque(p):
     return p["disp"] in ("", "IN_STOCK", "NOW", "AVAILABLE") or "STOCK" in p["disp"] and "OUT" not in p["disp"]
 
 DEST_CATS = ["eletronicos", "eletrodomesticos", "beleza", "perfumes", "suplementos", "casa-mercado", "livros"]
-DEST_POR_CAT = 8
+DEST_TOTAL = 12     # produtos na aba Destaques
+DEST_TOPO = 5       # cada categoria contribui com uma das suas 5 melhores ofertas
 
 def nota(i):
     """Desconto x peso do preço (suavizado) x bônus de selo de oferta."""
     return i["desconto"] * math.log10(max(i["preco"], 10)) * (1.3 if i.get("selo") else 1)
 
-def montar_destaques(cats, nomes):
-    """As melhores ofertas de CADA categoria, intercaladas (uma de cada por vez) para variar a vitrine."""
-    listas = []
+def montar_destaques(cats, nomes, hora):
+    """12 destaques: o melhor de cada categoria + extras, girando a cada hora entre o top 5 de cada uma.
+    A cada atualização (hora diferente) entra outra oferta de ponta, então a vitrine varia ao longo do dia."""
+    topo = {}
     for cid in DEST_CATS:
         cand = sorted([i for i in cats.get(cid, []) if not i.get("eraSuspeito") and i.get("desconto", 0) > 0],
-                      key=lambda i: -nota(i))[:DEST_POR_CAT]
-        listas.append([{**i, "categoria": nomes.get(cid, cid)} for i in cand])
-    saida, vistos = [], set()
-    for rodada in range(DEST_POR_CAT):
-        for lst in listas:
-            if rodada < len(lst) and lst[rodada]["asin"] not in vistos:
-                vistos.add(lst[rodada]["asin"]); saida.append(lst[rodada])
+                      key=lambda i: -nota(i))[:DEST_TOPO]
+        if cand: topo[cid] = [{**i, "categoria": nomes.get(cid, cid)} for i in cand]
+    ordem = [c for c in DEST_CATS if c in topo]
+    if not ordem: return []
+    k = hora % len(ordem)
+    ordem = ordem[k:] + ordem[:k]          # a categoria que abre a vitrine também gira
+    saida, vistos, rodada = [], set(), 0
+    while len(saida) < DEST_TOTAL and rodada < DEST_TOPO:
+        for cid in ordem:
+            lst = topo[cid]
+            i = lst[(hora + rodada) % len(lst)]
+            if i["asin"] in vistos: continue
+            vistos.add(i["asin"]); saida.append(i)
+            if len(saida) >= DEST_TOTAL: break
+        rodada += 1
     return saida
 
 def sem_acento(t):
@@ -364,7 +374,7 @@ def main(repo):
         if len(dest) == 12: break
 
     saida = {"atualizadoEm": agora.strftime("%Y-%m-%dT%H:%M"),
-             "categorias": [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(cat_json, {c[0]: c[1] for c in CATS})},
+             "categorias": [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(cat_json, {c[0]: c[1] for c in CATS}, agora.hour)},
                             {"id": "recomendados", "nome": "Recomendados", "itens": dest},
                             {"id": "mais-vendidos", "nome": "Mais vendidos", "itens": [para_json(p, "mais-vendidos") for p in mv]}] +
                            [{"id": cid, "nome": cn, "itens": cat_json[cid]} for cid, cn, _, _ in CATS]}
