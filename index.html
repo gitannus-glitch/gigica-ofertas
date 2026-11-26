@@ -115,6 +115,18 @@
   .faixa .cupons { display: flex; overflow-x: auto; scrollbar-width: none; }
   .faixa .cupom { flex: 0 0 min(300px, 82%); }
   .catlbl { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  /* ---------- Edição especial Black Friday ---------- */
+  .black { background: #0b0b0d; color: #fff; text-align: center; padding: 10px 14px; font-size: .86rem; line-height: 1.35; }
+  .black b { color: #ffd23f; letter-spacing: .02em; }
+  .black .rel { font-variant-numeric: tabular-nums; font-weight: 800; color: #ff5c7a; white-space: nowrap; }
+  .black small { display: block; color: #bdb6c2; font-size: .74rem; margin-top: 2px; }
+  .timer { font-size: .76rem; font-weight: 800; color: #b3261e; background: #ffe3e0; border-radius: 6px; padding: 3px 7px; align-self: flex-start; font-variant-numeric: tabular-nums; }
+  [data-theme="dark"] .timer { color: #ffb4ab; background: #4a1c1a; }
+  .claim { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+  .claim i { display: block; height: 100%; background: linear-gradient(90deg, #ff9a3c, #e8456b); border-radius: 99px; }
+  .claimtxt { font-size: .72rem; color: var(--muted); font-weight: 600; }
+  .b-prime { background: #dff0ff; color: #0b5cad; }
+  [data-theme="dark"] .b-prime { background: #12304d; color: #9ccbff; }
   .hist { font-size: .74rem; font-weight: 700; color: var(--good); background: var(--good-soft); border-radius: 6px; padding: 3px 7px; align-self: flex-start; }
   .more { display: block; margin: 20px auto 0; background: var(--surface); color: var(--brand); border: 1.5px solid var(--brand);
     border-radius: 999px; padding: 11px 26px; font-weight: 800; cursor: pointer; }
@@ -178,6 +190,7 @@
 </script>
 </head>
 <body>
+<div class="black" id="black" hidden></div>
 <header>
   <div class="wrap">
     <div class="top">
@@ -237,6 +250,7 @@ const GRUPO_URL = "";
 const CATS = [
   { id: "destaques", rotulo: "🔥 Destaques" },
   { id: "recomendados", rotulo: "⭐ Recomendados" },
+  { id: "relampago", rotulo: "⚡ Relâmpago" },
   { id: "cupons", rotulo: "🎟️ Cupons" },
   { id: "mais-vendidos", rotulo: "🏆 Mais vendidos" },
   { id: "eletronicos", rotulo: "📺 Eletrônicos" },
@@ -284,6 +298,55 @@ function tabs() {
   const c = CATS.find(x => x.id === atual); $("#catTitle").textContent = c ? c.rotulo : "";
 }
 
+// ---------- Black Friday ----------
+const FIM_BLACK = new Date("2026-11-28T02:58:00Z");   // 27/11 às 23h58 (Brasília)
+const emBlack = () => Date.now() < FIM_BLACK.getTime();
+function restante(ms) {
+  if (ms <= 0) return "encerrada";
+  const h = Math.floor(ms / 3600000), m = Math.floor(ms % 3600000 / 60000), sg = Math.floor(ms % 60000 / 1000);
+  if (h >= 48) return `${Math.floor(h / 24)} dias`;
+  return h ? `${h}h ${String(m).padStart(2, "0")}min` : `${m}min ${String(sg).padStart(2, "0")}s`;
+}
+function timerHTML(it) {
+  if (!it.fim) return "";
+  const ms = new Date(it.fim) - Date.now();
+  if (ms <= 0 || (ms > 48 * 3600000 && it.vendido == null)) return "";
+  const bar = it.vendido != null ? `<div class="claim"><i style="width:${Math.min(100, it.vendido)}%"></i></div><div class="claimtxt">${it.vendido}% resgatado</div>` : "";
+  return `<div class="timer" data-fim="${esc(it.fim)}">⏰ acaba em ${restante(ms)}</div>${bar}`;
+}
+function minutosAtras(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(iso || ""); if (!m) return null;
+  const t = Date.UTC(+m[1], m[2] - 1, +m[3], +m[4] + 3, +m[5]);  // horário de Brasília → UTC
+  return Math.max(0, Math.round((Date.now() - t) / 60000));
+}
+function faixaBlack() {
+  const el = $("#black");
+  if (!emBlack()) { el.hidden = true; return; }
+  el.hidden = false;
+  const min = dados ? minutosAtras(dados.atualizadoEm) : null;
+  el.innerHTML = `🖤 <b>EDIÇÃO ESPECIAL BLACK FRIDAY</b> · termina em <span class="rel">${restante(FIM_BLACK - Date.now())}</span>
+    <small>Preços revalidados a cada 30 min${min != null ? ` · última atualização há ${min} min` : ""}</small>`;
+}
+setInterval(() => {
+  faixaBlack();
+  document.querySelectorAll(".timer[data-fim]").forEach(t => { t.textContent = "⏰ acaba em " + restante(new Date(t.dataset.fim) - Date.now()); });
+}, 1000);
+// Recarrega os dados sozinho (a cada 5 min com a página aberta), sem perder a aba/rolagem
+async function recarregar() {
+  if (document.hidden || !dados) return;
+  try {
+    const r = await fetch("ofertas.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    const novo = await r.json();
+    if (novo.atualizadoEm !== dados.atualizadoEm && Array.isArray(novo.categorias)) {
+      dados = novo; const y = scrollY; render(); scrollTo(0, y);
+      const d = dataBR(dados.atualizadoEm); if (d) $("#updated").textContent = `Atualizado em ${d}`;
+    }
+  } catch (e) {}
+}
+setInterval(recarregar, 5 * 60 * 1000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) recarregar(); });
+
 function histLinha(it) {
   const partes = [];
   if (it.menor30) partes.push("🏆 Menor preço em 30 dias");
@@ -297,7 +360,8 @@ function card(it, data) {
   const badges = [
     temDesc ? `<span class="b b-off">-${Math.round(it.desconto)}%</span>` : "",
     it.selo ? `<span class="b b-deal">${esc(/black\s*friday/i.test(it.selo) ? "Black Friday" : "Oferta")}</span>` : "",
-    it.baixou ? `<span class="b b-down">⬇️ Baixou de preço</span>` : ""
+    it.baixou ? `<span class="b b-down">⬇️ Baixou de preço</span>` : "",
+    it.primeExclusivo ? `<span class="b b-prime">Prime</span>` : ""
   ].join("");
   const link = linkAmazon(it);
   const txt = `${it.nome} por ${brl.format(it.preco)} na Amazon (preço de ${data}, pode mudar)\n${link}`;
@@ -314,6 +378,7 @@ function card(it, data) {
       <div class="price">${brl.format(it.preco)}</div>
       <div class="was">${mostraEra ? "era " + brl.format(it.era) : ""}</div>
       ${histLinha(it)}
+      ${timerHTML(it)}
       <div class="actions">
         <a class="btn btn-amz" href="${esc(link)}" target="_blank" rel="noopener sponsored">Ver na Amazon</a>
         <a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener"><span>📲 <span class="full">Compartilhar no </span>WhatsApp</span></a>
@@ -341,6 +406,8 @@ function render() {
   tabs();
   $("#notice").innerHTML = atual === "bebidas"
     ? `<div class="notice" role="alert">🔞 Venda proibida para menores de 18 anos. Beba com moderação. Se beber, não dirija.</div>`
+    : atual === "relampago"
+    ? `<p class="intro">⚡ Ofertas com hora para acabar — as que terminam primeiro aparecem antes. Corre!</p>`
     : atual === "recomendados"
     ? `<p class="intro">Nossa seleção: as 12 ofertas com a melhor combinação de desconto real e valor do produto.</p>`
     : atual === "mais-vendidos"

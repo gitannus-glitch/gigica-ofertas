@@ -89,7 +89,7 @@ def token():
 
 def chamar(tok, endpoint, body):
     for tentativa in range(5):
-        espera = 2.5 - (time.time() - _ultimo[0])
+        espera = 1.5 - (time.time() - _ultimo[0])
         if espera > 0:
             time.sleep(espera)
         _ultimo[0] = time.time()
@@ -137,6 +137,8 @@ def ler(item):
     return {"asin": asin, "titulo": titulo, "marca": marca or "", "imagem": img,
             "preco": round(float(preco), 2), "era": round(float(era), 2) if era else None,
             "desconto": int(pct or 0), "selo": g(oferta, "dealDetails", "badge"),
+            "fim": g(oferta, "dealDetails", "endTime"), "vendido": g(oferta, "dealDetails", "percentClaimed"),
+            "acesso": g(oferta, "dealDetails", "accessType"),
             "vendedor": g(oferta, "merchantInfo", "name") or "",
             "disp": (g(oferta, "availability", "type") or "").upper()}
 
@@ -148,6 +150,43 @@ def vendedor_ok(p):
 
 def em_estoque(p):
     return p["disp"] in ("", "IN_STOCK", "NOW", "AVAILABLE") or "STOCK" in p["disp"] and "OUT" not in p["disp"]
+
+def stats_hist(asin, preco, hist, limite30):
+    serie = [x for x in hist.get(asin, []) if x[0] >= limite30]
+    ult = serie[-1][1] if serie else None
+    menor30, abaixo = False, None
+    if len(serie) >= 6 and len({x[0][:10] for x in serie}) >= 2:
+        precos = [x[1] for x in serie]
+        media = sum(precos) / len(precos)
+        menor30 = preco <= min(precos) and preco < max(precos)
+        if media - preco >= max(5, media * 0.05):
+            abaixo = int(round(media - preco))
+    return {"menor30": menor30, "abaixoMedia": abaixo, "baixou": bool(ult and preco < ult)}
+
+def campos_oferta(p):
+    """Dados de tempo da oferta (relâmpago/Black Friday) para o site."""
+    out = {}
+    if p.get("fim"): out["fim"] = p["fim"]
+    if p.get("vendido") is not None: out["vendido"] = int(p["vendido"])
+    if p.get("acesso") and "PRIME" in str(p["acesso"]).upper(): out["primeExclusivo"] = True
+    return out
+
+RELAMPAGO_HORAS = 30   # entra na aba Relâmpago se a oferta acaba em até 30h (ou tem % resgatado)
+
+def montar_relampago(cats, nomes, agora_utc):
+    lim = (agora_utc + timedelta(hours=RELAMPAGO_HORAS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    agora_s = agora_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+    vistos, out = set(), []
+    for cid in DEST_CATS + ["mais-vendidos"]:
+        for i in cats.get(cid, []):
+            if i["asin"] in vistos or i.get("desconto", 0) <= 0: continue
+            fim = i.get("fim")
+            if not fim or fim <= agora_s: continue
+            if i.get("vendido") is None and fim > lim: continue
+            if (i.get("vendido") or 0) >= 100: continue
+            vistos.add(i["asin"]); out.append({**i, "categoria": i.get("categoria") or nomes.get(cid, cid)})
+    out.sort(key=lambda i: (i["fim"], -(i.get("desconto") or 0)))
+    return out[:60]
 
 DEST_CATS = ["eletronicos", "eletrodomesticos", "beleza", "perfumes", "suplementos", "casa-mercado", "livros"]
 DEST_TOTAL = 12     # produtos na aba Destaques
@@ -331,20 +370,9 @@ def main(repo):
         if cid == "suplementos":
             p = {**p, "titulo": ALEGACAO.sub("", p["titulo"]).strip(" ,-–")}
         susp = cid in ("eletronicos", "mais-vendidos") and p["desconto"] > 50
-        serie = [x for x in hist.get(p["asin"], []) if x[0] >= limite30]
-        ult = serie[-1][1] if serie else None
-        menor30, abaixo = False, None
-        dias = len({x[0][:10] for x in serie})
-        if len(serie) >= 6 and dias >= 2:
-            precos = [x[1] for x in serie]
-            media = sum(precos) / len(precos)
-            menor30 = p["preco"] <= min(precos) and p["preco"] < max(precos)
-            if media - p["preco"] >= max(5, media * 0.05):
-                abaixo = int(round(media - p["preco"]))
-        return {"menor30": menor30, "abaixoMedia": abaixo,"asin": p["asin"], "nome": nome_curto(p["titulo"]), "preco": p["preco"], "era": p["era"],
-                "desconto": p["desconto"], "selo": p["selo"], "imagem": p["imagem"],
-                "link": f"https://www.amazon.com.br/dp/{p['asin']}?tag={LINK_TAG}",
-                "baixou": bool(ult and p["preco"] < ult), "eraSuspeito": susp,
+        return {**stats_hist(p["asin"], p["preco"], hist, limite30), "asin": p["asin"], "nome": nome_curto(p["titulo"]),
+                "preco": p["preco"], "era": p["era"], "desconto": p["desconto"], "selo": p["selo"], "imagem": p["imagem"],
+                "link": f"https://www.amazon.com.br/dp/{p['asin']}?tag={LINK_TAG}", "eraSuspeito": susp, **campos_oferta(p),
                 **({"ranking": {"pos": p["_rank"][0], "cat": p["_rank"][1]}} if "_rank" in p else {})}
 
     # categorias com menos de 3 itens: reaproveita anteriores ainda em estoque (getItems)
@@ -376,6 +404,7 @@ def main(repo):
     saida = {"atualizadoEm": agora.strftime("%Y-%m-%dT%H:%M"),
              "categorias": [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(cat_json, {c[0]: c[1] for c in CATS}, agora.hour)},
                             {"id": "recomendados", "nome": "Recomendados", "itens": dest},
+                            {"id": "relampago", "nome": "Relâmpago", "itens": montar_relampago(cat_json, {c[0]: c[1] for c in CATS}, datetime.now(timezone.utc))},
                             {"id": "mais-vendidos", "nome": "Mais vendidos", "itens": [para_json(p, "mais-vendidos") for p in mv]}] +
                            [{"id": cid, "nome": cn, "itens": cat_json[cid]} for cid, cn, _, _ in CATS]}
 
@@ -399,10 +428,82 @@ def main(repo):
     print(json.dumps(resumo, ensure_ascii=False, indent=1))
 
 
+MIN_DESC = {c[0]: c[2] for c in CATS}
+DERIVADAS = ("destaques", "recomendados", "relampago")
+
+def rapido(repo):
+    """Modo rápido (Black Friday): revalida o preço de TODOS os produtos já publicados via getItems
+    (10 por chamada, ~1–2 min), remove esgotados/sem oferta e refaz Destaques, Recomendados e Relâmpago."""
+    agora = datetime.now(SP)
+    carimbo = agora.strftime("%Y-%m-%d %H:%M")
+    of_path, hi_path = os.path.join(repo, "ofertas.json"), os.path.join(repo, "historico.json")
+    d = json.load(open(of_path, encoding="utf-8"))
+    try: hist = json.load(open(hi_path, encoding="utf-8"))
+    except Exception: hist = {}
+    cats = {c["id"]: c for c in d["categorias"] if c["id"] not in DERIVADAS}
+    asins = list(dict.fromkeys(i["asin"] for c in cats.values() for i in c["itens"]))
+    tok = token(); novos, falhas = {}, 0
+    for k in range(0, len(asins), 10):
+        try:
+            r = chamar(tok, "getItems", {"itemIds": asins[k:k + 10], "itemIdType": "ASIN", "marketplace": MKT,
+                                         "partnerTag": TAG, "resources": RES, "languagesOfPreference": ["pt_BR"]})
+        except ApiErro as e:
+            if any(x in str(e) for x in ("HTTP 401", "HTTP 403", "token", "429 persistente", "rede")): raise
+            falhas += 1; continue
+        for it in g(r, "itemsResult", "items") or []:
+            p = ler(it)
+            if p: novos[p["asin"]] = p
+    if not novos:
+        raise ApiErro("getItems não devolveu nenhum produto")
+    limite30 = (agora - timedelta(days=30)).strftime("%Y-%m-%d %H:%M")
+    removidos = 0
+    for cid, c in cats.items():
+        ficam = []
+        for i in c["itens"]:
+            p = novos.get(i["asin"])
+            if p is None:
+                ficam.append(i); continue          # lote falhou: mantém o dado anterior
+            if not em_estoque(p) or p["desconto"] < (MIN_DESC.get(cid, 0) if cid != "mais-vendidos" else 0):
+                removidos += 1; continue           # esgotou ou a oferta acabou
+            i = {k: v for k, v in i.items() if k not in ("fim", "vendido", "primeExclusivo")}
+            i.update({"preco": p["preco"], "era": p["era"], "desconto": p["desconto"], "selo": p["selo"],
+                      "eraSuspeito": cid in ("eletronicos", "mais-vendidos") and p["desconto"] > 50,
+                      **stats_hist(p["asin"], p["preco"], hist, limite30), **campos_oferta(p)})
+            if p.get("imagem"): i["imagem"] = p["imagem"]
+            ficam.append(i)
+        c["itens"] = ficam
+    itens = {cid: c["itens"] for cid, c in cats.items()}
+    nomes = {c[0]: c[1] for c in CATS}
+    rec = sorted([i for cid, its in itens.items() if cid not in ("bebidas", "mais-vendidos") for i in its
+                  if not i.get("eraSuspeito") and i.get("desconto", 0) > 0], key=lambda i: -nota(i))
+    dest_rec, vist = [], set()
+    for i in rec:
+        ch = (i["nome"][:18].lower(), i["preco"])
+        if ch in vist: continue
+        vist.add(ch); dest_rec.append(i)
+        if len(dest_rec) == 12: break
+    d["atualizadoEm"] = agora.strftime("%Y-%m-%dT%H:%M")
+    d["categorias"] = [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(itens, nomes, agora.hour * 2 + agora.minute // 30)},
+                       {"id": "recomendados", "nome": "Recomendados", "itens": dest_rec},
+                       {"id": "relampago", "nome": "Relâmpago", "itens": montar_relampago(itens, nomes, datetime.now(timezone.utc))}] + \
+                      [c for c in d["categorias"] if c["id"] not in DERIVADAS]
+    for c in d["categorias"]:
+        if c["id"] in cats: c["itens"] = cats[c["id"]]["itens"]
+    for asin, p in novos.items():
+        hist.setdefault(asin, []).append([carimbo, p["preco"]])
+    for asin in list(hist):
+        hist[asin] = [x for x in hist[asin] if x[0] >= limite30]
+        if not hist[asin]: del hist[asin]
+    json.dump(d, open(of_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(hist, open(hi_path, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print(json.dumps({"modo": "rapido", "atualizadoEm": d["atualizadoEm"], "revalidados": len(novos), "removidos": removidos,
+                      "lotes_falhos": falhas, "itens": {c["id"]: len(c["itens"]) for c in d["categorias"]}}, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     if not os.environ.get("AMZ_CID") or not os.environ.get("AMZ_CSEC"):
         print("ERRO: defina AMZ_CID e AMZ_CSEC"); sys.exit(2)
     try:
-        main(sys.argv[1] if len(sys.argv) > 1 else ".")
+        (rapido if os.environ.get("MODO") == "rapido" else main)(sys.argv[1] if len(sys.argv) > 1 else ".")
     except ApiErro as e:
         print("ERRO API (site não alterado):", str(e)[:400]); sys.exit(2)

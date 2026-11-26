@@ -2,8 +2,11 @@ name: Atualizar ofertas
 
 on:
   schedule:
-    # De hora em hora, das 7h17 às 23h17 (horário de São Paulo = UTC-3)
-    - cron: "17 0-2,10-23 * * *"
+    # Normal: de hora em hora, das 7h17 às 23h17 (São Paulo). O passo "Escolher modo" decide o que roda.
+    # Edição Black Friday (até 27/11 23h58): a cada 30 min, 24h — busca completa a cada 2h e
+    # revalidação rápida de preços nas outras meias horas.
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch: {}   # botão "Run workflow" para rodar na hora
   push:
     branches: [main]      # mudança no site → só republica, sem chamar a API
@@ -22,23 +25,41 @@ jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    outputs:
+      modo: ${{ steps.modo.outputs.modo }}
     steps:
+      - name: Escolher modo
+        id: modo
+        run: |
+          FIM_BLACK=$(date -u -d "2026-11-28T02:58:00Z" +%s)   # 27/11 23h58 em São Paulo
+          AGORA=$(date -u +%s); H=$((10#$(date -u +%H)))
+          EV="${{ github.event_name }}"; AG="${{ github.event.schedule }}"
+          if [ "$EV" = "push" ]; then M=publicar
+          elif [ "$EV" != "schedule" ]; then M=completo
+          elif [ "$AGORA" -lt "$FIM_BLACK" ]; then
+            if [ "$AG" = "47 * * * *" ] || [ $((H % 2)) -eq 1 ]; then M=rapido; else M=completo; fi
+          else
+            if [ "$AG" = "17 * * * *" ] && { [ "$H" -ge 10 ] || [ "$H" -le 2 ]; }; then M=completo; else M=pular; fi
+          fi
+          echo "modo=$M" >> "$GITHUB_OUTPUT"; echo "Modo: $M"
+
       - uses: actions/checkout@v4
+        if: steps.modo.outputs.modo != 'pular'
 
       - name: Buscar ofertas na API da Amazon
-        if: github.event_name != 'push'
+        if: steps.modo.outputs.modo == 'completo' || steps.modo.outputs.modo == 'rapido'
         env:
           AMZ_CID: ${{ secrets.AMZ_CID }}
           AMZ_CSEC: ${{ secrets.AMZ_CSEC }}
-        run: |
-          python3 -I scripts/amz.py . | tee resumo.txt
-          rm -f resumo.txt
+          MODO: ${{ steps.modo.outputs.modo }}
+        run: python3 -I scripts/amz.py .
 
       - name: Conferir dados
+        if: steps.modo.outputs.modo != 'pular'
         run: python3 -I scripts/verificar.py
 
       - name: Salvar dados no repositório
-        if: github.event_name != 'push'
+        if: steps.modo.outputs.modo == 'completo' || steps.modo.outputs.modo == 'rapido'
         run: |
           git config user.name "gigica-ofertas-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -49,12 +70,15 @@ jobs:
           git push origin HEAD:main
 
       - name: Montar o site
+        if: steps.modo.outputs.modo != 'pular'
         run: |
           mkdir _site
           cp index.html sw.js manifest.json icon-192.png icon-512.png ofertas.json historico.json cupons.json .nojekyll _site/
 
       - uses: actions/configure-pages@v5
+        if: steps.modo.outputs.modo != 'pular'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.modo.outputs.modo != 'pular'
         with:
           path: _site
 
@@ -62,6 +86,7 @@ jobs:
   # logo após o envio. Rodar em outro job + tentar de novo resolve essa falha intermitente.
   publicar:
     needs: atualizar
+    if: needs.atualizar.outputs.modo != 'pular'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment:
