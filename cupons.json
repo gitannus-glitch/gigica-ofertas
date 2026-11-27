@@ -3,6 +3,16 @@
  "adicionadoEm": "2026-11-23T11:40",
  "cupons": [
   {
+   "titulo": "R$ 25 off em compras acima de R$ 159",
+   "codigo": "BLACK25OFF",
+   "soApp": false,
+   "prime": false,
+   "obs": "Em produtos elegíveis",
+   "botao": "Ver produtos",
+   "link": "https://www.amazon.com.br/promotion/psp/A18QAKGW18BJNC?tag=gigicaofertas-20",
+   "expira": null
+  },
+  {
    "titulo": "Produtos a R$ 1 na primeira compra 😱",
    "soApp": false,
    "prime": false,
