@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-26T22:45",
+ "atualizadoEm": "2026-11-26T23:04",
  "categorias": [
   {
    "id": "destaques",
@@ -7,146 +7,7 @@
    "itens": [
     {
      "menor30": true,
-     "abaixoMedia": 48,
-     "baixou": false,
-     "asin": "B00I7PK3GQ",
-     "nome": "Perfume Feminino Lancôme La Vie Est Belle Eau de Parfum, 100ml",
-     "preco": 568.55,
-     "era": 1099.0,
-     "desconto": 48,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31+7JpLjoGL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B00I7PK3GQ?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52,
-     "categoria": "Perfumes"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B0C4VY31HM",
-     "nome": "Centrum Homem 50 Mais Multivitaminico, com Vitamina D, Vitamina B12, Calcio e Magnesio…",
-     "preco": 183.45,
-     "era": 366.9,
-     "desconto": 50,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31+nnW+OR4L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0C4VY31HM?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85,
-     "categoria": "Suplementos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 7,
-     "baixou": false,
-     "asin": "B0C2J8DQC1",
-     "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
-     "preco": 120.6,
-     "era": 244.74,
-     "desconto": 50,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41V2VqCfoEL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0C2J8DQC1?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "categoria": "Casa & Mercado"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "8543302978",
-     "nome": "Bíblia de Estudo Desafios de Todo Homem NVT, Letra Regular, Capa Luxo Couro Sintético…",
-     "preco": 97.36,
-     "era": 299.9,
-     "desconto": 67,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/41KBhw-tkyL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/8543302978?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 52,
-      "cat": "Bíblia e Outros Textos Sagrados"
-     },
-     "fim": "2026-12-01T02:59:59Z",
-     "vendido": 68,
-     "categoria": "Livros"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B0D3JJQD2V",
-     "nome": "Apple 2024 iPad Air de 11 polegadas (Wi-Fi + Cellular, 1 TB) - Estelar (M2)",
-     "preco": 7556.96,
-     "era": 14599.0,
-     "desconto": 48,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31TPPuhygML._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D3JJQD2V?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 33,
-     "categoria": "Eletrônicos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 227,
-     "baixou": true,
-     "asin": "B09ZHD2YXP",
-     "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
-     "preco": 1869.9,
-     "era": 3999.0,
-     "desconto": 53,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76,
-     "categoria": "Eletrodomésticos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B0F9X7PKJ2",
-     "nome": "Escova Secadora Multicabeças GA.MA Italy, Marula 3D, Bivolt",
-     "preco": 204.0,
-     "era": 499.9,
-     "desconto": 59,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41XzKlH3ywL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0F9X7PKJ2?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 24,
-     "categoria": "Beleza"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B0DBMLN386",
-     "nome": "Armani Beauty, Acqua di Gioia Intense Eau de Parfum, 100ml, Giorgio Armani Perfume…",
-     "preco": 581.99,
-     "era": 1099.0,
-     "desconto": 47,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31213Kg9vCL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DBMLN386?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 61,
-     "categoria": "Perfumes"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 21,
+     "abaixoMedia": 20,
      "baixou": false,
      "asin": "B0872FHWYY",
      "nome": "Multivitamínico em Comprimidos Centrum, de A a Z, 150 Unidades",
@@ -214,6 +75,142 @@
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
      "categoria": "Eletrônicos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0BXY561N5",
+     "nome": "Cafeteira Espresso Oster PrimaLatte Touch - 127V",
+     "preco": 881.91,
+     "era": 1999.0,
+     "desconto": 55,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41+qsg9jTYL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BXY561N5?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 48,
+     "categoria": "Eletrodomésticos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0CF6PJNCL",
+     "nome": "Alfaparf Milano Semi di Lino Sublime Cristalli Liquidi Óleo Capilar com Proteção Térmica…",
+     "preco": 44.9,
+     "era": 115.9,
+     "desconto": 61,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31nAKuvQKuL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CF6PJNCL?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "categoria": "Beleza"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0DBMLN386",
+     "nome": "Armani Beauty, Acqua di Gioia Intense Eau de Parfum, 100ml, Giorgio Armani Perfume…",
+     "preco": 581.99,
+     "era": 1099.0,
+     "desconto": 47,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31213Kg9vCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DBMLN386?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 61,
+     "categoria": "Perfumes"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B07MLXXJD5",
+     "nome": "Whey Protein Isolado Chocolate Pote 900g",
+     "preco": 302.0,
+     "era": 606.78,
+     "desconto": 50,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/41A20OvnTHL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07MLXXJD5?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "categoria": "Suplementos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 5,
+     "baixou": false,
+     "asin": "B09GV1QKT6",
+     "nome": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
+     "preco": 38.63,
+     "era": 84.59,
+     "desconto": 54,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31Pht5ZnpGL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 42,
+     "categoria": "Casa & Mercado"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "6559883418",
+     "nome": "Bíblia NVT Filament, Com Recursos Interativos, Letra Grande, Slim, Capa Luxo Couro…",
+     "preco": 76.08,
+     "era": 179.9,
+     "desconto": 57,
+     "selo": "Oferta Exclusiva Prime",
+     "imagem": "https://m.media-amazon.com/images/I/41U-eEUe8rL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/6559883418?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Estudo da Bíblia"
+     },
+     "fim": "2026-12-01T02:59:59Z",
+     "vendido": 28,
+     "primeExclusivo": true,
+     "categoria": "Livros"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0DXR7GNWJ",
+     "nome": "Apple iPhone 16e de 128 GB — Preto",
+     "preco": 3259.0,
+     "era": 5799.0,
+     "desconto": 43,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0DXR7GNWJ?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "categoria": "Eletrônicos"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0GXFFSVYM",
+     "nome": "DREAME D15 Plus Robô Aspirador e Passa Pano com Autoesvaziamento, Sucção 13.000 Pa, Smart…",
+     "preco": 1943.46,
+     "era": 3599.0,
+     "desconto": 46,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31Z22PDUpCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0GXFFSVYM?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "categoria": "Eletrodomésticos"
     }
    ]
   },
@@ -239,8 +236,8 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 227,
-     "baixou": true,
+     "abaixoMedia": 223,
+     "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
      "preco": 1869.9,
@@ -251,7 +248,7 @@
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76
+     "vendido": 77
     },
     {
      "menor30": false,
@@ -282,7 +279,7 @@
      "link": "https://www.amazon.com.br/dp/B0BXY561N5?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 47
+     "vendido": 48
     },
     {
      "menor30": false,
@@ -375,7 +372,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 70
+     "vendido": 71
     },
     {
      "menor30": true,
@@ -417,7 +414,7 @@
    "itens": [
     {
      "menor30": true,
-     "abaixoMedia": 5,
+     "abaixoMedia": null,
      "baixou": false,
      "asin": "B0H91SW8FW",
      "nome": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
@@ -475,7 +472,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-11-28T02:55:00Z",
-     "vendido": 55,
+     "vendido": 57,
      "categoria": "mais-vendidos"
     },
     {
@@ -492,7 +489,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85,
+     "vendido": 86,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -526,7 +523,7 @@
      "link": "https://www.amazon.com.br/dp/B077BY8V14?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 44,
+     "vendido": 45,
      "categoria": "Casa & Mercado"
     },
     {
@@ -611,7 +608,7 @@
      "link": "https://www.amazon.com.br/dp/B0BXY561N5?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 47,
+     "vendido": 48,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -645,7 +642,7 @@
      "link": "https://www.amazon.com.br/dp/B07R2SVVNM?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 50,
+     "vendido": 51,
      "categoria": "Beleza"
     },
     {
@@ -668,7 +665,7 @@
     {
      "menor30": true,
      "abaixoMedia": 5,
-     "baixou": true,
+     "baixou": false,
      "asin": "B09GV1QKT6",
      "nome": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
      "preco": 38.63,
@@ -679,13 +676,13 @@
      "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 40,
+     "vendido": 42,
      "categoria": "Casa & Mercado"
     },
     {
      "menor30": true,
-     "abaixoMedia": 227,
-     "baixou": true,
+     "abaixoMedia": 223,
+     "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
      "preco": 1869.9,
@@ -696,7 +693,7 @@
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76,
+     "vendido": 77,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -713,7 +710,7 @@
      "link": "https://www.amazon.com.br/dp/B09532P5P4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 27,
      "categoria": "Perfumes"
     },
     {
@@ -752,8 +749,8 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 20,
-     "baixou": true,
+     "abaixoMedia": 19,
+     "baixou": false,
      "asin": "B0D9HWL3T7",
      "nome": "MONDIAL Secador de Cabelos Space Shine, Lilás, 2000W, 110V - SC-21",
      "preco": 79.9,
@@ -909,7 +906,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 21,
+     "abaixoMedia": 20,
      "baixou": false,
      "asin": "B0872FHWYY",
      "nome": "Multivitamínico em Comprimidos Centrum, de A a Z, 150 Unidades",
@@ -1057,7 +1054,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 70,
+     "vendido": 71,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -1074,12 +1071,12 @@
      "link": "https://www.amazon.com.br/dp/B0BJHPD2TF?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 38,
+     "vendido": 39,
      "categoria": "Beleza"
     },
     {
      "menor30": true,
-     "abaixoMedia": 48,
+     "abaixoMedia": 47,
      "baixou": false,
      "asin": "B00I7PK3GQ",
      "nome": "Perfume Feminino Lancôme La Vie Est Belle Eau de Parfum, 100ml",
@@ -1091,7 +1088,7 @@
      "link": "https://www.amazon.com.br/dp/B00I7PK3GQ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52,
+     "vendido": 53,
      "categoria": "Perfumes"
     },
     {
@@ -1159,7 +1156,7 @@
      "link": "https://www.amazon.com.br/dp/B008SBKTZ4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 41,
+     "vendido": 42,
      "categoria": "Perfumes"
     },
     {
@@ -1210,7 +1207,7 @@
      "link": "https://www.amazon.com.br/dp/B09VN62HF3?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 28,
+     "vendido": 30,
      "categoria": "Perfumes"
     },
     {
@@ -1261,7 +1258,7 @@
      "link": "https://www.amazon.com.br/dp/B0B9PSBNYL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 7,
+     "vendido": 8,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -1295,7 +1292,7 @@
      "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 27,
      "categoria": "Perfumes"
     },
     {
@@ -1329,7 +1326,7 @@
      "link": "https://www.amazon.com.br/dp/B08NDTVGCL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 79,
+     "vendido": 80,
      "categoria": "Casa & Mercado"
     },
     {
@@ -1384,7 +1381,7 @@
      "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 43,
+     "vendido": 44,
      "categoria": "Perfumes"
     },
     {
@@ -1435,7 +1432,7 @@
      "link": "https://www.amazon.com.br/dp/B07DTN9W36?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 50,
+     "vendido": 51,
      "categoria": "Casa & Mercado"
     },
     {
@@ -1703,7 +1700,7 @@
       "cat": "Eau de Parfum"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 41
+     "vendido": 42
     },
     {
      "menor30": false,
@@ -1798,7 +1795,7 @@
       "cat": "Sabão para Roupa"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 50
+     "vendido": 51
     },
     {
      "menor30": false,
@@ -2030,7 +2027,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 10,
+     "abaixoMedia": 9,
      "baixou": false,
      "asin": "B0BJ347WND",
      "nome": "Protetor Solar Facial La Roche-Posay Anthelios Airlicium+ FPS 80 40g",
@@ -2064,7 +2061,7 @@
       "cat": "Shampoo"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 74
+     "vendido": 75
     },
     {
      "menor30": true,
@@ -2102,7 +2099,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-11-28T02:55:00Z",
-     "vendido": 55
+     "vendido": 57
     },
     {
      "menor30": true,
@@ -2179,7 +2176,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 110,
+     "abaixoMedia": 108,
      "baixou": false,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
@@ -2361,7 +2358,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 5,
+     "abaixoMedia": null,
      "baixou": false,
      "asin": "B0H91SW8FW",
      "nome": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
@@ -2488,7 +2485,7 @@
       "cat": "Aspiradores de Pó e Cuidados com o Chão"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 7
+     "vendido": 8
     },
     {
      "menor30": false,
@@ -2548,7 +2545,7 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0GYQ8Q5QR",
      "nome": "Smart TV TCL 50 Polegadas QLED 4K P7L WiFi Bluetooth Google TV HDR10+ 60 Hz AIPQ 50P7L",
      "preco": 2099.0,
@@ -2720,7 +2717,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 110,
+     "abaixoMedia": 108,
      "baixou": false,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
@@ -2968,7 +2965,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 12,
+     "abaixoMedia": 11,
      "baixou": false,
      "asin": "B07Y5MWJPK",
      "nome": "Teclado Membrana Gamer Redragon Karura 2 RGB ABNT2 Preto - K502RGB",
@@ -3348,12 +3345,10 @@
      "preco": 189.0,
      "era": 299.0,
      "desconto": 36,
-     "selo": "Oferta Black Friday",
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31pxMXstgtL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0GRD9844Q?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 62
+     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -3460,7 +3455,7 @@
      "link": "https://www.amazon.com.br/dp/B07643MPGS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85
+     "vendido": 86
     },
     {
      "menor30": false,
@@ -3497,7 +3492,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85
+     "vendido": 86
     },
     {
      "menor30": true,
@@ -3613,7 +3608,7 @@
      "link": "https://www.amazon.com.br/dp/B0BXY561N5?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 47
+     "vendido": 48
     },
     {
      "menor30": false,
@@ -3687,7 +3682,7 @@
      "link": "https://www.amazon.com.br/dp/B0CDJ4L7CZ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 60
+     "vendido": 61
     },
     {
      "menor30": true,
@@ -3884,8 +3879,8 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 227,
-     "baixou": true,
+     "abaixoMedia": 223,
+     "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
      "preco": 1869.9,
@@ -3896,7 +3891,7 @@
      "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76
+     "vendido": 77
     },
     {
      "menor30": false,
@@ -4012,7 +4007,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 70
+     "vendido": 71
     },
     {
      "menor30": false,
@@ -4071,7 +4066,7 @@
      "link": "https://www.amazon.com.br/dp/B0B9PSBNYL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 7
+     "vendido": 8
     },
     {
      "menor30": false,
@@ -4555,7 +4550,7 @@
      "link": "https://www.amazon.com.br/dp/B07R2SVVNM?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 50
+     "vendido": 51
     },
     {
      "menor30": true,
@@ -4759,7 +4754,7 @@
      "link": "https://www.amazon.com.br/dp/B0BJHPD2TF?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 38
+     "vendido": 39
     },
     {
      "menor30": true,
@@ -4967,8 +4962,8 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 20,
-     "baixou": true,
+     "abaixoMedia": 19,
+     "baixou": false,
      "asin": "B0D9HWL3T7",
      "nome": "MONDIAL Secador de Cabelos Space Shine, Lilás, 2000W, 110V - SC-21",
      "preco": 79.9,
@@ -5037,7 +5032,7 @@
      "link": "https://www.amazon.com.br/dp/B0DB8TRNZX?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 18
+     "vendido": 20
     },
     {
      "menor30": false,
@@ -5067,7 +5062,7 @@
      "link": "https://www.amazon.com.br/dp/B0D2LV7DHF?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 11,
+     "vendido": 12,
      "primeExclusivo": true
     },
     {
@@ -5087,7 +5082,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 10,
+     "abaixoMedia": 9,
      "baixou": false,
      "asin": "B0BJ347WND",
      "nome": "Protetor Solar Facial La Roche-Posay Anthelios Airlicium+ FPS 80 40g",
@@ -5221,7 +5216,7 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0G1NJ97CV",
      "nome": "Shampoo Vichy Dercos Collagen Repair 17 Antiqueda Reparador 200ml",
      "preco": 88.44,
@@ -5237,7 +5232,7 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0CZ4CP8TZ",
      "nome": "Vichy Dercos DS, Shampoo Anticaspa para Cabelos Secos, com Selênio DS, 300g",
      "preco": 89.66,
@@ -5248,7 +5243,7 @@
      "link": "https://www.amazon.com.br/dp/B0CZ4CP8TZ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 0
+     "vendido": 2
     }
    ]
   },
@@ -5258,7 +5253,7 @@
    "itens": [
     {
      "menor30": true,
-     "abaixoMedia": 73,
+     "abaixoMedia": 70,
      "baixou": false,
      "asin": "B00021AKJI",
      "nome": "Calvin Klein Eternity Masculino Eau De Toilette 100ml",
@@ -5330,7 +5325,7 @@
      "link": "https://www.amazon.com.br/dp/B09532P5P4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26
+     "vendido": 27
     },
     {
      "menor30": true,
@@ -5362,11 +5357,11 @@
      "link": "https://www.amazon.com.br/dp/B0FL81FHCS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 20
+     "vendido": 21
     },
     {
      "menor30": true,
-     "abaixoMedia": 48,
+     "abaixoMedia": 47,
      "baixou": false,
      "asin": "B00I7PK3GQ",
      "nome": "Perfume Feminino Lancôme La Vie Est Belle Eau de Parfum, 100ml",
@@ -5378,7 +5373,7 @@
      "link": "https://www.amazon.com.br/dp/B00I7PK3GQ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52
+     "vendido": 53
     },
     {
      "menor30": true,
@@ -5440,7 +5435,7 @@
      "link": "https://www.amazon.com.br/dp/B008SBKTZ4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 41
+     "vendido": 42
     },
     {
      "menor30": true,
@@ -5502,7 +5497,7 @@
      "link": "https://www.amazon.com.br/dp/B09VN62HF3?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 28
+     "vendido": 30
     },
     {
      "menor30": false,
@@ -5548,7 +5543,7 @@
      "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26
+     "vendido": 27
     },
     {
      "menor30": false,
@@ -5652,7 +5647,7 @@
      "link": "https://www.amazon.com.br/dp/B000E7YK5K?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 56
+     "vendido": 57
     },
     {
      "menor30": false,
@@ -5802,7 +5797,7 @@
      "link": "https://www.amazon.com.br/dp/B0F9B68SKL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 41
+     "vendido": 43
     },
     {
      "menor30": false,
@@ -5834,7 +5829,7 @@
      "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 43
+     "vendido": 44
     },
     {
      "menor30": false,
@@ -6170,7 +6165,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 21,
+     "abaixoMedia": 20,
      "baixou": false,
      "asin": "B0872FHWYY",
      "nome": "Multivitamínico em Comprimidos Centrum, de A a Z, 150 Unidades",
@@ -6224,10 +6219,11 @@
      "preco": 51.2,
      "era": 96.9,
      "desconto": 47,
-     "selo": null,
+     "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/3101fGEGOJL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CMVBVFW2?tag=gigicaofertas-20",
-     "eraSuspeito": false
+     "eraSuspeito": false,
+     "fim": "2026-11-29T02:55:00Z"
     },
     {
      "menor30": true,
@@ -6930,7 +6926,7 @@
      "link": "https://www.amazon.com.br/dp/B077BY8V14?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 44
+     "vendido": 45
     },
     {
      "menor30": false,
@@ -7296,7 +7292,7 @@
     {
      "menor30": true,
      "abaixoMedia": 5,
-     "baixou": true,
+     "baixou": false,
      "asin": "B09GV1QKT6",
      "nome": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
      "preco": 38.63,
@@ -7307,7 +7303,7 @@
      "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 40
+     "vendido": 42
     },
     {
      "menor30": false,
@@ -7451,7 +7447,7 @@
      "link": "https://www.amazon.com.br/dp/B08NDTVGCL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 79
+     "vendido": 80
     },
     {
      "menor30": false,
@@ -7567,7 +7563,7 @@
      "link": "https://www.amazon.com.br/dp/B07DTN9W36?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 50
+     "vendido": 51
     },
     {
      "menor30": true,
@@ -7941,20 +7937,6 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
-     "asin": "B0D63J2X32",
-     "nome": "Whisky Escocês Blended 10 Anos Ballantine's Garrafa 1l",
-     "preco": 89.9,
-     "era": 155.9,
-     "desconto": 42,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/41xWZF34qoL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D63J2X32?tag=gigicaofertas-20",
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
      "asin": "B001TP3GCE",
      "nome": "Gin Bombay Sapphire 750ml",
      "preco": 72.81,
@@ -8232,7 +8214,7 @@
      "link": "https://www.amazon.com.br/dp/B0DSJPGPC7?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 41
+     "vendido": 43
     },
     {
      "menor30": true,
@@ -8473,8 +8455,8 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 5,
-     "baixou": true,
+     "abaixoMedia": null,
+     "baixou": false,
      "asin": "B006WDGP7G",
      "nome": "Freixenet Espumante Desalcoolizado 750ml Demi-Sec",
      "preco": 64.9,
@@ -8831,7 +8813,7 @@
       "cat": "Gastronomia e Culinária"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 69
+     "vendido": 70
     },
     {
      "menor30": false,
@@ -9342,7 +9324,7 @@
       "cat": "Russa e soviética"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 22
+     "vendido": 23
     },
     {
      "menor30": false,
@@ -9440,7 +9422,7 @@
       "cat": "Ficção Científica"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 62
+     "vendido": 63
     },
     {
      "menor30": false,
