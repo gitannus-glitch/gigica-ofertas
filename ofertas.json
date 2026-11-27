@@ -1,149 +1,10 @@
 {
- "atualizadoEm": "2026-11-27T01:44",
+ "atualizadoEm": "2026-11-27T02:27",
  "categorias": [
   {
    "id": "destaques",
    "nome": "Destaques",
    "itens": [
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B09532P5P4",
-     "nome": "Azzaro, Azzaro Pour Homme, Perfume Masculino, Fragrância Fougère Aromática com Notas de…",
-     "preco": 231.0,
-     "era": 499.0,
-     "desconto": 53,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31xLtvhIZKL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09532P5P4?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 30,
-     "categoria": "Perfumes"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 19,
-     "baixou": false,
-     "asin": "B0872FHWYY",
-     "nome": "Multivitamínico em Comprimidos Centrum, de A a Z, 150 Unidades",
-     "preco": 136.44,
-     "era": 272.9,
-     "desconto": 50,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/312ZlsRPjDL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0872FHWYY?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32,
-     "categoria": "Suplementos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B08VCP7GMD",
-     "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
-     "preco": 72.29,
-     "era": 151.92,
-     "desconto": 52,
-     "selo": "Oferta",
-     "imagem": "https://m.media-amazon.com/images/I/51UFlMWnOXL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08VCP7GMD?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 54,
-     "categoria": "Casa & Mercado"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "655640845X",
-     "nome": "O inferno de Dante",
-     "preco": 42.55,
-     "era": 119.9,
-     "desconto": 64,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/51E+QJ6vNNL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/655640845X?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "ranking": {
-      "pos": 6,
-      "cat": "Adaptações"
-     },
-     "fim": "2026-12-01T02:59:59Z",
-     "vendido": 40,
-     "categoria": "Livros"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B081415GCS",
-     "nome": "Headset Gamer Sem Fio Logitech G733 7.1 Dolby Surround com Tecnologia Blue VO!CE, RGB…",
-     "preco": 748.41,
-     "era": 1499.9,
-     "desconto": 50,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/410QZvnpIxL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B081415GCS?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32,
-     "categoria": "Eletrônicos"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B0FXMBWGGM",
-     "nome": "Dreame D20 Ultra Aspirador robô e Mopa, Sucção 13.000Pa, esvaziamento automático, limpeza…",
-     "preco": 3499.0,
-     "era": 5999.0,
-     "desconto": 41,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/317N8WtFYlL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FXMBWGGM?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "categoria": "Eletrodomésticos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": 18,
-     "baixou": false,
-     "asin": "B0D9HWL3T7",
-     "nome": "MONDIAL Secador de Cabelos Space Shine, Lilás, 2000W, 110V - SC-21",
-     "preco": 79.9,
-     "era": 169.9,
-     "desconto": 52,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31G5AZuqFUL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0D9HWL3T7?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 5,
-     "categoria": "Beleza"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B08F9ZQ52X",
-     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 100 ml",
-     "preco": 585.18,
-     "era": 1069.0,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31-NNMPdIiL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32,
-     "categoria": "Perfumes"
-    },
     {
      "menor30": true,
      "abaixoMedia": 9,
@@ -175,7 +36,7 @@
      "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 59,
+     "vendido": 60,
      "categoria": "Casa & Mercado"
     },
     {
@@ -214,6 +75,145 @@
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
      "categoria": "Eletrônicos"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0BRL92XCB",
+     "nome": "Philips Walita Ferro a Vapor Pressurizado PerfectCare Compact 2000W, Roxo",
+     "preco": 841.64,
+     "era": 1679.9,
+     "desconto": 49,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41GOiLpGuUL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0BRL92XCB?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 91,
+     "categoria": "Eletrodomésticos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 18,
+     "baixou": false,
+     "asin": "B0D9HWL3T7",
+     "nome": "MONDIAL Secador de Cabelos Space Shine, Lilás, 2000W, 110V - SC-21",
+     "preco": 79.9,
+     "era": 169.9,
+     "desconto": 52,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31G5AZuqFUL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D9HWL3T7?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 5,
+     "categoria": "Beleza"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B08F9ZQ52X",
+     "nome": "Perfume Feminino Lancôme Idôle Eau de Parfum 100 ml",
+     "preco": 585.18,
+     "era": 1069.0,
+     "desconto": 45,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31-NNMPdIiL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08F9ZQ52X?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 32,
+     "categoria": "Perfumes"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 38,
+     "baixou": false,
+     "asin": "B09BDJ5V5D",
+     "nome": "Vitafor - Omegafor Plus - 240 Cápsulas",
+     "preco": 190.89,
+     "era": 416.0,
+     "desconto": 54,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31Yay6vmL2L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09BDJ5V5D?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 0,
+     "categoria": "Suplementos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 7,
+     "baixou": false,
+     "asin": "B0C2J8DQC1",
+     "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
+     "preco": 120.6,
+     "era": 244.74,
+     "desconto": 50,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41V2VqCfoEL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0C2J8DQC1?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "categoria": "Casa & Mercado"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B08N9P9M5L",
+     "nome": "Coleção Anne de Green Gables com 8 livros mais Diário de aventuras",
+     "preco": 59.89,
+     "era": 179.9,
+     "desconto": 66,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/51teie3cXCL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B08N9P9M5L?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 1,
+      "cat": "Clássicos"
+     },
+     "fim": "2026-12-01T02:59:59Z",
+     "vendido": 48,
+     "categoria": "Livros"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0D3JJQD2V",
+     "nome": "Apple 2024 iPad Air de 11 polegadas (Wi-Fi + Cellular, 1 TB) - Estelar (M2)",
+     "preco": 7556.96,
+     "era": 14599.0,
+     "desconto": 48,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/31TPPuhygML._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0D3JJQD2V?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 33,
+     "categoria": "Eletrônicos"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": 210,
+     "baixou": false,
+     "asin": "B09ZHD2YXP",
+     "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
+     "preco": 1869.9,
+     "era": 3999.0,
+     "desconto": 53,
+     "selo": "Oferta Black Friday",
+     "imagem": "https://m.media-amazon.com/images/I/41PfZRUeE9L._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09ZHD2YXP?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 81,
+     "categoria": "Eletrodomésticos"
     }
    ]
   },
@@ -239,7 +239,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 213,
+     "abaixoMedia": 210,
      "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
@@ -390,7 +390,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 71
+     "vendido": 72
     },
     {
      "menor30": true,
@@ -434,7 +434,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 29,
+     "abaixoMedia": 28,
      "baixou": false,
      "asin": "B0BZJDLT6Z",
      "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
@@ -450,7 +450,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-11-28T02:55:00Z",
-     "vendido": 67,
+     "vendido": 68,
      "categoria": "mais-vendidos"
     },
     {
@@ -467,7 +467,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 91,
+     "vendido": 92,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -642,7 +642,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 39,
+     "abaixoMedia": 38,
      "baixou": false,
      "asin": "B09BDJ5V5D",
      "nome": "Vitafor - Omegafor Plus - 240 Cápsulas",
@@ -671,12 +671,12 @@
      "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 59,
+     "vendido": 60,
      "categoria": "Casa & Mercado"
     },
     {
      "menor30": true,
-     "abaixoMedia": 213,
+     "abaixoMedia": 210,
      "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
@@ -761,7 +761,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 11,
+     "abaixoMedia": 10,
      "baixou": false,
      "asin": "B07KX4X8BW",
      "nome": "Vitafor - Creafort Creapure Creatina - 300g, Neutro",
@@ -790,7 +790,7 @@
      "link": "https://www.amazon.com.br/dp/B08HM98C86?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 9,
+     "vendido": 10,
      "categoria": "Casa & Mercado"
     },
     {
@@ -807,7 +807,7 @@
      "link": "https://www.amazon.com.br/dp/B08VCP7GMD?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 54,
+     "vendido": 60,
      "categoria": "Casa & Mercado"
     },
     {
@@ -845,7 +845,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 93,
+     "vendido": 94,
      "categoria": "mais-vendidos"
     },
     {
@@ -896,7 +896,7 @@
      "link": "https://www.amazon.com.br/dp/B0FCPFZQRL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32,
+     "vendido": 33,
      "categoria": "Casa & Mercado"
     },
     {
@@ -964,7 +964,7 @@
      "link": "https://www.amazon.com.br/dp/B0872FHWYY?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32,
+     "vendido": 33,
      "categoria": "Suplementos"
     },
     {
@@ -1017,6 +1017,23 @@
      "fim": "2026-12-01T02:55:00Z",
      "vendido": 73,
      "categoria": "Beleza"
+    },
+    {
+     "menor30": true,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B0CS7XK3DX",
+     "nome": "Downy Amaciante de Roupas Concentrado Líquido Brisa Suave 3L – Rende 12L, Perfume Suave…",
+     "preco": 37.88,
+     "era": 74.77,
+     "desconto": 49,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/418TXNveqdL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B0CS7XK3DX?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 1,
+     "categoria": "Casa & Mercado"
     },
     {
      "menor30": false,
@@ -1083,7 +1100,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 71,
+     "vendido": 72,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -1308,7 +1325,7 @@
      "link": "https://www.amazon.com.br/dp/B0F22PGY7K?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76,
+     "vendido": 77,
      "categoria": "Perfumes"
     },
     {
@@ -1433,23 +1450,6 @@
      "fim": "2026-12-01T02:55:00Z",
      "vendido": 30,
      "categoria": "Eletrodomésticos"
-    },
-    {
-     "menor30": true,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B071SGZ7CK",
-     "nome": "Stronger with You Giorgio Armani Perfume Masculino",
-     "preco": 381.87,
-     "era": 689.0,
-     "desconto": 44,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41PvIUOX0hL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52,
-     "categoria": "Perfumes"
     }
    ]
   },
@@ -1894,7 +1894,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 93
+     "vendido": 94
     },
     {
      "menor30": true,
@@ -2103,7 +2103,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 29,
+     "abaixoMedia": 28,
      "baixou": false,
      "asin": "B0BZJDLT6Z",
      "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
@@ -2119,7 +2119,7 @@
       "cat": "Air Fryers"
      },
      "fim": "2026-11-28T02:55:00Z",
-     "vendido": 67
+     "vendido": 68
     },
     {
      "menor30": true,
@@ -2178,7 +2178,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 103,
+     "abaixoMedia": 102,
      "baixou": false,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
@@ -2212,7 +2212,7 @@
       "cat": "Eau de Parfum"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 78
+     "vendido": 79
     },
     {
      "menor30": false,
@@ -2723,7 +2723,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 103,
+     "abaixoMedia": 102,
      "baixou": false,
      "asin": "B0FDX5NC1G",
      "nome": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
@@ -3057,7 +3057,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 171,
+     "abaixoMedia": 150,
      "baixou": false,
      "asin": "B0GQDGVP68",
      "nome": "Samsung Galaxy Buds4 Pro, Fone de Ouvido sem Fio, Áudio Hi-Fi, Auto-falante Aprimorado…",
@@ -3158,7 +3158,7 @@
      "link": "https://www.amazon.com.br/dp/B07GPRWFC5?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 41
+     "vendido": 44
     },
     {
      "menor30": false,
@@ -3225,7 +3225,7 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0CNH9WK1H",
      "nome": "Geonav Power Bank, Carregador Portátil Universal 10.000mAh, USB-A (até 18W) + USB-C (até…",
      "preco": 118.0,
@@ -3470,22 +3470,6 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
-     "asin": "B07643MPGS",
-     "nome": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout…",
-     "preco": 109.9,
-     "era": 169.9,
-     "desconto": 35,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/315Xpl0y9RL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B07643MPGS?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 92
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
      "asin": "B0CP6CJ8JG",
      "nome": "Apple iPhone 15 (256 GB) — Preto",
      "preco": 4443.33,
@@ -3532,7 +3516,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 91
+     "vendido": 92
     },
     {
      "menor30": true,
@@ -3919,7 +3903,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 213,
+     "abaixoMedia": 210,
      "baixou": false,
      "asin": "B09ZHD2YXP",
      "nome": "Philips Walita Cafeteira Espresso Superautomática Série 1200, 15 Bar, 110V",
@@ -4048,7 +4032,7 @@
      "link": "https://www.amazon.com.br/dp/B0BRL8YMYC?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 71
+     "vendido": 72
     },
     {
      "menor30": false,
@@ -4360,20 +4344,6 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
-     "asin": "B0FFBK9WVY",
-     "nome": "Micro-ondas Philco 33L Preto Acabamento Inox PMO38T 127V",
-     "preco": 499.9,
-     "era": 812.0,
-     "desconto": 38,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31Di0kQ8YhL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0FFBK9WVY?tag=gigicaofertas-20",
-     "eraSuspeito": false
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
      "asin": "B0B3NGZ16W",
      "nome": "Cooktop de Indução 4 Zonas Preto 220V - SUGGAR - FG0422VC",
      "preco": 1049.0,
@@ -4393,7 +4363,7 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0DS692QJR",
      "nome": "GLOSS FRAN BY FRANCINY EHLKE LIPHONEY",
      "preco": 22.49,
@@ -4843,7 +4813,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 6,
+     "abaixoMedia": 5,
      "baixou": false,
      "asin": "B08R92W45F",
      "nome": "Prancha Ceramic Black PPR08, Philco, Bivolt",
@@ -5101,7 +5071,7 @@
      "link": "https://www.amazon.com.br/dp/B0DB8TRNZX?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32
+     "vendido": 34
     },
     {
      "menor30": false,
@@ -5284,7 +5254,7 @@
      "link": "https://www.amazon.com.br/dp/B0CCT3H2YJ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 29
+     "vendido": 31
     },
     {
      "menor30": false,
@@ -5330,7 +5300,7 @@
      "link": "https://www.amazon.com.br/dp/B0CZ4CP8TZ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 10
+     "vendido": 11
     }
    ]
   },
@@ -5396,7 +5366,7 @@
      "link": "https://www.amazon.com.br/dp/B071VCX893?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 23
+     "vendido": 24
     },
     {
      "menor30": false,
@@ -5444,7 +5414,7 @@
      "link": "https://www.amazon.com.br/dp/B0FL81FHCS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 25
+     "vendido": 27
     },
     {
      "menor30": true,
@@ -5690,7 +5660,7 @@
      "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52
+     "vendido": 53
     },
     {
      "menor30": false,
@@ -5944,7 +5914,7 @@
      "link": "https://www.amazon.com.br/dp/B0F22PGY7K?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76
+     "vendido": 77
     },
     {
      "menor30": true,
@@ -5960,7 +5930,7 @@
      "link": "https://www.amazon.com.br/dp/B071SGZ7CK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 52
+     "vendido": 53
     },
     {
      "menor30": false,
@@ -6036,7 +6006,7 @@
      "link": "https://www.amazon.com.br/dp/B07MR3H8NY?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 78
+     "vendido": 79
     },
     {
      "menor30": false,
@@ -6124,7 +6094,7 @@
      "link": "https://www.amazon.com.br/dp/B08S5PFDGV?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 28
+     "vendido": 30
     },
     {
      "menor30": false,
@@ -6311,7 +6281,7 @@
      "link": "https://www.amazon.com.br/dp/B0872FHWYY?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32
+     "vendido": 33
     },
     {
      "menor30": true,
@@ -6416,7 +6386,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 39,
+     "abaixoMedia": 38,
      "baixou": false,
      "asin": "B09BDJ5V5D",
      "nome": "Vitafor - Omegafor Plus - 240 Cápsulas",
@@ -6563,7 +6533,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 17,
+     "abaixoMedia": 16,
      "baixou": false,
      "asin": "B07LCRNJGV",
      "nome": "Integralmédica - Whey Protein Concentrado Chocolate 100% Pure - 21g de Proteína por…",
@@ -6691,7 +6661,7 @@
      "link": "https://www.amazon.com.br/dp/B088X3RJGS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 1
+     "vendido": 2
     },
     {
      "menor30": true,
@@ -6752,7 +6722,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 11,
+     "abaixoMedia": 10,
      "baixou": false,
      "asin": "B07KX4X8BW",
      "nome": "Vitafor - Creafort Creapure Creatina - 300g, Neutro",
@@ -6887,7 +6857,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 17,
+     "abaixoMedia": 16,
      "baixou": false,
      "asin": "B07LCRNJGV",
      "nome": "Integralmédica - Whey Protein Concentrado Chocolate 100% Pure - 21g de Proteína por…",
@@ -6975,7 +6945,7 @@
      "link": "https://www.amazon.com.br/dp/B07XPHP5BG?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 68
+     "vendido": 69
     },
     {
      "menor30": false,
@@ -6991,7 +6961,7 @@
      "link": "https://www.amazon.com.br/dp/B0CZBMRFNR?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 0
+     "vendido": 5
     },
     {
      "menor30": false,
@@ -7170,7 +7140,7 @@
      "link": "https://www.amazon.com.br/dp/B09GV1QKT6?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 59
+     "vendido": 60
     },
     {
      "menor30": true,
@@ -7256,7 +7226,7 @@
      "link": "https://www.amazon.com.br/dp/B08HM98C86?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 9
+     "vendido": 10
     },
     {
      "menor30": true,
@@ -7275,7 +7245,7 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B09ZLTRJWN",
      "nome": "Colgate Luminous White Carvão Ativado Creme Dental Clareador, 3x70g",
      "preco": 12.99,
@@ -7300,7 +7270,7 @@
      "link": "https://www.amazon.com.br/dp/B08VCP7GMD?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 54
+     "vendido": 60
     },
     {
      "menor30": false,
@@ -7332,7 +7302,7 @@
      "link": "https://www.amazon.com.br/dp/B0FCPFZQRL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 32
+     "vendido": 33
     },
     {
      "menor30": true,
@@ -7408,14 +7378,14 @@
      "fim": "2026-12-01T02:55:00Z"
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B0D84WRDBB",
      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com Carvão 8 Unidades",
-     "preco": 54.99,
+     "preco": 49.9,
      "era": 99.88,
-     "desconto": 44,
+     "desconto": 50,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/517fWSW9rTL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0D84WRDBB?tag=gigicaofertas-20",
@@ -7430,20 +7400,22 @@
      "preco": 37.88,
      "era": 74.77,
      "desconto": 49,
-     "selo": null,
+     "selo": "Oferta",
      "imagem": "https://m.media-amazon.com/images/I/418TXNveqdL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CS7XK3DX?tag=gigicaofertas-20",
-     "eraSuspeito": false
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 1
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B07DZ8VXQN",
      "nome": "Finish Advanced Detergente para Lava Louças em Pó, Sabão Limpeza Profunda, 1kg",
-     "preco": 41.9,
+     "preco": 41.09,
      "era": 83.76,
-     "desconto": 49,
+     "desconto": 50,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41sPJYtG3SL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07DZ8VXQN?tag=gigicaofertas-20",
@@ -7539,7 +7511,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 6,
+     "abaixoMedia": 5,
      "baixou": false,
      "asin": "B098CL79W1",
      "nome": "Downy Amaciante Concentrado Perfume Collection Místico 3L",
@@ -7855,7 +7827,7 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0BXFM8PXN",
      "nome": "3 Corações Cápsulas de Café Cerrado Mineiro, Compatíveis com Nespresso, contém 10 cápsulas",
      "preco": 12.49,
@@ -7867,9 +7839,9 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0FDCLCBZB",
      "nome": "Achocolatado em Cápsula Nescafé Dolce Gusto Kopenhagen Língua de Gato 10 cápsulas",
      "preco": 14.99,
@@ -7986,14 +7958,14 @@
      "fim": "2026-12-01T02:55:00Z"
     },
     {
-     "menor30": true,
-     "abaixoMedia": 5,
+     "menor30": false,
+     "abaixoMedia": null,
      "baixou": false,
      "asin": "B07FPW95CM",
      "nome": "Jameson - Whiskey Irlandês, 750 ml",
-     "preco": 62.3,
+     "preco": 69.09,
      "era": 130.0,
-     "desconto": 52,
+     "desconto": 46,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31j37Uzmg+L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B07FPW95CM?tag=gigicaofertas-20",
@@ -8060,10 +8032,10 @@
     {
      "menor30": true,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B001HUBXJO",
      "nome": "Whisky Chivas Regal 12 anos Blended Escocês - 750 ml",
-     "preco": 79.11,
+     "preco": 79.1,
      "era": 149.9,
      "desconto": 47,
      "selo": "Oferta Black Friday",
@@ -8320,7 +8292,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 9,
+     "abaixoMedia": 8,
      "baixou": false,
      "asin": "B002VPUPMA",
      "nome": "Licor Cointreau Sabor Licor fino de Laranja 700 ml",
@@ -8467,7 +8439,7 @@
      "link": "https://www.amazon.com.br/dp/B07VFQCF6P?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 15
+     "vendido": 16
     },
     {
      "menor30": false,
@@ -9535,7 +9507,7 @@
       "cat": "Literatura"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 55
+     "vendido": 56
     },
     {
      "menor30": false,
@@ -9621,7 +9593,7 @@
       "cat": "Grécia"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 29
+     "vendido": 30
     },
     {
      "menor30": false,
