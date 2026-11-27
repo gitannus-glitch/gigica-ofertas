@@ -3,6 +3,16 @@
  "adicionadoEm": "2026-11-23T11:40",
  "cupons": [
   {
+   "titulo": "R$ 199 off em compras acima de R$ 999",
+   "codigo": "BLACK199",
+   "soApp": false,
+   "prime": false,
+   "obs": "Em produtos elegíveis",
+   "botao": "Ver produtos",
+   "link": "https://www.amazon.com.br/promotion/psp/A7ZNFAB6X7YHL?tag=gigicaofertas-20",
+   "expira": null
+  },
+  {
    "titulo": "R$ 25 off em compras acima de R$ 159",
    "codigo": "BLACK25OFF",
    "soApp": false,
