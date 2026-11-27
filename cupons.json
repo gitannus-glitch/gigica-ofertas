@@ -1,5 +1,5 @@
 {
- "campanha": "Black dos Sonhos",
+ "campanha": "Black Friday",
  "adicionadoEm": "2026-11-23T11:40",
  "cupons": [
   {
@@ -25,7 +25,7 @@
    "soApp": true,
    "prime": false,
    "link": "https://www.amazon.com.br/promotion/psp/A6BJ7AUHT0ERC?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   },
   {
    "titulo": "15% off em Caloi",
@@ -33,7 +33,7 @@
    "soApp": true,
    "prime": true,
    "link": "https://www.amazon.com.br/promotion/psp/A250UD3EEZ2CZK?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   },
   {
    "titulo": "20% off em 2+ produtos Wella",
@@ -41,7 +41,7 @@
    "soApp": true,
    "prime": true,
    "link": "https://www.amazon.com.br/promotion/psp/A1GZF51ZWN2UGN?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   },
   {
    "titulo": "20% off em Mondelez",
@@ -49,7 +49,7 @@
    "soApp": true,
    "prime": false,
    "link": "https://www.amazon.com.br/promotion/psp/A3LHJAPMA6BCY0?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   },
   {
    "titulo": "20% off em Kérastase & L'Oréal Pro",
@@ -57,7 +57,7 @@
    "soApp": true,
    "prime": false,
    "link": "https://www.amazon.com.br/promotion/psp/A33O3KLVLFN32W?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   },
   {
    "titulo": "20% off em produtos Nivea",
@@ -65,7 +65,7 @@
    "soApp": true,
    "prime": false,
    "link": "https://www.amazon.com.br/promotion/psp/A3PKMIDVLY8UQK?tag=gigicaofertas-20",
-   "expira": null
+   "expira": "2026-11-24"
   }
  ]
 }
