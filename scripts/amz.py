@@ -8,7 +8,7 @@ Lê ofertas.json/historico.json do repo, consulta a API e reescreve os dois arqu
 Em erro geral da API (403 AssociateNotEligible etc.) NÃO altera nada e sai com código 2.
 Nunca imprime credenciais.
 """
-import json, os, sys, time, math, re, urllib.request, urllib.parse, urllib.error
+import json, os, sys, time, math, re, hashlib, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timedelta, timezone
 
 TAG = "giovannast20-20"            # ID principal (usado nas chamadas da API)
@@ -35,9 +35,13 @@ CATS = [
         "máscara de cílios", "secador de cabelo", "chapinha", "escova secadora"]),
     ("perfumes", "Perfumes", 25, ["perfume importado feminino", "perfume masculino importado", "perfume nacional",
         "perfume carolina herrera", "perfume paco rabanne", "perfume dior", "perfume lancôme", "perfume azzaro",
-        "perfume versace", "perfume calvin klein", "perfume natura", "perfume boticário", "body splash"]),
+        "perfume versace", "perfume calvin klein", "perfume natura", "perfume boticário", "body splash",
+        "perfume jean paul gaultier", "perfume hugo boss", "perfume yves saint laurent", "perfume prada",
+        "perfume antonio banderas", "perfume giorgio armani", "perfume lacoste", "perfume ralph lauren"]),
     ("suplementos", "Suplementos", 25, ["creatina", "whey protein", "whey isolado", "pré-treino", "colágeno",
-        "barra de proteína", "multivitamínico", "ômega 3", "glutamina", "bcaa"]),
+        "barra de proteína", "multivitamínico", "ômega 3", "glutamina", "bcaa",
+        "whey protein concentrado", "proteína vegana", "vitamina d", "vitamina c", "magnésio",
+        "hipercalórico", "pasta de amendoim", "coqueteleira"]),
     ("casa-mercado", "Casa & Mercado", 20, ["sabão líquido", "sabão em pó", "amaciante", "desinfetante", "limpador perfumado",
         "detergente", "pastilha lava-louças", "papel higiênico", "papel toalha", "saco de lixo", "shampoo", "condicionador",
         "sabonete", "creme dental", "enxaguante bucal", "desodorante", "aparelho de barbear", "absorvente", "fralda",
@@ -151,6 +155,35 @@ def vendedor_ok(p):
 def em_estoque(p):
     return p["disp"] in ("", "IN_STOCK", "NOW", "AVAILABLE") or "STOCK" in p["disp"] and "OUT" not in p["disp"]
 
+# ---------- Variedade ----------
+MAX_POR_MARCA = 4
+GENERICAS = set("perfume perfumes feminino masculino unissex eau parfum toilette edp edt colonia deo kit com para the and des "
+                "de da do das dos em e o a os as um uma sem mais novo nova original".split())
+
+def chave_produto(titulo, marca=""):
+    """Mesmo produto em outro tamanho/cor → mesma chave (ex.: La Vie Est Belle 30ml e 100ml)."""
+    ws = [w for w in re.findall(r"[a-z0-9]+", sem_acento(titulo)) if len(w) > 2 and w not in GENERICAS and not re.match(r"^\d", w)]
+    return (sem_acento(marca or ""), " ".join(ws[:4]))
+
+def dias_no_site(asin, hist):
+    return len({x[0][:10] for x in hist.get(asin, [])})
+
+def frescor(asin, hist):
+    """Recém-chegado vale mais na ordem; quem está há muitos dias desce."""
+    d = dias_no_site(asin, hist)
+    return 1.0 if d <= 1 else 0.85 if d == 2 else 0.72 if d <= 4 else 0.6
+
+def sorteio(asin, slot):
+    """Embaralhamento leve e estável dentro de cada meia hora (±12%)."""
+    h = int(hashlib.md5(f"{asin}|{slot}".encode()).hexdigest()[:6], 16) / 0xFFFFFF
+    return 0.88 + 0.24 * h
+
+def ordenar_vitrine(itens, hist, slot):
+    return sorted(itens, key=lambda i: -((i.get("desconto") or 0) + 1) * frescor(i["asin"], hist) * sorteio(i["asin"], slot))
+
+def slot_atual(agora):
+    return agora.strftime("%Y%m%d") + f"{agora.hour * 2 + agora.minute // 30:02d}"
+
 def stats_hist(asin, preco, hist, limite30):
     serie = [x for x in hist.get(asin, []) if x[0] >= limite30]
     ult = serie[-1][1] if serie else None
@@ -243,12 +276,14 @@ def main(repo):
 
     tok = token()
     res = list(RES)
+    ciclo = (agora.timetuple().tm_yday * 24 + agora.hour) // 2
+    paginas = [1, 2 + ciclo % 4]          # sempre a 1ª página + uma página mais funda que gira (2ª a 5ª)
     usados, cats_out, log = set(), {}, {}
     chaves_glob = set()
 
     def busca(kw, minp, recursos_extra=()):
         todos = []
-        for pg in range(1, PAGINAS + 1):
+        for pg in paginas:
             try:
                 its = busca_pg(kw, minp, pg, None, recursos_extra)
             except ApiErro as e:
@@ -309,16 +344,23 @@ def main(repo):
                 cand.append(p)
         vistos, final = set(), []
         chaves = set()
-        cand.sort(key=lambda p: -p["desconto"])
-        # diversidade: no máximo 4 por palavra-chave na primeira passada
+        # novidades primeiro: produtos há vários dias no site perdem prioridade na seleção
+        cand.sort(key=lambda p: -(p["desconto"] + 1) * frescor(p["asin"], hist))
+        produtos, por_marca = set(), {}
+        # diversidade: no máximo 4 por palavra-chave na primeira passada; 1 tamanho por produto; até 4 por marca
         for limite in (4, 99):
             cont = {}
             for p in cand:
                 if p["asin"] in vistos or p["asin"] in usados: continue
                 ch = (p["marca"].lower() or p["asin"], p["preco"])
                 if ch in chaves or ch in chaves_glob: continue
+                kp = chave_produto(p["titulo"], p["marca"])
+                if kp[1] and kp in produtos: continue
+                mk = sem_acento(p["marca"])
+                if mk and por_marca.get(mk, 0) >= MAX_POR_MARCA: continue
                 if cont.get(p["_kw"], 0) >= limite: continue
                 cont[p["_kw"]] = cont.get(p["_kw"], 0) + 1
+                produtos.add(kp); por_marca[mk] = por_marca.get(mk, 0) + 1
                 vistos.add(p["asin"]); chaves.add(ch); final.append(p)
                 if len(final) >= MAX_POR_CAT: break
             if len(final) >= MAX_POR_CAT: break
@@ -389,10 +431,15 @@ def main(repo):
                 p["_kw"] = "anterior"; final.append(p); usados.add(p["asin"])
         log[cid] = "completada com itens anteriores"
 
-    cat_json = {cid: [para_json(p, cid) for p in final] for cid, (cn, final) in cats_out.items()}
+    slot = slot_atual(agora)
+    cat_json = {cid: ordenar_vitrine([para_json(p, cid) for p in final], hist, slot) for cid, (cn, final) in cats_out.items()}
+    nomes_cat = {c[0]: c[1] for c in CATS}
+    destaques = montar_destaques(cat_json, nomes_cat, agora.hour * 2 + agora.minute // 30)
+    ja_dest = {i["asin"] for i in destaques}
 
-    # Destaques: maior desconto real x ticket, sem eraSuspeito
-    todos = [i for cid, its in cat_json.items() if cid != "bebidas" for i in its if not i["eraSuspeito"] and i["desconto"] > 0]
+    # Recomendados: maior desconto real x ticket, sem eraSuspeito e sem repetir os Destaques
+    todos = [i for cid, its in cat_json.items() if cid != "bebidas" for i in its
+             if not i["eraSuspeito"] and i["desconto"] > 0 and i["asin"] not in ja_dest]
     todos.sort(key=lambda i: -nota(i))
     dest, vist = [], set()
     for i in todos:
@@ -402,7 +449,7 @@ def main(repo):
         if len(dest) == 12: break
 
     saida = {"atualizadoEm": agora.strftime("%Y-%m-%dT%H:%M"),
-             "categorias": [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(cat_json, {c[0]: c[1] for c in CATS}, agora.hour)},
+             "categorias": [{"id": "destaques", "nome": "Destaques", "itens": destaques},
                             {"id": "recomendados", "nome": "Recomendados", "itens": dest},
                             {"id": "relampago", "nome": "Relâmpago", "itens": montar_relampago(cat_json, {c[0]: c[1] for c in CATS}, datetime.now(timezone.utc))},
                             {"id": "mais-vendidos", "nome": "Mais vendidos", "itens": [para_json(p, "mais-vendidos") for p in mv]}] +
@@ -472,10 +519,16 @@ def rapido(repo):
             if p.get("imagem"): i["imagem"] = p["imagem"]
             ficam.append(i)
         c["itens"] = ficam
+    slot = slot_atual(agora)
+    for cid, c in cats.items():
+        if cid != "mais-vendidos":
+            c["itens"] = ordenar_vitrine(c["itens"], hist, slot)
     itens = {cid: c["itens"] for cid, c in cats.items()}
     nomes = {c[0]: c[1] for c in CATS}
+    destaques = montar_destaques(itens, nomes, agora.hour * 2 + agora.minute // 30)
+    ja_dest = {i["asin"] for i in destaques}
     rec = sorted([i for cid, its in itens.items() if cid not in ("bebidas", "mais-vendidos") for i in its
-                  if not i.get("eraSuspeito") and i.get("desconto", 0) > 0], key=lambda i: -nota(i))
+                  if not i.get("eraSuspeito") and i.get("desconto", 0) > 0 and i["asin"] not in ja_dest], key=lambda i: -nota(i))
     dest_rec, vist = [], set()
     for i in rec:
         ch = (i["nome"][:18].lower(), i["preco"])
@@ -483,7 +536,7 @@ def rapido(repo):
         vist.add(ch); dest_rec.append(i)
         if len(dest_rec) == 12: break
     d["atualizadoEm"] = agora.strftime("%Y-%m-%dT%H:%M")
-    d["categorias"] = [{"id": "destaques", "nome": "Destaques", "itens": montar_destaques(itens, nomes, agora.hour * 2 + agora.minute // 30)},
+    d["categorias"] = [{"id": "destaques", "nome": "Destaques", "itens": destaques},
                        {"id": "recomendados", "nome": "Recomendados", "itens": dest_rec},
                        {"id": "relampago", "nome": "Relâmpago", "itens": montar_relampago(itens, nomes, datetime.now(timezone.utc))}] + \
                       [c for c in d["categorias"] if c["id"] not in DERIVADAS]
