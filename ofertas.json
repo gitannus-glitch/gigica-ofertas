@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T22:36",
+ "atualizadoEm": "2026-11-27T22:59",
  "categorias": [
   {
    "id": "destaques",
@@ -19,7 +19,7 @@
      "link": "https://www.amazon.com.br/dp/B005XZ0OP8?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 73,
+     "vendido": 75,
      "categoria": "Perfumes"
     },
     {
@@ -139,7 +139,7 @@
      "link": "https://www.amazon.com.br/dp/B09VN62HF3?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85,
+     "vendido": 86,
      "categoria": "Perfumes"
     },
     {
@@ -173,7 +173,7 @@
      "link": "https://www.amazon.com.br/dp/B09FFRMKNQ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 29,
      "categoria": "Casa & Mercado"
     },
     {
@@ -263,7 +263,7 @@
      "link": "https://www.amazon.com.br/dp/B09LMFKL6G?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 66
+     "vendido": 68
     },
     {
      "menor30": false,
@@ -294,7 +294,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 65
+     "vendido": 67
     },
     {
      "menor30": false,
@@ -474,7 +474,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 65,
+     "vendido": 67,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -491,7 +491,7 @@
      "link": "https://www.amazon.com.br/dp/B08ZBK7Q8N?tag=gigicaofertas-20",
      "eraSuspeito": true,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 67,
+     "vendido": 68,
      "categoria": "Eletrônicos"
     },
     {
@@ -508,7 +508,7 @@
      "link": "https://www.amazon.com.br/dp/B09LMFKL6G?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 66,
+     "vendido": 68,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -678,7 +678,7 @@
      "link": "https://www.amazon.com.br/dp/B0FNG9D5X8?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 89,
+     "vendido": 90,
      "categoria": "Beleza"
     },
     {
@@ -695,7 +695,7 @@
      "link": "https://www.amazon.com.br/dp/B0D9HWL3T7?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 10,
+     "vendido": 11,
      "categoria": "Beleza"
     },
     {
@@ -736,23 +736,6 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
-     "asin": "B0DJBVL2S5",
-     "nome": "Sabonete Líquido Johnson's Baby, Lavanda, 400ml",
-     "preco": 22.0,
-     "era": 44.99,
-     "desconto": 51,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/41f5QX0T2+L._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B0DJBVL2S5?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 60,
-     "categoria": "Casa & Mercado"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
      "asin": "B0DQ25G714",
      "nome": "Enxaguante Bucal Listerine Cool Mint, Sem Álcool, 1L",
      "preco": 20.51,
@@ -763,7 +746,7 @@
      "link": "https://www.amazon.com.br/dp/B0DQ25G714?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 17,
+     "vendido": 18,
      "categoria": "Casa & Mercado"
     },
     {
@@ -780,7 +763,7 @@
      "link": "https://www.amazon.com.br/dp/B09G2BD1YS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 90,
+     "vendido": 91,
      "categoria": "Suplementos"
     },
     {
@@ -831,7 +814,7 @@
      "link": "https://www.amazon.com.br/dp/B076J12M27?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 65,
+     "vendido": 66,
      "categoria": "Beleza"
     },
     {
@@ -865,7 +848,7 @@
      "link": "https://www.amazon.com.br/dp/B0CJ9RHCTM?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76,
+     "vendido": 78,
      "categoria": "Casa & Mercado"
     },
     {
@@ -899,7 +882,7 @@
      "link": "https://www.amazon.com.br/dp/B09VN62HF3?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85,
+     "vendido": 86,
      "categoria": "Perfumes"
     },
     {
@@ -957,23 +940,6 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
-     "asin": "B08STYKTB1",
-     "nome": "Photoage Water Protetor Solar Incolor FPS50 e PPD20, 40g",
-     "preco": 59.9,
-     "era": 109.9,
-     "desconto": 45,
-     "selo": "Oferta Black Friday",
-     "imagem": "https://m.media-amazon.com/images/I/31ItAHXC0LL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B08STYKTB1?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 24,
-     "categoria": "Beleza"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
      "asin": "B005XZ0OP8",
      "nome": "Ralph Lauren, Perfume Masculino, Polo Black, Eau de Toilette, 200 ml",
      "preco": 579.99,
@@ -984,7 +950,7 @@
      "link": "https://www.amazon.com.br/dp/B005XZ0OP8?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 73,
+     "vendido": 75,
      "categoria": "Perfumes"
     },
     {
@@ -1035,7 +1001,7 @@
      "link": "https://www.amazon.com.br/dp/B0050EB0BE?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 90,
+     "vendido": 91,
      "categoria": "Perfumes"
     },
     {
@@ -1052,7 +1018,7 @@
      "link": "https://www.amazon.com.br/dp/B08N6FCT1F?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 37,
+     "vendido": 38,
      "categoria": "Suplementos"
     },
     {
@@ -1069,7 +1035,7 @@
      "link": "https://www.amazon.com.br/dp/B076JKL8DG?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 93,
+     "vendido": 94,
      "categoria": "Eletrodomésticos"
     },
     {
@@ -1086,7 +1052,7 @@
      "link": "https://www.amazon.com.br/dp/B0CBL5VXTB?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 56,
+     "vendido": 57,
      "categoria": "Beleza"
     },
     {
@@ -1120,7 +1086,7 @@
      "link": "https://www.amazon.com.br/dp/B01JSX09A0?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 21,
+     "vendido": 22,
      "categoria": "Beleza"
     },
     {
@@ -1137,7 +1103,7 @@
      "link": "https://www.amazon.com.br/dp/B08KT9KV4D?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 61,
+     "vendido": 62,
      "categoria": "Casa & Mercado"
     },
     {
@@ -1171,7 +1137,7 @@
      "link": "https://www.amazon.com.br/dp/B07V7H5VHK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 28,
      "categoria": "Casa & Mercado"
     },
     {
@@ -1222,7 +1188,7 @@
      "link": "https://www.amazon.com.br/dp/B09FFRMKNQ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 29,
      "categoria": "Casa & Mercado"
     },
     {
@@ -1324,7 +1290,7 @@
      "link": "https://www.amazon.com.br/dp/B0FQVVWMJH?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 64,
+     "vendido": 65,
      "categoria": "Suplementos"
     },
     {
@@ -1341,7 +1307,7 @@
      "link": "https://www.amazon.com.br/dp/B0CYLYGM4V?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26,
+     "vendido": 27,
      "categoria": "Beleza"
     },
     {
@@ -1417,7 +1383,7 @@
       "cat": "Shampoos"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 38,
+     "vendido": 40,
      "categoria": "mais-vendidos"
     },
     {
@@ -1435,6 +1401,44 @@
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
      "vendido": 69,
+     "categoria": "Eletrônicos"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B09GSSQMP4",
+     "nome": "L'Oréal Professionnel Serie Expert Absolut Repair, Shampoo Reestruturante para Cabelos…",
+     "preco": 78.39,
+     "era": 116.9,
+     "desconto": 32,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/31NWdbRb2dL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09GSSQMP4?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "ranking": {
+      "pos": 2,
+      "cat": "Shampoo"
+     },
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 81,
+     "categoria": "mais-vendidos"
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
+     "asin": "B07Q437WXK",
+     "nome": "Mouse Gamer Redragon Cobra V3, Preto, RGB, PMW3327, 10000 DPI",
+     "preco": 82.34,
+     "era": 119.9,
+     "desconto": 31,
+     "selo": "Oferta",
+     "imagem": "https://m.media-amazon.com/images/I/41CTlwcpDzL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B07Q437WXK?tag=gigicaofertas-20",
+     "eraSuspeito": false,
+     "fim": "2026-12-01T02:55:00Z",
+     "vendido": 46,
      "categoria": "Eletrônicos"
     }
    ]
@@ -1647,14 +1651,14 @@
      "vendido": 84
     },
     {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
+     "menor30": true,
+     "abaixoMedia": 10,
+     "baixou": true,
      "asin": "B0CVCLGV1W",
      "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
-     "preco": 199.0,
+     "preco": 188.78,
      "era": 549.0,
-     "desconto": 63,
+     "desconto": 65,
      "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31+UUSyz9uL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0CVCLGV1W?tag=gigicaofertas-20",
@@ -1737,7 +1741,7 @@
       "cat": "Shampoos"
      },
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 38
+     "vendido": 40
     },
     {
      "menor30": false,
@@ -1908,7 +1912,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 27,
+     "abaixoMedia": 26,
      "baixou": false,
      "asin": "B08S1HB8G9",
      "nome": "3 Corações TRES Cafeteira Espresso e Multibebida Passione Preta - 127V",
@@ -1926,7 +1930,7 @@
     },
     {
      "menor30": false,
-     "abaixoMedia": 6,
+     "abaixoMedia": 5,
      "baixou": false,
      "asin": "B07QKN5NF1",
      "nome": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB",
@@ -2552,7 +2556,7 @@
      "link": "https://www.amazon.com.br/dp/B08ZBK7Q8N?tag=gigicaofertas-20",
      "eraSuspeito": true,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 67
+     "vendido": 68
     },
     {
      "menor30": false,
@@ -2633,7 +2637,7 @@
     },
     {
      "menor30": true,
-     "abaixoMedia": 29,
+     "abaixoMedia": 28,
      "baixou": false,
      "asin": "B0CP689L59",
      "nome": "The Last of Us Part II Remastered",
@@ -3294,12 +3298,12 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B08M141D9N",
      "nome": "Pro Controller Nintendo Switch",
-     "preco": 299.0,
+     "preco": 298.9,
      "era": 469.0,
      "desconto": 36,
      "selo": null,
@@ -3342,7 +3346,7 @@
      "link": "https://www.amazon.com.br/dp/B09LMFKL6G?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 66
+     "vendido": 68
     },
     {
      "menor30": false,
@@ -3361,7 +3365,7 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B076FDKSV6",
      "nome": "MONDIAL Sanduicheira Fast Grill & Sandwich, Preto, 750W, 110V - S-12",
      "preco": 59.0,
@@ -3638,7 +3642,7 @@
      "link": "https://www.amazon.com.br/dp/B08LBQWQV4?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 65
+     "vendido": 67
     },
     {
      "menor30": false,
@@ -3668,20 +3672,6 @@
      "link": "https://www.amazon.com.br/dp/B0FSJG2NDN?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z"
-    },
-    {
-     "menor30": false,
-     "abaixoMedia": null,
-     "baixou": false,
-     "asin": "B09HW1W3YD",
-     "nome": "Sanduicheira Elétrica Cadence Toast & Grill, Preta, 750W, SAN260, 220V",
-     "preco": 56.99,
-     "era": 100.89,
-     "desconto": 43,
-     "selo": null,
-     "imagem": "https://m.media-amazon.com/images/I/31yLOUmlZGL._SL500_.jpg",
-     "link": "https://www.amazon.com.br/dp/B09HW1W3YD?tag=gigicaofertas-20",
-     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -3832,6 +3822,20 @@
      "menor30": false,
      "abaixoMedia": null,
      "baixou": false,
+     "asin": "B09HW1W3YD",
+     "nome": "Sanduicheira Elétrica Cadence Toast & Grill, Preta, 750W, SAN260, 220V",
+     "preco": 62.99,
+     "era": 100.89,
+     "desconto": 37,
+     "selo": null,
+     "imagem": "https://m.media-amazon.com/images/I/31yLOUmlZGL._SL500_.jpg",
+     "link": "https://www.amazon.com.br/dp/B09HW1W3YD?tag=gigicaofertas-20",
+     "eraSuspeito": false
+    },
+    {
+     "menor30": false,
+     "abaixoMedia": null,
+     "baixou": false,
      "asin": "B093RXHCLR",
      "nome": "Cafeteira Oster Inox, 1,2L, 110V, Preto/Inox, 750W, OCAF600",
      "preco": 116.64,
@@ -3877,7 +3881,7 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0BRL92XCB",
      "nome": "Philips Walita Ferro a Vapor Pressurizado PerfectCare Compact 2000W, Roxo",
      "preco": 869.87,
@@ -4095,7 +4099,7 @@
      "link": "https://www.amazon.com.br/dp/B076JKL8DG?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 93
+     "vendido": 94
     }
    ]
   },
@@ -4263,12 +4267,12 @@
      "eraSuspeito": false
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B0FBSLDV6Y",
      "nome": "Kit de Gloss Labial e Lápis Labial Fran Love by Franciny Ehlke",
-     "preco": 44.99,
+     "preco": 44.9,
      "era": 129.9,
      "desconto": 65,
      "selo": null,
@@ -4305,7 +4309,7 @@
      "link": "https://www.amazon.com.br/dp/B0FNG9D5X8?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 89
+     "vendido": 90
     },
     {
      "menor30": false,
@@ -4363,12 +4367,10 @@
      "preco": 59.9,
      "era": 109.9,
      "desconto": 45,
-     "selo": "Oferta Black Friday",
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31ItAHXC0LL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B08STYKTB1?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 24
+     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -4489,7 +4491,7 @@
      "link": "https://www.amazon.com.br/dp/B076J12M27?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 65
+     "vendido": 66
     },
     {
      "menor30": false,
@@ -4622,7 +4624,7 @@
      "link": "https://www.amazon.com.br/dp/B0CBL5VXTB?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 56
+     "vendido": 57
     },
     {
      "menor30": false,
@@ -4653,7 +4655,7 @@
      "link": "https://www.amazon.com.br/dp/B0D9HWL3T7?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 10
+     "vendido": 11
     },
     {
      "menor30": false,
@@ -4669,7 +4671,7 @@
      "link": "https://www.amazon.com.br/dp/B01JSX09A0?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 21
+     "vendido": 22
     },
     {
      "menor30": false,
@@ -4787,7 +4789,7 @@
      "link": "https://www.amazon.com.br/dp/B0CYLYGM4V?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26
+     "vendido": 27
     },
     {
      "menor30": false,
@@ -5041,7 +5043,7 @@
      "link": "https://www.amazon.com.br/dp/B005XZ0OP8?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 73
+     "vendido": 75
     },
     {
      "menor30": false,
@@ -5101,7 +5103,7 @@
      "link": "https://www.amazon.com.br/dp/B0FFBQ2FPW?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 28
+     "vendido": 29
     },
     {
      "menor30": true,
@@ -5374,7 +5376,7 @@
      "link": "https://www.amazon.com.br/dp/B0050EB0BE?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 90
+     "vendido": 91
     },
     {
      "menor30": false,
@@ -5476,7 +5478,7 @@
      "link": "https://www.amazon.com.br/dp/B09VN62HF3?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 85
+     "vendido": 86
     },
     {
      "menor30": true,
@@ -5576,7 +5578,7 @@
      "link": "https://www.amazon.com.br/dp/B0F9B68SKL?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 72
+     "vendido": 73
     },
     {
      "menor30": false,
@@ -5731,7 +5733,7 @@
      "link": "https://www.amazon.com.br/dp/B09G2BD1YS?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 90
+     "vendido": 91
     },
     {
      "menor30": false,
@@ -5967,7 +5969,7 @@
      "link": "https://www.amazon.com.br/dp/B08N6FCT1F?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 37
+     "vendido": 38
     },
     {
      "menor30": false,
@@ -6316,7 +6318,7 @@
      "link": "https://www.amazon.com.br/dp/B0G1CVPFQG?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 82
+     "vendido": 85
     },
     {
      "menor30": false,
@@ -6348,7 +6350,7 @@
      "link": "https://www.amazon.com.br/dp/B0FQVVWMJH?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 64
+     "vendido": 65
     },
     {
      "menor30": false,
@@ -6731,7 +6733,7 @@
      "link": "https://www.amazon.com.br/dp/B01IU6URTE?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 86
+     "vendido": 89
     },
     {
      "menor30": false,
@@ -6752,18 +6754,16 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": false,
+     "baixou": true,
      "asin": "B0DJBVL2S5",
      "nome": "Sabonete Líquido Johnson's Baby, Lavanda, 400ml",
-     "preco": 22.0,
+     "preco": 21.99,
      "era": 44.99,
      "desconto": 51,
-     "selo": "Oferta Black Friday",
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/41f5QX0T2+L._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B0DJBVL2S5?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z",
-     "vendido": 60
+     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -6794,7 +6794,7 @@
      "link": "https://www.amazon.com.br/dp/B0CJ9RHCTM?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 76
+     "vendido": 78
     },
     {
      "menor30": false,
@@ -6825,7 +6825,7 @@
      "link": "https://www.amazon.com.br/dp/B0DQ25G714?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 17
+     "vendido": 18
     },
     {
      "menor30": false,
@@ -6911,7 +6911,7 @@
      "link": "https://www.amazon.com.br/dp/B07V7H5VHK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26
+     "vendido": 28
     },
     {
      "menor30": false,
@@ -7027,7 +7027,7 @@
      "link": "https://www.amazon.com.br/dp/B08KT9KV4D?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 61
+     "vendido": 62
     },
     {
      "menor30": false,
@@ -7209,11 +7209,10 @@
      "preco": 15.16,
      "era": 24.74,
      "desconto": 38,
-     "selo": "Oferta Black Friday",
+     "selo": null,
      "imagem": "https://m.media-amazon.com/images/I/31nU1NRtlyL._SL500_.jpg",
      "link": "https://www.amazon.com.br/dp/B09968F85G?tag=gigicaofertas-20",
-     "eraSuspeito": false,
-     "fim": "2026-12-01T02:55:00Z"
+     "eraSuspeito": false
     },
     {
      "menor30": false,
@@ -7327,7 +7326,7 @@
      "link": "https://www.amazon.com.br/dp/B09FFRMKNQ?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 26
+     "vendido": 29
     },
     {
      "menor30": true,
@@ -7405,7 +7404,7 @@
      "link": "https://www.amazon.com.br/dp/B09Q4GD377?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 20
+     "vendido": 28
     },
     {
      "menor30": false,
@@ -7421,7 +7420,7 @@
      "link": "https://www.amazon.com.br/dp/B0DZP989FK?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 43
+     "vendido": 44
     },
     {
      "menor30": false,
@@ -7484,7 +7483,7 @@
     {
      "menor30": false,
      "abaixoMedia": null,
-     "baixou": true,
+     "baixou": false,
      "asin": "B0CYTCQZQC",
      "nome": "Whisky Escocês Blended Grain Royal Salute, 21 Anos, 700ml",
      "preco": 727.0,
@@ -7525,7 +7524,7 @@
      "link": "https://www.amazon.com.br/dp/B088B5S87C?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-11-28T02:55:00Z",
-     "vendido": 92
+     "vendido": 93
     },
     {
      "menor30": false,
@@ -7569,7 +7568,7 @@
      "link": "https://www.amazon.com.br/dp/B004CSD33W?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 16
+     "vendido": 19
     },
     {
      "menor30": false,
@@ -7705,7 +7704,7 @@
     },
     {
      "menor30": false,
-     "abaixoMedia": 21,
+     "abaixoMedia": 20,
      "baixou": false,
      "asin": "B001P4WGGQ",
      "nome": "Whisky Chivas Regal 18 anos Escocês - 750 ml",
@@ -7760,7 +7759,7 @@
      "link": "https://www.amazon.com.br/dp/B0DDZ3MSLX?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-07T02:55:00Z",
-     "vendido": 73
+     "vendido": 77
     },
     {
      "menor30": false,
@@ -8056,7 +8055,7 @@
      "link": "https://www.amazon.com.br/dp/B0DSJPGPC7?tag=gigicaofertas-20",
      "eraSuspeito": false,
      "fim": "2026-12-01T02:55:00Z",
-     "vendido": 71
+     "vendido": 72
     },
     {
      "menor30": false,
@@ -8290,7 +8289,7 @@
       "cat": "Emoções e Sentimentos"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 23
+     "vendido": 24
     },
     {
      "menor30": false,
@@ -8351,7 +8350,7 @@
       "cat": "Feriados e Festivais"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 53
+     "vendido": 54
     },
     {
      "menor30": false,
@@ -8451,7 +8450,7 @@
       "cat": "Transformação Pessoal"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 47
+     "vendido": 48
     },
     {
      "menor30": false,
@@ -8651,7 +8650,7 @@
       "cat": "Suspense"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 42
+     "vendido": 43
     },
     {
      "menor30": false,
@@ -8779,7 +8778,7 @@
      }
     },
     {
-     "menor30": false,
+     "menor30": true,
      "abaixoMedia": null,
      "baixou": false,
      "asin": "B08Y3CV67L",
@@ -9141,7 +9140,7 @@
       "cat": "Contemporânea"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 67
+     "vendido": 68
     },
     {
      "menor30": false,
@@ -9161,7 +9160,7 @@
       "cat": "Comédia Romântica"
      },
      "fim": "2026-12-01T02:59:59Z",
-     "vendido": 22
+     "vendido": 23
     },
     {
      "menor30": false,
